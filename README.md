@@ -1,3 +1,6 @@
 # Adco
-This branch is for development, every change we need to do, we do it here since master branch is for 
-oficial release.
+Administrative control for Desarrollos Oaks SA de CV in internship II
+
+This project is made by
+
+-Daniel Robles -Fily Ortega -Mario Alvarado -Marco Trejo
