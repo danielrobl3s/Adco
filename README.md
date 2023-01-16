@@ -1,10 +1,2 @@
 # Adco
-Administrative control for Desarrollos Oaks SA de CV in internship II
-
-
-This project is made by
-
--Daniel Robles 
--Fily Ortega
--Mario Alvarado
--Marco Trejo
+Branch development, we first create and commit stuff here, since master branch is for official releases only.
