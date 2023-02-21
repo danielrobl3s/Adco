@@ -2,6 +2,8 @@ from django.shortcuts import render
 
 from django.db import models
 
+from .models import usuarios
+
 class Usuario(models.Model):
     nombre = models.CharField(max_length=255)
     edad = models.IntegerField()
