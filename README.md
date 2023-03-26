@@ -2,7 +2,7 @@
 
 >Just download the rest_auth/
 >Create a virtual environment
->activate environment on the cmd 👇
+>activate environment on the cmd 
 `pip install -r requirements.txt` 
 
 >Start development server:
