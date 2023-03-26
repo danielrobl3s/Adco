@@ -1,11 +1,18 @@
-# ADCO 🏠
->Administrative control for Desarrollos Oaks SA de CV in internship II
+#Adco 🏠
 
->Desarrollos Oaks SA de CV is a private small company that develops construction projects, for either consumers or government.
->ADCO stands for Administrative Control and helps in register, filter, delete, save and update data tables to have the best control in the construction/real state field.
+>Just download the rest_auth/
+>Create a virtual environment
+>activate environment on the cmd 👇
+`pip install -r requirements.txt` 
 
->This project is made by:
-	Daniel Robles
-	Mario Alvarado
-	Fily Ortega
-	Marco Trejo
+>Start development server:
+`python manage.py runserver`
+
+>Go to your favorite browser and test the endpoints:
+
+`http://127.0.0.1:8000/api/` 
+
+>This django project connects to a postgreSQL database named "adco", setup the project and run: 
+`python manage.py migrate`
+
+>Or you can connect to any other SQL DBMS by modifying "settings.py" file on rest_auth/ subdirectory
