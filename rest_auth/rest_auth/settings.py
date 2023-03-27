@@ -31,7 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    "login",
+    "clients",
     "rest_framework",
     "rest_framework.authtoken",
     "allauth",
