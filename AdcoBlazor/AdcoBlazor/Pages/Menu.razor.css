@@ -1,0 +1,596 @@
+.top-nav-child,
+.top-nav-item {
+    position: absolute;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.top-nav-child {
+    height: 57.14%;
+    width: 2.34%;
+    top: 21.43%;
+    right: 1.86%;
+    bottom: 21.43%;
+    left: 95.8%;
+    border-radius: var(--br-xl);
+    object-fit: cover;
+    display: none;
+}
+
+.top-nav-item {
+    height: 0.87%;
+    width: 100%;
+    top: 99.57%;
+    right: 0;
+    bottom: -0.43%;
+    left: 0;
+}
+
+.title1 {
+    position: relative;
+    line-height: 32px;
+}
+
+.title {
+    top: 12px;
+    left: 20px;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.dco,
+.title,
+.top-nav {
+    position: absolute;
+}
+
+.top-nav {
+    top: 0;
+    left: 0;
+    background-color: var(--white);
+    box-shadow: 0-2px 5px -8px rgba(0, 0, 0, 0.25);
+    border: 1px solid var(--color-ghostwhite);
+    box-sizing: border-box;
+    width: 1440px;
+    height: 115px;
+}
+
+.dco {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    top: calc(50% - 32.96px);
+    left: 65.86px;
+    font-size: 43px;
+    font-weight: 500;
+    font-family: var(--font-poppins);
+    color: #030303;
+    text-align: center;
+    display: inline-block;
+    transform: rotate(0.55deg);
+    transform-origin: 0 0;
+}
+
+.adco-1-icon {
+    position: absolute;
+    top: 0.01px;
+    left: 0.01px;
+    border-radius: var(--br-12xs);
+    width: 64.97px;
+    height: 54.2px;
+    object-fit: cover;
+}
+
+.dco-parent,
+.main-child {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+}
+
+.dco-parent {
+    top: calc(50% - 487px);
+    left: 43px;
+    width: 163.85px;
+    height: 65.93px;
+}
+
+.main-child {
+    height: 6.25%;
+    width: 4.38%;
+    top: 2.54%;
+    right: 2.78%;
+    bottom: 91.21%;
+    left: 92.85%;
+    border-radius: 110px;
+    background-image: url(./public/rectangle1650@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.main-inner,
+.main-item {
+    position: absolute;
+    top: 893.76px;
+    left: 356.83px;
+    width: 144.34px;
+    height: 130.24px;
+}
+
+.main-inner {
+    top: 892.5px;
+    left: 398.5px;
+    width: 527.5px;
+    height: 131.5px;
+}
+
+.main-child1,
+.main-child2,
+.vector-icon {
+    position: absolute;
+    top: 893.5px;
+    left: 931.71px;
+    width: 508.5px;
+    height: 130.5px;
+}
+
+.main-child1,
+.main-child2 {
+    top: 893px;
+    left: 0;
+    width: 462.5px;
+}
+
+.main-child2 {
+    top: 893.15px;
+    left: 905.06px;
+    width: 50.87px;
+    height: 130.85px;
+}
+
+.main-child3,
+.main-child4,
+.main-child5 {
+    position: absolute;
+    top: 854px;
+    left: 1px;
+    width: 1439px;
+    height: 2px;
+}
+
+.main-child4,
+.main-child5 {
+    top: 141px;
+    left: 0;
+}
+
+.main-child5 {
+    top: 489px;
+    left: 46px;
+    width: 346px;
+}
+
+.main-child6,
+.main-child7,
+.main-child8,
+.main-child9 {
+    position: absolute;
+    top: 595px;
+    left: 958px;
+    width: 2px;
+    height: 218px;
+}
+
+.main-child7,
+.main-child8,
+.main-child9 {
+    left: 485px;
+}
+
+.main-child8,
+.main-child9 {
+    top: 170px;
+    left: 958px;
+}
+
+.main-child9 {
+    left: 485px;
+}
+
+.ellipse-icon,
+.main-child10,
+.main-child11 {
+    position: absolute;
+    top: 489px;
+    left: 590px;
+    width: 280px;
+    height: 2px;
+}
+
+.ellipse-icon,
+.main-child11 {
+    left: 1055px;
+    width: 352px;
+}
+
+.ellipse-icon {
+    top: 420px;
+    left: 887px;
+    width: 143px;
+    height: 143px;
+}
+
+.main-child12,
+.main-child13 {
+    position: absolute;
+    top: 438px;
+    left: 905px;
+    width: 107px;
+    height: 107px;
+}
+
+.main-child13 {
+    top: 418px;
+    left: 414px;
+    width: 143px;
+    height: 143px;
+}
+
+.fecha,
+.main-child14 {
+    position: absolute;
+    top: 436px;
+    left: 432px;
+    width: 107px;
+    height: 107px;
+}
+
+.fecha {
+    top: 116px;
+    left: 5493px;
+    font-size: var(--overline-size);
+    letter-spacing: 0.03em;
+    line-height: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--color-black);
+    display: flex;
+    align-items: center;
+    width: 32px;
+    height: 19px;
+}
+
+.btn-proyectos-icon {
+    position: absolute;
+    height: 102.91%;
+    width: 101.88%;
+    top: -1.37%;
+    right: -1.06%;
+    bottom: -1.54%;
+    left: -0.82%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.pr-ico-icon,
+.projects {
+    position: absolute;
+    left: 29.8%;
+}
+
+.projects {
+    top: 79.11%;
+    font-size: var(--header-h2-size);
+    line-height: 32px;
+    font-family: var(--overline);
+    background: linear-gradient(#f0f1f5, #f0f1f5), linear-gradient(-45deg, rgba(0, 0, 0, 0.6), rgba(255, 255, 255, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
+}
+
+.pr-ico-icon {
+    height: 52.4%;
+    width: 36.04%;
+    top: 13.01%;
+    right: 34.16%;
+    bottom: 34.59%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.btn-menu-proyecto1 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.btn-menu-proyecto {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 171px;
+    left: 37px;
+    width: 424.5px;
+    height: 292px;
+}
+
+.btn-trabajadores-icon {
+    position: absolute;
+    height: 102.92%;
+    width: 101.89%;
+    top: -1.37%;
+    right: -1.06%;
+    bottom: -1.55%;
+    left: -0.83%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.proveedores-y {
+    margin: 0;
+}
+
+.providers {
+    position: absolute;
+    top: 69.76%;
+    left: 23.88%;
+    font-size: var(--header-h2-size);
+    line-height: 32px;
+    font-family: var(--overline);
+    background: linear-gradient(#f0f1f5, #f0f1f5), linear-gradient(-45deg, rgba(0, 0, 0, 0.6), rgba(255, 255, 255, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
+}
+
+.pv-ico-icon {
+    position: absolute;
+    height: 52.58%;
+    width: 31.91%;
+    top: 14.43%;
+    right: 35.46%;
+    bottom: 32.99%;
+    left: 32.62%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.btn-menu-trabajadores {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 522px;
+    left: 37.5px;
+    width: 423px;
+    height: 291px;
+}
+
+.btn-gastos-icon {
+    position: absolute;
+    height: 102.92%;
+    width: 102%;
+    top: -1.37%;
+    right: -1.06%;
+    bottom: -1.54%;
+    left: -0.94%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.expenses {
+    position: absolute;
+    top: 79.25%;
+    left: 36.9%;
+    font-size: var(--header-h2-size);
+    line-height: 32px;
+    font-family: var(--overline);
+    background: linear-gradient(#f0f1f5, #f0f1f5), linear-gradient(-45deg, rgba(0, 0, 0, 0.6), rgba(255, 255, 255, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
+}
+
+.ct-ico-icon {
+    position: absolute;
+    height: 52.49%;
+    width: 35.96%;
+    top: 13.38%;
+    right: 33.25%;
+    bottom: 34.13%;
+    left: 30.79%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.btn-menu-gastos {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 171px;
+    left: 512.5px;
+    width: 425.5px;
+    height: 291.5px;
+}
+
+.btn-materiales-icon {
+    position: absolute;
+    height: 102.93%;
+    width: 102%;
+    top: -1.38%;
+    right: -1.06%;
+    bottom: -1.55%;
+    left: -0.94%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.materials {
+    position: absolute;
+    top: 80.34%;
+    left: 29.58%;
+    font-size: var(--header-h2-size);
+    line-height: 32px;
+    font-family: var(--overline);
+    background: linear-gradient(#f0f1f5, #f0f1f5), linear-gradient(-45deg, rgba(0, 0, 0, 0.6), rgba(255, 255, 255, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
+}
+
+.mt-ico-icon {
+    position: absolute;
+    height: 44.48%;
+    width: 41.31%;
+    top: 25.86%;
+    right: 27.93%;
+    bottom: 29.66%;
+    left: 30.75%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.btn-menu-materiales {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 524px;
+    left: 512.5px;
+    width: 426px;
+    height: 290px;
+}
+
+.btn-clientes-icon {
+    position: absolute;
+    height: 102.92%;
+    width: 101.89%;
+    top: -1.37%;
+    right: -0.95%;
+    bottom: -1.55%;
+    left: -0.95%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.sales {
+    position: absolute;
+    top: 80.76%;
+    left: 36.88%;
+    line-height: 32px;
+    background: linear-gradient(#f0f1f5, #f0f1f5), linear-gradient(-45deg, rgba(0, 0, 0, 0.6), rgba(255, 255, 255, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sl-ico-icon {
+    position: absolute;
+    height: 38.14%;
+    width: 39.95%;
+    top: 29.55%;
+    right: 27.9%;
+    bottom: 32.3%;
+    left: 32.15%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.btn-menu-clientes {
+    position: absolute;
+    top: 522px;
+    left: 984.5px;
+    width: 423px;
+    height: 291px;
+}
+
+.btn-prospecto-icon {
+    position: absolute;
+    height: 102.91%;
+    width: 101.89%;
+    top: -1.37%;
+    right: -0.94%;
+    bottom: -1.54%;
+    left: -0.94%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.clients {
+    position: absolute;
+    top: 79.11%;
+    left: 30.66%;
+    font-size: var(--header-h2-size);
+    line-height: 32px;
+    font-family: var(--overline);
+    background: linear-gradient(#f0f1f5, #f0f1f5), linear-gradient(-45deg, rgba(0, 0, 0, 0.6), rgba(255, 255, 255, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
+}
+
+.cl-ico-icon {
+    position: absolute;
+    height: 50.34%;
+    width: 37.5%;
+    top: 15.75%;
+    right: 29.72%;
+    bottom: 33.9%;
+    left: 32.78%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.btn-menu-prospectos {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 171px;
+    left: 983.5px;
+    width: 424px;
+    height: 292px;
+}
+
+.main {
+    position: relative;
+    border-radius: 7px;
+    background: linear-gradient(#f0f1f5, #f0f1f5), linear-gradient(-45deg, rgba(0, 0, 0, 0.6), rgba(255, 255, 255, 0));
+    width: 100%;
+    height: 75vh;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--header-h2-size);
+    color: var(--gray-9001);
+    font-family: var(--overline);
+}

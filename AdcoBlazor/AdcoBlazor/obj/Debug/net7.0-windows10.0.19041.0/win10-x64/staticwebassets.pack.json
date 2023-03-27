@@ -1,0 +1,409 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\obj\\Debug\\net7.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\AdcoBlazor.styles.css",
+      "PackagePath": "staticwebassets\\AdcoBlazor.styles.css"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\adco12x.png",
+      "PackagePath": "staticwebassets\\images\\adco12x.png"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\add.svg",
+      "PackagePath": "staticwebassets\\images\\add.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\btnclientes.svg",
+      "PackagePath": "staticwebassets\\images\\btnclientes.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\btngastos.svg",
+      "PackagePath": "staticwebassets\\images\\btngastos.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\btnmateriales.svg",
+      "PackagePath": "staticwebassets\\images\\btnmateriales.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\btnprospecto.svg",
+      "PackagePath": "staticwebassets\\images\\btnprospecto.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\btnproyectos.svg",
+      "PackagePath": "staticwebassets\\images\\btnproyectos.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\btntrabajadores.svg",
+      "PackagePath": "staticwebassets\\images\\btntrabajadores.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\checkbox.svg",
+      "PackagePath": "staticwebassets\\images\\checkbox.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\checkbox1.svg",
+      "PackagePath": "staticwebassets\\images\\checkbox1.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\checkbox2.svg",
+      "PackagePath": "staticwebassets\\images\\checkbox2.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\checkbox3.svg",
+      "PackagePath": "staticwebassets\\images\\checkbox3.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\checkbox4.svg",
+      "PackagePath": "staticwebassets\\images\\checkbox4.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\checkbox5.svg",
+      "PackagePath": "staticwebassets\\images\\checkbox5.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\checkbox6.svg",
+      "PackagePath": "staticwebassets\\images\\checkbox6.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\clico.svg",
+      "PackagePath": "staticwebassets\\images\\clico.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\clico1.svg",
+      "PackagePath": "staticwebassets\\images\\clico1.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\columnsorting.svg",
+      "PackagePath": "staticwebassets\\images\\columnsorting.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\columnsorting1.svg",
+      "PackagePath": "staticwebassets\\images\\columnsorting1.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\columnsorting2.svg",
+      "PackagePath": "staticwebassets\\images\\columnsorting2.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\ctico.svg",
+      "PackagePath": "staticwebassets\\images\\ctico.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\ctico1.svg",
+      "PackagePath": "staticwebassets\\images\\ctico1.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\datatable.svg",
+      "PackagePath": "staticwebassets\\images\\datatable.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\dotnet_bot.svg",
+      "PackagePath": "staticwebassets\\images\\dotnet_bot.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\down.svg",
+      "PackagePath": "staticwebassets\\images\\down.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\down1.svg",
+      "PackagePath": "staticwebassets\\images\\down1.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\ellipse8.svg",
+      "PackagePath": "staticwebassets\\images\\ellipse8.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\ellipse9.svg",
+      "PackagePath": "staticwebassets\\images\\ellipse9.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\filter.svg",
+      "PackagePath": "staticwebassets\\images\\filter.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\frame.svg",
+      "PackagePath": "staticwebassets\\images\\frame.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\frame1.svg",
+      "PackagePath": "staticwebassets\\images\\frame1.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\frame2.svg",
+      "PackagePath": "staticwebassets\\images\\frame2.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\frame3.svg",
+      "PackagePath": "staticwebassets\\images\\frame3.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\frame4.svg",
+      "PackagePath": "staticwebassets\\images\\frame4.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\frame5.svg",
+      "PackagePath": "staticwebassets\\images\\frame5.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\frame6.svg",
+      "PackagePath": "staticwebassets\\images\\frame6.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\frame7.svg",
+      "PackagePath": "staticwebassets\\images\\frame7.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\frame881.svg",
+      "PackagePath": "staticwebassets\\images\\frame881.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\left.svg",
+      "PackagePath": "staticwebassets\\images\\left.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\link.svg",
+      "PackagePath": "staticwebassets\\images\\link.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\link1.svg",
+      "PackagePath": "staticwebassets\\images\\link1.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\more.svg",
+      "PackagePath": "staticwebassets\\images\\more.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\mtico.svg",
+      "PackagePath": "staticwebassets\\images\\mtico.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\mtico1.svg",
+      "PackagePath": "staticwebassets\\images\\mtico1.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\prico.svg",
+      "PackagePath": "staticwebassets\\images\\prico.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\prico1.svg",
+      "PackagePath": "staticwebassets\\images\\prico1.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\pvico.svg",
+      "PackagePath": "staticwebassets\\images\\pvico.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\pvico1.svg",
+      "PackagePath": "staticwebassets\\images\\pvico1.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\r.png",
+      "PackagePath": "staticwebassets\\images\\r.png"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\rectangle165012x.png",
+      "PackagePath": "staticwebassets\\images\\rectangle165012x.png"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\rectangle16502x.png",
+      "PackagePath": "staticwebassets\\images\\rectangle16502x.png"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\rectangle16503x.png",
+      "PackagePath": "staticwebassets\\images\\rectangle16503x.png"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\right.svg",
+      "PackagePath": "staticwebassets\\images\\right.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\right1.svg",
+      "PackagePath": "staticwebassets\\images\\right1.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\slico.svg",
+      "PackagePath": "staticwebassets\\images\\slico.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\slico1.svg",
+      "PackagePath": "staticwebassets\\images\\slico1.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector106.svg",
+      "PackagePath": "staticwebassets\\images\\vector106.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector1061.svg",
+      "PackagePath": "staticwebassets\\images\\vector1061.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector108.svg",
+      "PackagePath": "staticwebassets\\images\\vector108.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector110.svg",
+      "PackagePath": "staticwebassets\\images\\vector110.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector1101.svg",
+      "PackagePath": "staticwebassets\\images\\vector1101.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector1102.svg",
+      "PackagePath": "staticwebassets\\images\\vector1102.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector1103.svg",
+      "PackagePath": "staticwebassets\\images\\vector1103.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector1104.svg",
+      "PackagePath": "staticwebassets\\images\\vector1104.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector1105.svg",
+      "PackagePath": "staticwebassets\\images\\vector1105.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector1106.svg",
+      "PackagePath": "staticwebassets\\images\\vector1106.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector1107.svg",
+      "PackagePath": "staticwebassets\\images\\vector1107.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector1108.svg",
+      "PackagePath": "staticwebassets\\images\\vector1108.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector1109.svg",
+      "PackagePath": "staticwebassets\\images\\vector1109.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector144.svg",
+      "PackagePath": "staticwebassets\\images\\vector144.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector145.svg",
+      "PackagePath": "staticwebassets\\images\\vector145.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector146.svg",
+      "PackagePath": "staticwebassets\\images\\vector146.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector147.svg",
+      "PackagePath": "staticwebassets\\images\\vector147.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector148.svg",
+      "PackagePath": "staticwebassets\\images\\vector148.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector149.svg",
+      "PackagePath": "staticwebassets\\images\\vector149.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector150.svg",
+      "PackagePath": "staticwebassets\\images\\vector150.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector154.svg",
+      "PackagePath": "staticwebassets\\images\\vector154.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector155.svg",
+      "PackagePath": "staticwebassets\\images\\vector155.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector157.svg",
+      "PackagePath": "staticwebassets\\images\\vector157.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector3.svg",
+      "PackagePath": "staticwebassets\\images\\vector3.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector31.svg",
+      "PackagePath": "staticwebassets\\images\\vector31.svg"
+    },
+    {
+      "Id": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.AdcoBlazor.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.build.AdcoBlazor.props",
+      "PackagePath": "build\\AdcoBlazor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.buildMultiTargeting.AdcoBlazor.props",
+      "PackagePath": "buildMultiTargeting\\AdcoBlazor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.buildTransitive.AdcoBlazor.props",
+      "PackagePath": "buildTransitive\\AdcoBlazor.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
