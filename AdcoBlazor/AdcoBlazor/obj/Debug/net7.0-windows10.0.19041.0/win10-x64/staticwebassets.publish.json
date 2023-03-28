@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KRlx4ot0Eys8M99YGYLXNT3LgY9/rkzy7cEHh/8UTXQ=",
+  "Hash": "eqS/ax/9kXKaZHYVopNMwrky3FnJgwbqJNWjEg6PpMc=",
   "Source": "AdcoBlazor",
   "BasePath": "/",
   "Mode": "Root",
@@ -10,17 +10,17 @@
     {
       "Name": "AdcoBlazor\\wwwroot",
       "Source": "AdcoBlazor",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\obj\\Debug\\net7.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\AdcoBlazor.styles.css",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\obj\\Debug\\net7.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\AdcoBlazor.styles.css",
       "SourceId": "AdcoBlazor",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\obj\\Debug\\net7.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\obj\\Debug\\net7.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\",
       "BasePath": "/",
       "RelativePath": "AdcoBlazor.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\AdcoBlazor\\AdcoBlazor\\obj\\Debug\\net7.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\AdcoBlazor.styles.css"
+      "OriginalItemSpec": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\obj\\Debug\\net7.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\AdcoBlazor.styles.css"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\obj\\Debug\\net7.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\AdcoBlazor.bundle.scp.css",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\obj\\Debug\\net7.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\AdcoBlazor.bundle.scp.css",
       "SourceId": "AdcoBlazor",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\obj\\Debug\\net7.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\obj\\Debug\\net7.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\",
       "BasePath": "/",
       "RelativePath": "AdcoBlazor.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\AdcoBlazor\\AdcoBlazor\\obj\\Debug\\net7.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\AdcoBlazor.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\obj\\Debug\\net7.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\AdcoBlazor.bundle.scp.css"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\css\\app.css",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\css\\app.css",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/app.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\app.css"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\favicon.ico",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\adco12x.png",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\adco12x.png",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/adco12x.png",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\images\\adco12x.png"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\add.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\add.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/add.svg",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\images\\add.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\btnclientes.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\btnclientes.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/btnclientes.svg",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\images\\btnclientes.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\btngastos.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\btngastos.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/btngastos.svg",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\images\\btngastos.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\btnmateriales.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\btnmateriales.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/btnmateriales.svg",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\images\\btnmateriales.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\btnprospecto.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\btnprospecto.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/btnprospecto.svg",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\images\\btnprospecto.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\btnproyectos.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\btnproyectos.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/btnproyectos.svg",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\images\\btnproyectos.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\btntrabajadores.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\btntrabajadores.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/btntrabajadores.svg",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\images\\btntrabajadores.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\checkbox.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\checkbox.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/checkbox.svg",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\images\\checkbox.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\checkbox1.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\checkbox1.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/checkbox1.svg",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\images\\checkbox1.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\checkbox2.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\checkbox2.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/checkbox2.svg",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\images\\checkbox2.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\checkbox3.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\checkbox3.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/checkbox3.svg",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\images\\checkbox3.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\checkbox4.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\checkbox4.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/checkbox4.svg",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\images\\checkbox4.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\checkbox5.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\checkbox5.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/checkbox5.svg",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\images\\checkbox5.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\checkbox6.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\checkbox6.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/checkbox6.svg",
       "AssetKind": "All",
@@ -527,27 +527,10 @@
       "OriginalItemSpec": "wwwroot\\images\\checkbox6.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\clico.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\clico1.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "images/clico.svg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\clico.svg"
-    },
-    {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\clico1.svg",
-      "SourceId": "AdcoBlazor",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/clico1.svg",
       "AssetKind": "All",
@@ -561,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\images\\clico1.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\columnsorting.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\columnsorting.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/columnsorting.svg",
       "AssetKind": "All",
@@ -578,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\images\\columnsorting.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\columnsorting1.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\columnsorting1.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/columnsorting1.svg",
       "AssetKind": "All",
@@ -595,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\images\\columnsorting1.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\columnsorting2.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\columnsorting2.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/columnsorting2.svg",
       "AssetKind": "All",
@@ -612,27 +595,10 @@
       "OriginalItemSpec": "wwwroot\\images\\columnsorting2.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\ctico.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\ctico1.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "images/ctico.svg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\ctico.svg"
-    },
-    {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\ctico1.svg",
-      "SourceId": "AdcoBlazor",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/ctico1.svg",
       "AssetKind": "All",
@@ -646,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\images\\ctico1.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\datatable.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\datatable.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/datatable.svg",
       "AssetKind": "All",
@@ -663,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\images\\datatable.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\dotnet_bot.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\dotnet_bot.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/dotnet_bot.svg",
       "AssetKind": "All",
@@ -680,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\images\\dotnet_bot.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\down.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\down.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/down.svg",
       "AssetKind": "All",
@@ -697,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\images\\down.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\down1.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\down1.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/down1.svg",
       "AssetKind": "All",
@@ -714,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\images\\down1.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\ellipse8.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\ellipse8.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/ellipse8.svg",
       "AssetKind": "All",
@@ -731,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\images\\ellipse8.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\ellipse9.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\ellipse9.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/ellipse9.svg",
       "AssetKind": "All",
@@ -748,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\images\\ellipse9.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\filter.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\filter.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/filter.svg",
       "AssetKind": "All",
@@ -765,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\images\\filter.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\frame.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\frame.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/frame.svg",
       "AssetKind": "All",
@@ -782,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\images\\frame.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\frame1.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\frame1.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/frame1.svg",
       "AssetKind": "All",
@@ -799,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\images\\frame1.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\frame2.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\frame2.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/frame2.svg",
       "AssetKind": "All",
@@ -816,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\images\\frame2.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\frame3.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\frame3.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/frame3.svg",
       "AssetKind": "All",
@@ -833,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\images\\frame3.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\frame4.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\frame4.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/frame4.svg",
       "AssetKind": "All",
@@ -850,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\images\\frame4.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\frame5.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\frame5.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/frame5.svg",
       "AssetKind": "All",
@@ -867,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\images\\frame5.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\frame6.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\frame6.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/frame6.svg",
       "AssetKind": "All",
@@ -884,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\images\\frame6.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\frame7.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\frame7.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/frame7.svg",
       "AssetKind": "All",
@@ -901,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\images\\frame7.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\frame881.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\frame881.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/frame881.svg",
       "AssetKind": "All",
@@ -918,10 +884,95 @@
       "OriginalItemSpec": "wwwroot\\images\\frame881.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\left.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\iconogastos.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "images/iconogastos.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\iconogastos.svg"
+    },
+    {
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\iconomateriales.svg",
+      "SourceId": "AdcoBlazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "images/iconomateriales.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\iconomateriales.svg"
+    },
+    {
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\iconoprospectos.svg",
+      "SourceId": "AdcoBlazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "images/iconoprospectos.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\iconoprospectos.svg"
+    },
+    {
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\iconoproyectos.svg",
+      "SourceId": "AdcoBlazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "images/iconoproyectos.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\iconoproyectos.svg"
+    },
+    {
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\iconotrabajadores.svg",
+      "SourceId": "AdcoBlazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "images/iconotrabajadores.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\iconotrabajadores.svg"
+    },
+    {
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\left.svg",
+      "SourceId": "AdcoBlazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/left.svg",
       "AssetKind": "All",
@@ -935,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\images\\left.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\link.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\link.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/link.svg",
       "AssetKind": "All",
@@ -952,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\images\\link.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\link1.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\link1.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/link1.svg",
       "AssetKind": "All",
@@ -969,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\images\\link1.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\logo.png",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\logo.png",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/logo.png",
       "AssetKind": "All",
@@ -986,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo.png"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\more.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\more.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/more.svg",
       "AssetKind": "All",
@@ -1003,27 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\images\\more.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\mtico.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\mtico1.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "images/mtico.svg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\mtico.svg"
-    },
-    {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\mtico1.svg",
-      "SourceId": "AdcoBlazor",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/mtico1.svg",
       "AssetKind": "All",
@@ -1037,27 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\images\\mtico1.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\prico.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\prico1.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "images/prico.svg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\prico.svg"
-    },
-    {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\prico1.svg",
-      "SourceId": "AdcoBlazor",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/prico1.svg",
       "AssetKind": "All",
@@ -1071,27 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\images\\prico1.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\pvico.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\pvico1.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "images/pvico.svg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\pvico.svg"
-    },
-    {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\pvico1.svg",
-      "SourceId": "AdcoBlazor",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/pvico1.svg",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\images\\pvico1.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\r.png",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\r.png",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/r.png",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\images\\r.png"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\rectangle165012x.png",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\rectangle165012x.png",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/rectangle165012x.png",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\images\\rectangle165012x.png"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\rectangle16502x.png",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\rectangle16502x.png",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/rectangle16502x.png",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\images\\rectangle16502x.png"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\rectangle16503x.png",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\rectangle16503x.png",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/rectangle16503x.png",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\images\\rectangle16503x.png"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\right.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\right.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/right.svg",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\images\\right.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\right1.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\right1.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/right1.svg",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\images\\right1.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\slico.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\slico.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/slico.svg",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\images\\slico.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\slico1.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\slico1.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/slico1.svg",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\images\\slico1.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector106.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector106.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/vector106.svg",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\images\\vector106.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector1061.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector1061.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/vector1061.svg",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\images\\vector1061.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector108.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector108.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/vector108.svg",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\images\\vector108.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector110.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector110.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/vector110.svg",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\images\\vector110.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector1101.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector1101.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/vector1101.svg",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\images\\vector1101.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector1102.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector1102.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/vector1102.svg",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\images\\vector1102.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector1103.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector1103.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/vector1103.svg",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\images\\vector1103.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector1104.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector1104.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/vector1104.svg",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\images\\vector1104.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector1105.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector1105.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/vector1105.svg",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\images\\vector1105.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector1106.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector1106.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/vector1106.svg",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\images\\vector1106.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector1107.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector1107.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/vector1107.svg",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\images\\vector1107.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector1108.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector1108.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/vector1108.svg",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\images\\vector1108.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector1109.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector1109.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/vector1109.svg",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\images\\vector1109.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector144.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector144.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/vector144.svg",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\images\\vector144.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector145.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector145.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/vector145.svg",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\images\\vector145.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector146.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector146.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/vector146.svg",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\images\\vector146.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector147.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector147.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/vector147.svg",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\images\\vector147.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector148.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector148.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/vector148.svg",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\images\\vector148.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector149.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector149.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/vector149.svg",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\images\\vector149.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector150.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector150.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/vector150.svg",
       "AssetKind": "All",
@@ -1581,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\images\\vector150.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector154.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector154.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/vector154.svg",
       "AssetKind": "All",
@@ -1598,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\images\\vector154.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector155.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector155.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/vector155.svg",
       "AssetKind": "All",
@@ -1615,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\images\\vector155.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector157.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector157.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/vector157.svg",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\images\\vector157.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector3.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector3.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/vector3.svg",
       "AssetKind": "All",
@@ -1649,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\images\\vector3.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector31.svg",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\images\\vector31.svg",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/vector31.svg",
       "AssetKind": "All",
@@ -1666,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\images\\vector31.svg"
     },
     {
-      "Identity": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\index.html",
+      "Identity": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\index.html",
       "SourceId": "AdcoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "index.html",
       "AssetKind": "All",

@@ -607,7 +607,14 @@ main[b-t2qdwlkxs7] {
 }
 
 .sidebar[b-t2qdwlkxs7] {
-    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+    background-color: #FFFFFF;
+    border-right-style: solid;
+    border-right: 1;
+    border-right-color: #EFF0F6;
+}
+
+.navbar-brand[b-t2qdwlkxs7] {
+    color: black;
 }
 
 .top-row[b-t2qdwlkxs7] {
@@ -678,11 +685,33 @@ main[b-t2qdwlkxs7] {
 
 .top-row[b-w67s072y6d] {
     height: 3.5rem;
-    background-color: rgba(0,0,0,0.4);
+    background-color: #FFFFFF;
+    border-right-style: solid;
+    color:black;
+    border-right: 1;
+    border-right-color: #EFF0F6;
 }
 
 .navbar-brand[b-w67s072y6d] {
     font-size: 1.1rem;
+    color: black;
+}
+
+.navbar-brand:focus[b-w67s072y6d] {
+    font-size: 1.1rem;
+    color: black;
+
+}
+.icons[b-w67s072y6d]{
+    width:45px;
+    
+}
+.navbar-brand[b-w67s072y6d]  a:hover {
+    background-color: #e8eee8d9;
+}
+
+.container-fluid[b-w67s072y6d]  a:hover {
+    background-color: #ccd8d1;
 }
 
 .oi[b-w67s072y6d] {
@@ -715,13 +744,13 @@ main[b-t2qdwlkxs7] {
     }
 
 .nav-item[b-w67s072y6d]  a.active {
-    background-color: rgba(255,255,255,0.25);
+    background-color: #4DB57F;
     color: white;
 }
 
 .nav-item[b-w67s072y6d]  a:hover {
-    background-color: rgba(255,255,255,0.1);
-    color: white;
+    background-color: #DED1C1; 
+    color: #80684B;
 }
 
 @media (min-width: 641px) {

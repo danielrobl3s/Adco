@@ -1,8 +1,9 @@
 ﻿<div class="top-row ps-3 navbar navbar-dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="">AdcoBlazor</a>
+        <a class="navbar-brand navbar-top" href=""> <img src="images/logo.png" class="icons"/> AdcoBlazor</a>
+        
         <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
-            <span class="navbar-toggler-icon"></span>
+            
         </button>
     </div>
 </div>
@@ -11,19 +12,38 @@
     <nav class="flex-column">
         <div class="nav-item px-3">
             <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-                <span class="oi oi-home" aria-hidden="true"></span> Home
+                <span class="oi oi-home" aria-hidden="true"></span> Proyecto
             </NavLink>
         </div>
         <div class="nav-item px-3">
             <NavLink class="nav-link" href="counter">
-                <span class="oi oi-plus" aria-hidden="true"></span> Counter
+                <span class="oi oi-plus" aria-hidden="true"></span> Gastos
             </NavLink>
         </div>
         <div class="nav-item px-3">
             <NavLink class="nav-link" href="fetchdata">
-                <span class="oi oi-list-rich" aria-hidden="true"></span> Fetch data
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Prospectos
             </NavLink>
         </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="materiales">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Materiales
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="clientes">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Clientes
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="trabajadores">
+                      PyT
+            </NavLink>
+            <svg viewBox="0 0 25 25">
+                <use xlink:href="images/iconogastos.svg" scr="images/iconogastos.svg"/>
+            </svg>
+        </div>
+
         <div class="nav-item px-3">
             <NavLink class="nav-link" href="menu">
                 <span class="oi oi-list-rich" aria-hidden="true"></span> Menu

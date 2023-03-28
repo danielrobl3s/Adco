@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\AdcoBlazor\\AdcoBlazor\\AdcoBlazor.csproj": {}
+    "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\AdcoBlazor.csproj": {}
   },
   "projects": {
-    "D:\\AdcoBlazor\\AdcoBlazor\\AdcoBlazor.csproj": {
+    "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\AdcoBlazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AdcoBlazor\\AdcoBlazor\\AdcoBlazor.csproj",
+        "projectUniqueName": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\AdcoBlazor.csproj",
         "projectName": "AdcoBlazor",
-        "projectPath": "D:\\AdcoBlazor\\AdcoBlazor\\AdcoBlazor.csproj",
+        "projectPath": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\AdcoBlazor.csproj",
         "packagesPath": "C:\\Users\\meno1\\.nuget\\packages\\",
-        "outputPath": "D:\\AdcoBlazor\\AdcoBlazor\\obj\\",
+        "outputPath": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
@@ -61,10 +61,18 @@
         "net7.0-android33.0": {
           "targetAlias": "net7.0-android",
           "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
             "Microsoft.AspNetCore.Components.WebView.Maui": {
               "target": "Package",
               "version": "[7.0.59, )",
               "autoReferenced": true
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.4, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
@@ -184,10 +192,18 @@
         "net7.0-ios16.1": {
           "targetAlias": "net7.0-ios",
           "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
             "Microsoft.AspNetCore.Components.WebView.Maui": {
               "target": "Package",
               "version": "[7.0.59, )",
               "autoReferenced": true
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.4, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
@@ -252,10 +268,18 @@
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
           "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
             "Microsoft.AspNetCore.Components.WebView.Maui": {
               "target": "Package",
               "version": "[7.0.59, )",
               "autoReferenced": true
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.4, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
@@ -321,10 +345,18 @@
         "net7.0-windows10.0.19041": {
           "targetAlias": "net7.0-windows10.0.19041.0",
           "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
             "Microsoft.AspNetCore.Components.WebView.Maui": {
               "target": "Package",
               "version": "[7.0.59, )",
               "autoReferenced": true
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.4, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",

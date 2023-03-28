@@ -10,31 +10,31 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>560B3F9A-A57F-4B85-A451-76E3207C1C98</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath></WindowsSdkPath>
-    <LayoutDir>D:\AdcoBlazor\AdcoBlazor\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\AdcoBlazor\AdcoBlazor\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AdcoBlazor.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AdcoBlazor.runtimeconfig.json">
       <PackagePath>AdcoBlazor.runtimeconfig.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AdcoBlazor.dll">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AdcoBlazor.dll">
       <PackagePath>AdcoBlazor.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>AdcoBlazor.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\meno1\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.3\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
@@ -604,6 +604,12 @@
     <AppxPackagedFile Include="C:\Users\meno1\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.28\lib\net6.0\WinRT.Runtime.dll">
       <PackagePath>WinRT.Runtime.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\meno1\.nuget\packages\entityframework\6.4.4\lib\netstandard2.1\EntityFramework.SqlServer.dll">
+      <PackagePath>EntityFramework.SqlServer.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\meno1\.nuget\packages\entityframework\6.4.4\lib\netstandard2.1\EntityFramework.dll">
+      <PackagePath>EntityFramework.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\meno1\.nuget\packages\microsoft.aspnetcore.authorization\7.0.0\lib\net7.0\Microsoft.AspNetCore.Authorization.dll">
       <PackagePath>Microsoft.AspNetCore.Authorization.dll</PackagePath>
     </AppxPackagedFile>
@@ -624,6 +630,18 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\meno1\.nuget\packages\microsoft.aspnetcore.metadata\7.0.0\lib\net7.0\Microsoft.AspNetCore.Metadata.dll">
       <PackagePath>Microsoft.AspNetCore.Metadata.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\meno1\.nuget\packages\microsoft.entityframeworkcore\7.0.4\lib\net6.0\Microsoft.EntityFrameworkCore.dll">
+      <PackagePath>Microsoft.EntityFrameworkCore.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\meno1\.nuget\packages\microsoft.entityframeworkcore.abstractions\7.0.4\lib\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll">
+      <PackagePath>Microsoft.EntityFrameworkCore.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\meno1\.nuget\packages\microsoft.extensions.caching.abstractions\7.0.0\lib\net7.0\Microsoft.Extensions.Caching.Abstractions.dll">
+      <PackagePath>Microsoft.Extensions.Caching.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\meno1\.nuget\packages\microsoft.extensions.caching.memory\7.0.0\lib\net7.0\Microsoft.Extensions.Caching.Memory.dll">
+      <PackagePath>Microsoft.Extensions.Caching.Memory.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\meno1\.nuget\packages\microsoft.extensions.configuration\7.0.0\lib\net7.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
@@ -688,6 +706,9 @@
     <AppxPackagedFile Include="C:\Users\meno1\.nuget\packages\microsoft.maui.graphics.win2d.winui.desktop\7.0.59\lib\net7.0-windows10.0.19041\Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll">
       <PackagePath>Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\meno1\.nuget\packages\microsoft.win32.systemevents\4.7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll">
+      <PackagePath>Microsoft.Win32.SystemEvents.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\meno1\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\lib\net6.0-windows10.0.18362.0\Microsoft.InteractiveExperiences.Projection.dll">
       <PackagePath>Microsoft.InteractiveExperiences.Projection.dll</PackagePath>
     </AppxPackagedFile>
@@ -730,8 +751,29 @@
     <AppxPackagedFile Include="C:\Users\meno1\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\meno1\.nuget\packages\system.codedom\4.7.0\lib\netstandard2.0\System.CodeDom.dll">
+      <PackagePath>System.CodeDom.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\meno1\.nuget\packages\system.configuration.configurationmanager\4.7.0\lib\netstandard2.0\System.Configuration.ConfigurationManager.dll">
+      <PackagePath>System.Configuration.ConfigurationManager.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\meno1\.nuget\packages\system.data.sqlclient\4.8.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll">
+      <PackagePath>System.Data.SqlClient.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\meno1\.nuget\packages\system.drawing.common\4.7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll">
+      <PackagePath>System.Drawing.Common.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\meno1\.nuget\packages\system.io.pipelines\7.0.0\lib\net7.0\System.IO.Pipelines.dll">
       <PackagePath>System.IO.Pipelines.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\meno1\.nuget\packages\system.security.cryptography.protecteddata\4.7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll">
+      <PackagePath>System.Security.Cryptography.ProtectedData.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\meno1\.nuget\packages\system.security.permissions\4.7.0\lib\netcoreapp3.0\System.Security.Permissions.dll">
+      <PackagePath>System.Security.Permissions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\meno1\.nuget\packages\system.windows.extensions\4.7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll">
+      <PackagePath>System.Windows.Extensions.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\meno1\.nuget\packages\microsoft.graphics.win2d\1.0.4\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
@@ -739,7 +781,10 @@
     <AppxPackagedFile Include="C:\Users\meno1\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\AdcoBlazor.deps.json">
+    <AppxPackagedFile Include="C:\Users\meno1\.nuget\packages\runtime.win-x64.runtime.native.system.data.sqlclient.sni\4.4.0\runtimes\win-x64\native\sni.dll">
+      <PackagePath>sni.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\AdcoBlazor.deps.json">
       <PackagePath>AdcoBlazor.deps.json</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.59\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
@@ -751,481 +796,481 @@
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Core.Ref.win\7.0.59\ref\net7.0-windows10.0.19041\Microsoft.Maui.pri">
       <PackagePath>Microsoft.Maui.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\scopedcss\bundle\AdcoBlazor.styles.css">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\scopedcss\bundle\AdcoBlazor.styles.css">
       <PackagePath>wwwroot\AdcoBlazor.styles.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\scopedcss\projectbundle\AdcoBlazor.bundle.scp.css">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\scopedcss\projectbundle\AdcoBlazor.bundle.scp.css">
       <PackagePath>wwwroot\AdcoBlazor.bundle.scp.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\css\app.css">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\css\app.css">
       <PackagePath>wwwroot\css\app.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\css\bootstrap\bootstrap.min.css">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\css\bootstrap\bootstrap.min.css">
       <PackagePath>wwwroot\css\bootstrap\bootstrap.min.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\css\bootstrap\bootstrap.min.css.map">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\css\bootstrap\bootstrap.min.css.map">
       <PackagePath>wwwroot\css\bootstrap\bootstrap.min.css.map</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css">
       <PackagePath>wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\css\open-iconic\font\fonts\open-iconic.eot">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\css\open-iconic\font\fonts\open-iconic.eot">
       <PackagePath>wwwroot\css\open-iconic\font\fonts\open-iconic.eot</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\css\open-iconic\font\fonts\open-iconic.otf">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\css\open-iconic\font\fonts\open-iconic.otf">
       <PackagePath>wwwroot\css\open-iconic\font\fonts\open-iconic.otf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\css\open-iconic\font\fonts\open-iconic.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\css\open-iconic\font\fonts\open-iconic.svg">
       <PackagePath>wwwroot\css\open-iconic\font\fonts\open-iconic.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\css\open-iconic\font\fonts\open-iconic.ttf">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\css\open-iconic\font\fonts\open-iconic.ttf">
       <PackagePath>wwwroot\css\open-iconic\font\fonts\open-iconic.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\css\open-iconic\font\fonts\open-iconic.woff">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\css\open-iconic\font\fonts\open-iconic.woff">
       <PackagePath>wwwroot\css\open-iconic\font\fonts\open-iconic.woff</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\css\open-iconic\FONT-LICENSE">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\css\open-iconic\FONT-LICENSE">
       <PackagePath>wwwroot\css\open-iconic\FONT-LICENSE</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\css\open-iconic\ICON-LICENSE">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\css\open-iconic\ICON-LICENSE">
       <PackagePath>wwwroot\css\open-iconic\ICON-LICENSE</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\css\open-iconic\README.md">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\css\open-iconic\README.md">
       <PackagePath>wwwroot\css\open-iconic\README.md</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\favicon.ico">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\favicon.ico">
       <PackagePath>wwwroot\favicon.ico</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\adco12x.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\adco12x.png">
       <PackagePath>wwwroot\images\adco12x.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\add.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\add.svg">
       <PackagePath>wwwroot\images\add.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\btnclientes.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\btnclientes.svg">
       <PackagePath>wwwroot\images\btnclientes.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\btngastos.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\btngastos.svg">
       <PackagePath>wwwroot\images\btngastos.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\btnmateriales.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\btnmateriales.svg">
       <PackagePath>wwwroot\images\btnmateriales.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\btnprospecto.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\btnprospecto.svg">
       <PackagePath>wwwroot\images\btnprospecto.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\btnproyectos.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\btnproyectos.svg">
       <PackagePath>wwwroot\images\btnproyectos.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\btntrabajadores.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\btntrabajadores.svg">
       <PackagePath>wwwroot\images\btntrabajadores.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\checkbox.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\checkbox.svg">
       <PackagePath>wwwroot\images\checkbox.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\checkbox1.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\checkbox1.svg">
       <PackagePath>wwwroot\images\checkbox1.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\checkbox2.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\checkbox2.svg">
       <PackagePath>wwwroot\images\checkbox2.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\checkbox3.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\checkbox3.svg">
       <PackagePath>wwwroot\images\checkbox3.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\checkbox4.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\checkbox4.svg">
       <PackagePath>wwwroot\images\checkbox4.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\checkbox5.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\checkbox5.svg">
       <PackagePath>wwwroot\images\checkbox5.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\checkbox6.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\checkbox6.svg">
       <PackagePath>wwwroot\images\checkbox6.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\clico.svg">
-      <PackagePath>wwwroot\images\clico.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\clico1.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\clico1.svg">
       <PackagePath>wwwroot\images\clico1.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\columnsorting.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\columnsorting.svg">
       <PackagePath>wwwroot\images\columnsorting.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\columnsorting1.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\columnsorting1.svg">
       <PackagePath>wwwroot\images\columnsorting1.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\columnsorting2.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\columnsorting2.svg">
       <PackagePath>wwwroot\images\columnsorting2.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\ctico.svg">
-      <PackagePath>wwwroot\images\ctico.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\ctico1.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\ctico1.svg">
       <PackagePath>wwwroot\images\ctico1.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\datatable.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\datatable.svg">
       <PackagePath>wwwroot\images\datatable.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\dotnet_bot.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\dotnet_bot.svg">
       <PackagePath>wwwroot\images\dotnet_bot.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\down.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\down.svg">
       <PackagePath>wwwroot\images\down.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\down1.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\down1.svg">
       <PackagePath>wwwroot\images\down1.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\ellipse8.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\ellipse8.svg">
       <PackagePath>wwwroot\images\ellipse8.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\ellipse9.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\ellipse9.svg">
       <PackagePath>wwwroot\images\ellipse9.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\filter.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\filter.svg">
       <PackagePath>wwwroot\images\filter.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\frame.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\frame.svg">
       <PackagePath>wwwroot\images\frame.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\frame1.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\frame1.svg">
       <PackagePath>wwwroot\images\frame1.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\frame2.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\frame2.svg">
       <PackagePath>wwwroot\images\frame2.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\frame3.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\frame3.svg">
       <PackagePath>wwwroot\images\frame3.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\frame4.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\frame4.svg">
       <PackagePath>wwwroot\images\frame4.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\frame5.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\frame5.svg">
       <PackagePath>wwwroot\images\frame5.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\frame6.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\frame6.svg">
       <PackagePath>wwwroot\images\frame6.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\frame7.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\frame7.svg">
       <PackagePath>wwwroot\images\frame7.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\frame881.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\frame881.svg">
       <PackagePath>wwwroot\images\frame881.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\left.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\iconogastos.svg">
+      <PackagePath>wwwroot\images\iconogastos.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\iconomateriales.svg">
+      <PackagePath>wwwroot\images\iconomateriales.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\iconoprospectos.svg">
+      <PackagePath>wwwroot\images\iconoprospectos.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\iconoproyectos.svg">
+      <PackagePath>wwwroot\images\iconoproyectos.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\iconotrabajadores.svg">
+      <PackagePath>wwwroot\images\iconotrabajadores.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\left.svg">
       <PackagePath>wwwroot\images\left.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\link.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\link.svg">
       <PackagePath>wwwroot\images\link.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\link1.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\link1.svg">
       <PackagePath>wwwroot\images\link1.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\logo.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\logo.png">
       <PackagePath>wwwroot\images\logo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\more.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\more.svg">
       <PackagePath>wwwroot\images\more.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\mtico.svg">
-      <PackagePath>wwwroot\images\mtico.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\mtico1.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\mtico1.svg">
       <PackagePath>wwwroot\images\mtico1.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\prico.svg">
-      <PackagePath>wwwroot\images\prico.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\prico1.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\prico1.svg">
       <PackagePath>wwwroot\images\prico1.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\pvico.svg">
-      <PackagePath>wwwroot\images\pvico.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\pvico1.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\pvico1.svg">
       <PackagePath>wwwroot\images\pvico1.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\r.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\r.png">
       <PackagePath>wwwroot\images\r.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\rectangle165012x.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\rectangle165012x.png">
       <PackagePath>wwwroot\images\rectangle165012x.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\rectangle16502x.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\rectangle16502x.png">
       <PackagePath>wwwroot\images\rectangle16502x.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\rectangle16503x.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\rectangle16503x.png">
       <PackagePath>wwwroot\images\rectangle16503x.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\right.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\right.svg">
       <PackagePath>wwwroot\images\right.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\right1.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\right1.svg">
       <PackagePath>wwwroot\images\right1.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\slico.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\slico.svg">
       <PackagePath>wwwroot\images\slico.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\slico1.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\slico1.svg">
       <PackagePath>wwwroot\images\slico1.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\vector106.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\vector106.svg">
       <PackagePath>wwwroot\images\vector106.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\vector1061.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\vector1061.svg">
       <PackagePath>wwwroot\images\vector1061.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\vector108.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\vector108.svg">
       <PackagePath>wwwroot\images\vector108.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\vector110.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\vector110.svg">
       <PackagePath>wwwroot\images\vector110.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\vector1101.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\vector1101.svg">
       <PackagePath>wwwroot\images\vector1101.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\vector1102.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\vector1102.svg">
       <PackagePath>wwwroot\images\vector1102.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\vector1103.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\vector1103.svg">
       <PackagePath>wwwroot\images\vector1103.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\vector1104.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\vector1104.svg">
       <PackagePath>wwwroot\images\vector1104.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\vector1105.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\vector1105.svg">
       <PackagePath>wwwroot\images\vector1105.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\vector1106.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\vector1106.svg">
       <PackagePath>wwwroot\images\vector1106.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\vector1107.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\vector1107.svg">
       <PackagePath>wwwroot\images\vector1107.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\vector1108.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\vector1108.svg">
       <PackagePath>wwwroot\images\vector1108.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\vector1109.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\vector1109.svg">
       <PackagePath>wwwroot\images\vector1109.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\vector144.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\vector144.svg">
       <PackagePath>wwwroot\images\vector144.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\vector145.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\vector145.svg">
       <PackagePath>wwwroot\images\vector145.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\vector146.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\vector146.svg">
       <PackagePath>wwwroot\images\vector146.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\vector147.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\vector147.svg">
       <PackagePath>wwwroot\images\vector147.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\vector148.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\vector148.svg">
       <PackagePath>wwwroot\images\vector148.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\vector149.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\vector149.svg">
       <PackagePath>wwwroot\images\vector149.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\vector150.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\vector150.svg">
       <PackagePath>wwwroot\images\vector150.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\vector154.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\vector154.svg">
       <PackagePath>wwwroot\images\vector154.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\vector155.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\vector155.svg">
       <PackagePath>wwwroot\images\vector155.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\vector157.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\vector157.svg">
       <PackagePath>wwwroot\images\vector157.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\vector3.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\vector3.svg">
       <PackagePath>wwwroot\images\vector3.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\images\vector31.svg">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\images\vector31.svg">
       <PackagePath>wwwroot\images\vector31.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\wwwroot\index.html">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\wwwroot\index.html">
       <PackagePath>wwwroot\index.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\Pages\Menu.razor.css">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\Pages\Menu.razor.css">
       <PackagePath>Pages\Menu.razor.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\Shared\MainLayout.razor.css">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\Shared\MainLayout.razor.css">
       <PackagePath>Shared\MainLayout.razor.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\AdcoBlazor\AdcoBlazor\Shared\NavMenu.razor.css">
+    <AppxPackagedFile Include="C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\Shared\NavMenu.razor.css">
       <PackagePath>Shared\NavMenu.razor.css</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

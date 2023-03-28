@@ -4,11 +4,33 @@
 
 .top-row {
     height: 3.5rem;
-    background-color: rgba(0,0,0,0.4);
+    background-color: #FFFFFF;
+    border-right-style: solid;
+    color:black;
+    border-right: 1;
+    border-right-color: #EFF0F6;
 }
 
 .navbar-brand {
     font-size: 1.1rem;
+    color: black;
+}
+
+.navbar-brand:focus {
+    font-size: 1.1rem;
+    color: black;
+
+}
+.icons{
+    width:45px;
+    
+}
+.navbar-brand ::deep a:hover {
+    background-color: #e8eee8d9;
+}
+
+.container-fluid ::deep a:hover {
+    background-color: #ccd8d1;
 }
 
 .oi {
@@ -41,13 +63,13 @@
     }
 
 .nav-item ::deep a.active {
-    background-color: rgba(255,255,255,0.25);
+    background-color: #4DB57F;
     color: white;
 }
 
 .nav-item ::deep a:hover {
-    background-color: rgba(255,255,255,0.1);
-    color: white;
+    background-color: #DED1C1; 
+    color: #80684B;
 }
 
 @media (min-width: 641px) {
