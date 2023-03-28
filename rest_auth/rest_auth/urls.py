@@ -23,4 +23,5 @@ urlpatterns = [
         include("dj_rest_auth.registration.urls")),
     path("module/clients/", include("clients.urls")),
     path("module/gastos/", include("gastos.urls")),
+    path("module/materiales/", include("materiales.urls"))
 ]
