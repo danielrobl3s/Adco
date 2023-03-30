@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ADCO.Pages.login_page"
+             Title="login_page"
+             xmlns:local="clr-namespace:ADCO"
+             Shell.NavBarIsVisible="False">
+    
+    
+
+    <Grid>
+    <!--Setting the Grid-->
+            <Grid.RowDefinitions>
+                <RowDefinition />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+                
+        <!--Options and stuff -->
+        <StackLayout Grid.Row="0" Grid.Column="0" BackgroundColor="White">
+              
+            <Image Source="oaks.png" SemanticProperties.Description="OAKS Logo"                   
+                   TranslationY="-140"
+                   Aspect="Center"
+                   Scale="0.48"
+                   HeightRequest="600"
+                   WidthRequest="600"
+                   VerticalOptions="Start"
+                   HorizontalOptions="Center"/>
+            
+            <Label Text="REGISTRO"
+                   TranslationY="-285"
+                   FontFamily="Inter"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Start"
+                   VerticalTextAlignment="Start"
+                   FontSize="25"
+                   TextColor="#2E2E2E"
+                   FontAttributes="Bold"/>
+
+            <Label Text="Usuario"
+                   TranslationY="-250"
+                   FontFamily="Inter"
+                   TranslationX="270"
+                   VerticalOptions="Start"
+                   VerticalTextAlignment="Start"
+                   FontSize="Medium"
+                   TextColor="#2E2E2E"
+                   FontAttributes="None"/>
+
+            <Entry
+                Text="{Binding Username}"
+                BackgroundColor="#E7E7E7"
+                HeightRequest="45"
+                WidthRequest="340"
+                TranslationX="15"
+                TranslationY="-240"
+                HorizontalOptions="Center"
+                FontFamily="Inter"
+                FontSize="20"
+                TextColor="#2E2E2E"
+                />
+            <Label Text="Contraseña"
+                   TranslationY="-230"
+                   FontFamily="Inter"
+                   TranslationX="270"
+                   VerticalOptions="Start"
+                   VerticalTextAlignment="Start"
+                   FontSize="Medium"
+                   TextColor="#2E2E2E"
+                   FontAttributes="None"/>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
+                <Entry
+                    IsPassword="{Binding Source={x:Reference Trigger},
+                    Path=HidePassword}"
+                BackgroundColor="#E7E7E7"
+                HeightRequest="45"
+                WidthRequest="340"
+                TranslationX="15"
+                TranslationY="-220"
+                HorizontalOptions="Center"
+                FontFamily="Inter"
+                FontSize="20"
+                TextColor="#2E2E2E"
+                />
+                <ImageButton 
+                    VerticalOptions="Start"
+                    Margin="0,0,10,0"
+                    Aspect="Center"
+                             HeightRequest="150"
+                             HorizontalOptions="Center"
+                             Source="show_icon.png">
+                    <ImageButton.Triggers>
+                        <EventTrigger Event="Clicked">
+                            <local:PasswordTrigger ShowIcon="show_icon.png"
+                                                           HideIcon="hide_icon.png"
+                                                           x:Name="Trigger"/>
+                        </EventTrigger>
+                    </ImageButton.Triggers>
+                </ImageButton>
+            </Grid>
+        
+            <Button HorizontalOptions="Center"
+                    Text="Entrar"
+                    TextColor="White"
+                    FontSize="Medium"
+                    FontFamily="Inter"                    
+                    WidthRequest="300"
+                    HeightRequest="55"
+                    BackgroundColor="#4DB57F"
+                    VerticalOptions="Center"
+                    TranslationX="10"
+                    TranslationY="-190">
+                
+            </Button>
+
+            <Label Text="¿No tienes cuenta?"
+                   TranslationY="-165"
+                   FontFamily="Inter"
+                   HorizontalOptions="Center"
+                   FontSize="13"
+                   TranslationX="-50"
+                   TextColor="#2E2E2E"
+                   FontAttributes="None"/>
+
+            <Button Text="Registrate"
+                     
+                   TranslationY="-192"
+                   FontFamily="Inter"
+                   HorizontalOptions="Center"
+                   FontSize="13"
+                   TranslationX="55"
+                   TextColor="#4DB57F"
+                   FontAttributes="None"/>
+
+            <Image Source="adco.png"
+                   SemanticProperties.Description="OAKS Logo"                   
+                   TranslationY="-280"
+                   Aspect="Center"
+                   Scale="0.15"
+                   HeightRequest="300"
+                   WidthRequest="600"
+                   VerticalOptions="Start"
+                   HorizontalOptions="Center"/>
+
+
+        </StackLayout>
+        <!--Options and stuff -->
+
+
+        <!--Main Image -->
+        
+        
+            <Image Grid.Row="0" Grid.Column="1" Source="model.png" SemanticProperties.Description="Model Image" /> 
+
+        <!--<Label BackgroundColor="Teal" Text="Demo" Grid.Row="0" Grid.Column="1"/>-->
+
+    </Grid>
+
+
+
+</ContentPage>
