@@ -11,7 +11,8 @@ CREATE TABLE IF NOT EXISTS public.project_clientes
     fecha date,
     documentos character varying(100) COLLATE pg_catalog."default",
     observaciones character varying(100) COLLATE pg_catalog."default",
-    CONSTRAINT project_clientes_pkey PRIMARY KEY (id_cliente)
+    CONSTRAINT project_clientes_pkey PRIMARY KEY (id_cliente),
+    CONSTRAINT unique_id_proyecto UNIQUE (id_proyecto)
 )
 
 TABLESPACE pg_default;
