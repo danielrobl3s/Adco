@@ -30,8 +30,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'corsheaders',
-    'project_trabajadores_proveedores',
     'rest_framework',
+    'project_trabajadores_proveedores',
+    'trabajadores_proveedores',
 ]
 
 MIDDLEWARE = [
@@ -72,7 +73,7 @@ WSGI_APPLICATION = 'django_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'prueba2', 
+        'NAME': 'adco', 
         'USER': 'postgres', 
         'PASSWORD': 'postgremario',
         'HOST': 'localhost', 
