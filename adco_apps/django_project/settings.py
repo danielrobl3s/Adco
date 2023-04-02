@@ -30,7 +30,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'corsheaders',
-    'adco_crud',
+    'project_trabajadores_proveedores',
     'rest_framework',
 ]
 
