@@ -1,5 +1,5 @@
 from django.db import models
-from project_clientes import ProjectClientes
+# from project_clientes import ProjectClientes
 
 class ProjectMaterials(models.Model):
     id_material = models.AutoField(primary_key=True)
