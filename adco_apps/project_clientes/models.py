@@ -2,7 +2,7 @@ from django.db import models
 
 class ProjectClientes(models.Model):
     id_cliente = models.AutoField(primary_key=True)
-    id_proyecto = models.AutoField(unique=True)
+    #id_proyecto = models.AutoField(unique=True)
     nombre = models.CharField(max_length=50, blank=True, null=True)
     metodo_pago = models.CharField(max_length=20, blank=True, null=True)
     fecha = models.DateField(blank=True, null=True)

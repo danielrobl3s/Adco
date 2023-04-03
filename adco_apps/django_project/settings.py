@@ -35,7 +35,8 @@ INSTALLED_APPS = [
     'trabajadores_proveedores',
     'proyectos',
     'prospectos',
-    'project_clientes'
+    'project_clientes',
+    'project_materials',
 ]
 
 MIDDLEWARE = [
