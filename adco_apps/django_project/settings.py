@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'trabajadores_proveedores',
     'proyectos',
     'prospectos',
+    'project_clientes'
 ]
 
 MIDDLEWARE = [
