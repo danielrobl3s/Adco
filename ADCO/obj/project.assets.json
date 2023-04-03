@@ -24575,11 +24575,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\matst\\OneDrive\\Escritorio\\Tareas Online\\Unipoli\\Estancias\\VSS\\ADCO\\ADCO.csproj",
+      "projectUniqueName": "C:\\Users\\matst\\OneDrive\\Escritorio\\Tareas Online\\Unipoli\\Estancias\\Estancias 2\\ADCO\\ADCO.csproj",
       "projectName": "ADCO",
-      "projectPath": "C:\\Users\\matst\\OneDrive\\Escritorio\\Tareas Online\\Unipoli\\Estancias\\VSS\\ADCO\\ADCO.csproj",
+      "projectPath": "C:\\Users\\matst\\OneDrive\\Escritorio\\Tareas Online\\Unipoli\\Estancias\\Estancias 2\\ADCO\\ADCO.csproj",
       "packagesPath": "C:\\Users\\matst\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\matst\\OneDrive\\Escritorio\\Tareas Online\\Unipoli\\Estancias\\VSS\\ADCO\\obj\\",
+      "outputPath": "C:\\Users\\matst\\OneDrive\\Escritorio\\Tareas Online\\Unipoli\\Estancias\\Estancias 2\\ADCO\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

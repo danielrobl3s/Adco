@@ -1,1 +1,1 @@
-C:\Users\matst\OneDrive\Escritorio\Tareas Online\Unipoli\Estancias\VSS\ADCO\ADCO.csproj;x64
+C:\Users\matst\OneDrive\Escritorio\Tareas Online\Unipoli\Estancias\Estancias 2\ADCO\ADCO.csproj;x64

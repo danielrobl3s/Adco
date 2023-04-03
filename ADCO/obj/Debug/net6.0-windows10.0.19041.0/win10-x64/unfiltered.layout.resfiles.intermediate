@@ -52,6 +52,7 @@ dotnet_bot.scale-125.png
 dotnet_bot.scale-150.png
 dotnet_bot.scale-200.png
 dotnet_bot.scale-400.png
+hide.scale-100.png
 hide_icon.scale-100.png
 hide_icon.scale-125.png
 hide_icon.scale-150.png
@@ -59,6 +60,7 @@ hide_icon.scale-200.png
 hide_icon.scale-400.png
 model.scale-100.png
 oaks.scale-100.png
+show.scale-100.png
 show_icon.scale-100.png
 show_icon.scale-125.png
 show_icon.scale-150.png

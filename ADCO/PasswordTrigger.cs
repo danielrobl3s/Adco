@@ -11,16 +11,17 @@ namespace ADCO
     {
         public string ShowIcon { get; set; }
         public string HideIcon { get; set; }
-        bool _hidePassword = true;
-        public bool HidePassword
+
+        private bool isPasswordHidden = true;
+        public bool IsPasswordHidden
         {
-            get => _hidePassword;
+            get => isPasswordHidden;
             set
             {
-                if (_hidePassword != value)
+                if (isPasswordHidden != value)
                 {
-                    _hidePassword = value;
-                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(HidePassword)));
+                    isPasswordHidden = value;
+                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(IsPasswordHidden)));
                 }
             }
         }
@@ -29,8 +30,8 @@ namespace ADCO
 
         protected override void Invoke(ImageButton sender)
         {
-            sender.Source = HidePassword ? ShowIcon : HideIcon;
-            HidePassword = !HidePassword;
+            sender.Source = IsPasswordHidden ? ShowIcon : HideIcon;
+            isPasswordHidden = !IsPasswordHidden;
         }
     }
 }

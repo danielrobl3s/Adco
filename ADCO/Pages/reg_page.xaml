@@ -1,28 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ADCO.Pages.login_page"
-             Title="login_page"
-             xmlns:local="clr-namespace:ADCO"
-             Shell.NavBarIsVisible="False">
-    
-    
-
-    <Grid>
-    <!--Setting the Grid-->
-            <Grid.RowDefinitions>
-                <RowDefinition />
-            </Grid.RowDefinitions>
-
-            <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition Width="Auto" />
-        </Grid.ColumnDefinitions>
-                
-        <!--Options and stuff -->
-        <StackLayout Grid.Row="0" Grid.Column="0" BackgroundColor="White">
-              
-            <Image Source="oaks.png" SemanticProperties.Description="OAKS Logo"                   
+             x:Class="ADCO.Pages.reg_page"
+             Title="reg_page">
+    <VerticalStackLayout BackgroundColor="White">
+        <Image Source="oaks.png" SemanticProperties.Description="OAKS Logo"                   
                    TranslationY="-140"
                    Aspect="Center"
                    Scale="0.48"
@@ -30,8 +12,8 @@
                    WidthRequest="600"
                    VerticalOptions="Start"
                    HorizontalOptions="Center"/>
-            
-            <Label Text="ACCESSO"
+
+        <Label Text="REGISTRO"
                    TranslationY="-285"
                    FontFamily="Inter"
                    HorizontalOptions="Center"
@@ -41,17 +23,15 @@
                    TextColor="#2E2E2E"
                    FontAttributes="Bold"/>
 
-            <Label Text="Usuario"
+        <Label Text="Usuario"
                    TranslationY="-250"
                    FontFamily="Inter"
-                   TranslationX="270"
-                   VerticalOptions="Start"
-                   VerticalTextAlignment="Start"
+                   TranslationX="615"
                    FontSize="Medium"
                    TextColor="#2E2E2E"
                    FontAttributes="None"/>
 
-            <Entry
+        <Entry
                 x:Name="user"
                 Text="{Binding Username}"
                 BackgroundColor="#E7E7E7"
@@ -64,17 +44,17 @@
                 FontSize="20"
                 TextColor="#2E2E2E"
                 />
-            <Label Text="Contraseña"
+        <Label Text="Contraseña"
                    TranslationY="-230"
                    FontFamily="Inter"
-                   TranslationX="270"
+                   TranslationX="615"
                    VerticalOptions="Start"
                    VerticalTextAlignment="Start"
                    FontSize="Medium"
                    TextColor="#2E2E2E"
                    FontAttributes="None"/>
-            
-            <Entry
+
+        <Entry
                 x:Name="pass"
                 IsPassword="True"
                BackgroundColor="#E7E7E7"
@@ -86,8 +66,8 @@
                FontFamily="Inter"
                FontSize="20"
                TextColor="#2E2E2E" />
-            
-            <ImageButton x:Name="showPasswordButton"                         
+
+        <ImageButton x:Name="showPasswordButton"                         
                          Clicked="OnShowPasswordClicked"
                          TranslationY="-258"
                          TranslationX="150"
@@ -98,10 +78,10 @@
 
 
 
-            <Button HorizontalOptions="Center"
-                    x:Name="accessButton"
-                    Text="Entrar"
-                    Clicked="accessButton_Clicked"
+        <Button HorizontalOptions="Center"
+                    Text="Crear"
+                x:Name="createButton"
+                Clicked="createButton_Clicked"
                     TextColor="White"
                     FontSize="Medium"
                     FontFamily="Inter"                    
@@ -111,10 +91,10 @@
                     VerticalOptions="Center"
                     TranslationX="10"
                     TranslationY="-205">
-                
-            </Button>
 
-            <Label Text="¿No tienes cuenta?"
+        </Button>
+
+        <Label Text="¿Ya tienes una cuenta?"
                    TranslationY="-180"
                    FontFamily="Inter"
                    HorizontalOptions="Center"
@@ -123,19 +103,19 @@
                    TextColor="#2E2E2E"
                    FontAttributes="None"/>
 
-            <Button Text="Registrate"
-                    x:Name="regButton"
-                    Clicked="regButton_Clicked"
+        <Button Text="Accede"
                     Padding="-1,-1,-1,-1"
+                x:Name="accessButton"
+                Clicked="accessButton_Clicked"
                    TranslationY="-196"
                    FontFamily="Inter"
                    HorizontalOptions="Center"
                    FontSize="13"
-                   TranslationX="55"
+                   TranslationX="60"
                    TextColor="#4DB57F"
                    FontAttributes="None"/>
 
-            <Image Source="adco.png"
+        <Image Source="adco.png"
                    SemanticProperties.Description="OAKS Logo"                   
                    TranslationY="-300"
                    Aspect="Center"
@@ -144,21 +124,5 @@
                    WidthRequest="600"
                    VerticalOptions="Start"
                    HorizontalOptions="Center"/>
-
-
-        </StackLayout>
-        <!--Options and stuff -->
-
-
-        <!--Main Image -->
-        
-        
-            <Image Grid.Row="0" Grid.Column="1" Source="model.png" SemanticProperties.Description="Model Image" /> 
-
-        <!--<Label BackgroundColor="Teal" Text="Demo" Grid.Row="0" Grid.Column="1"/>-->
-
-    </Grid>
-
-
-
+    </VerticalStackLayout>
 </ContentPage>

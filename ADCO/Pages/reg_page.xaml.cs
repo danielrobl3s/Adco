@@ -1,9 +1,8 @@
 namespace ADCO.Pages;
 
-
-public partial class login_page : ContentPage
+public partial class reg_page : ContentPage
 {
-	public login_page()
+	public reg_page()
 	{
 		InitializeComponent();
 	}
@@ -22,15 +21,15 @@ public partial class login_page : ContentPage
         }
     }
 
-    private async void regButton_Clicked(object sender, EventArgs e)
+    private void accessButton_Clicked(object sender, EventArgs e)
     {
-        Navigation.PushModalAsync(new reg_page());
+        Navigation.PushModalAsync(new login_page());
 
     }
 
-    private void accessButton_Clicked(object sender, EventArgs e)
+    private void createButton_Clicked(object sender, EventArgs e)
     {
         Navigation.PushModalAsync(new main_menu());
-
+ 
     }
 }

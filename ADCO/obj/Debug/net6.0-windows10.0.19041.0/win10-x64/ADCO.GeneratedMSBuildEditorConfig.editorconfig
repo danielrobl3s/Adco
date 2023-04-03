@@ -8,27 +8,39 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ADCO
-build_property.ProjectDir = C:\Users\matst\OneDrive\Escritorio\Tareas Online\Unipoli\Estancias\VSS\ADCO\
+build_property.ProjectDir = C:\Users\matst\OneDrive\Escritorio\Tareas Online\Unipoli\Estancias\Estancias 2\ADCO\
 
-[C:/Users/matst/OneDrive/Escritorio/Tareas Online/Unipoli/Estancias/VSS/ADCO/App.xaml]
+[C:/Users/matst/OneDrive/Escritorio/Tareas Online/Unipoli/Estancias/Estancias 2/ADCO/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ADCO.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/matst/OneDrive/Escritorio/Tareas Online/Unipoli/Estancias/VSS/ADCO/Pages/login_page.xaml]
+[C:/Users/matst/OneDrive/Escritorio/Tareas Online/Unipoli/Estancias/Estancias 2/ADCO/Pages/login_page.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ADCO.Pages.login_page.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\login_page.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\login_page.xaml
 
-[C:/Users/matst/OneDrive/Escritorio/Tareas Online/Unipoli/Estancias/VSS/ADCO/Resources/Styles/Colors.xaml]
+[C:/Users/matst/OneDrive/Escritorio/Tareas Online/Unipoli/Estancias/Estancias 2/ADCO/Pages/main_menu.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ADCO.Pages.main_menu.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\main_menu.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\main_menu.xaml
+
+[C:/Users/matst/OneDrive/Escritorio/Tareas Online/Unipoli/Estancias/Estancias 2/ADCO/Pages/reg_page.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ADCO.Pages.reg_page.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\reg_page.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\reg_page.xaml
+
+[C:/Users/matst/OneDrive/Escritorio/Tareas Online/Unipoli/Estancias/Estancias 2/ADCO/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ADCO.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/matst/OneDrive/Escritorio/Tareas Online/Unipoli/Estancias/VSS/ADCO/Resources/Styles/Styles.xaml]
+[C:/Users/matst/OneDrive/Escritorio/Tareas Online/Unipoli/Estancias/Estancias 2/ADCO/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ADCO.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml

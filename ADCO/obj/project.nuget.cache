@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QjwU4alXKtsKJzBPy5UcYElTHoF54kzv93epDqYPaMniwbwtrYV8AQpCM3V2PPBc5Mn5IPKn6VhPGR+egMjdMg==",
+  "dgSpecHash": "vreE6Kf7D7f/gISCxXrFyPLHDgWuG3edD2eFWpC+P+bmJKiSKc5c46wktk9ZDmxPQgpwbisuoWrth89hiZ6XSQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\matst\\OneDrive\\Escritorio\\Tareas Online\\Unipoli\\Estancias\\VSS\\ADCO\\ADCO.csproj",
+  "projectFilePath": "C:\\Users\\matst\\OneDrive\\Escritorio\\Tareas Online\\Unipoli\\Estancias\\Estancias 2\\ADCO\\ADCO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\matst\\.nuget\\packages\\googlegson\\2.9.0.1\\googlegson.2.9.0.1.nupkg.sha512",
     "C:\\Users\\matst\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",
