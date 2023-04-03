@@ -33,6 +33,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'project_trabajadores_proveedores',
     'trabajadores_proveedores',
+    'proyectos',
 ]
 
 MIDDLEWARE = [

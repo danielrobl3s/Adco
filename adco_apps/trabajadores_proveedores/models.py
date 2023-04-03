@@ -3,7 +3,7 @@ from django.db import models
 class TrabajadoresProveedores(models.Model):
     id = models.IntegerField(primary_key=True)
     nombre = models.CharField(max_length=50, blank=True, null=True)
-    telefono = models.IntegerField(blank=True, null=True)
+    telefono = models.BigIntegerField(blank=True, null=True)
     correo = models.CharField(max_length=50, blank=True, null=True)
     direccion = models.CharField(max_length=50, blank=True, null=True)
     especialidad = models.CharField(max_length=20, blank=True, null=True)

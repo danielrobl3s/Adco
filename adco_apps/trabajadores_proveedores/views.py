@@ -48,7 +48,7 @@ class Trabajador_pDetail(generics.GenericAPIView):
     def get(self, request, pk):
         trabajador_p = self.get_note(pk=pk)
         if trabajador_p == None:
-            return Response({"status": "fail", "message": f"Note with Id: {pk} not found"}, status=status.HTTP_404_NOT_FOUND)
+            return Response({"status": "fail", "message": f"Worker with Id: {pk} not found"}, status=status.HTTP_404_NOT_FOUND)
 
         serializer = self.serializer_class(trabajador_p)
         return Response({"status": "success", "trabajador_p": serializer.data})
@@ -56,7 +56,7 @@ class Trabajador_pDetail(generics.GenericAPIView):
     def patch(self, request, pk):
         trabajador_p = self.get_note(pk)
         if trabajador_p == None:
-            return Response({"status": "fail", "message": f"Note with Id: {pk} not found"}, status=status.HTTP_404_NOT_FOUND)
+            return Response({"status": "fail", "message": f"Worker with Id: {pk} not found"}, status=status.HTTP_404_NOT_FOUND)
 
         serializer = self.serializer_class(
             trabajador_p, data=request.data, partial=True)
@@ -69,7 +69,7 @@ class Trabajador_pDetail(generics.GenericAPIView):
     def delete(self, request, pk):
         trabajador_p = self.get_note(pk)
         if trabajador_p == None:
-            return Response({"status": "fail", "message": f"Note with Id: {pk} not found"}, status=status.HTTP_404_NOT_FOUND)
+            return Response({"status": "fail", "message": f"Worker with Id: {pk} not found"}, status=status.HTTP_404_NOT_FOUND)
 
         trabajador_p.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
