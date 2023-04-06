@@ -5,5 +5,5 @@ urlpatterns = [
     path('', views.MaterialList.as_view(), name='materiales-list'),
     path('<pk>/', views.MaterialDetail.as_view(), name='materiales-detail'),
     path('recursos/', views.RecursoList.as_view(), name='recursos-list'),
-    path('recursos/<pk>/', views.RecursoList.as_view(), name='recurso-details') #<------redirecciona a los prospectos donde esta la info de los clientes
+    path('recursos/<pk>/', views.RecursoDetail.as_view(), name='recursos-details') #<------redirecciona a los prospectos donde esta la info de los clientes
 ]
