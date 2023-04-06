@@ -3,6 +3,7 @@ from . import views
 
 urlpatterns = [
     path('', views.MaterialList.as_view(), name='materiales-list'),
+    path('<pk>/', views.MaterialDetail.as_view(), name='materiales-detail'),
     path('recursos/', views.RecursoList.as_view(), name='recursos-list'),
-    #path('/<pk:int>', ClientesDetail.as_view(), name='detalles-cliente') #<------redirecciona a los prospectos donde esta la info de los clientes
+    path('recursos/<pk>/', views.RecursoList.as_view(), name='recurso-details') #<------redirecciona a los prospectos donde esta la info de los clientes
 ]
