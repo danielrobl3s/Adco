@@ -27,16 +27,13 @@ class ClientesDetail(generics.RetrieveUpdateDestroyAPIView):
 
     def get_queryset(self):
         return Clientes.objects.filter(created_by=self.request.user)
-
-    @ensure_csrf_cookie
+    
     def get(self, request, *args, **kwargs):
         return self.retrieve(request, *args, **kwargs)
 
-    @ensure_csrf_cookie
     def put(self, request, *args, **kwargs):
         return self.update(request, *args, **kwargs)
 
-    @ensure_csrf_cookie
     def delete(self, request, *args, **kwargs):
         return self.destroy(request, *args, **kwargs)
 
