@@ -33,6 +33,7 @@ INSTALLED_APPS = [
     "clients",
     "gastos",
     "materiales",
+    "proyectos",
     "rest_framework",
     "rest_framework.authtoken",
     "allauth",
