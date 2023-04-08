@@ -61,6 +61,7 @@ Pages\Menu.razor.css
 AboutAssets.txt
 Shared\MainLayout.razor.css
 Shared\NavMenu.razor.css
+Shared\Sidebar.razor.css
 wwwroot\css\app.css
 wwwroot\css\bootstrap\bootstrap.min.css
 wwwroot\css\bootstrap\bootstrap.min.css.map

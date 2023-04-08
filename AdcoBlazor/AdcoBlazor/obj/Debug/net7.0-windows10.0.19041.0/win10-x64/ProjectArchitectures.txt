@@ -1,1 +1,1 @@
-C:\Users\meno1\Desktop\adco\AdcoBlazor\AdcoBlazor\AdcoBlazor.csproj;x64
+D:\Escritorio\estancias\adco\AdcoBlazor\AdcoBlazor\AdcoBlazor.csproj;x64

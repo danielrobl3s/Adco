@@ -58,6 +58,7 @@
     <ItemGroup>
       <Folder Include="DataContex\" />
       <Folder Include="Migrations\" />
+      <Folder Include="wwwroot\AdminLTE\" />
     </ItemGroup>
 
 </Project>

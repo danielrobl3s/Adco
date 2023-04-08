@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\AdcoBlazor.csproj": {}
+    "D:\\Escritorio\\estancias\\adco\\AdcoBlazor\\AdcoBlazor\\AdcoBlazor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\AdcoBlazor.csproj": {
+    "D:\\Escritorio\\estancias\\adco\\AdcoBlazor\\AdcoBlazor\\AdcoBlazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\AdcoBlazor.csproj",
+        "projectUniqueName": "D:\\Escritorio\\estancias\\adco\\AdcoBlazor\\AdcoBlazor\\AdcoBlazor.csproj",
         "projectName": "AdcoBlazor",
-        "projectPath": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\AdcoBlazor.csproj",
+        "projectPath": "D:\\Escritorio\\estancias\\adco\\AdcoBlazor\\AdcoBlazor\\AdcoBlazor.csproj",
         "packagesPath": "C:\\Users\\meno1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\obj\\",
+        "outputPath": "D:\\Escritorio\\estancias\\adco\\AdcoBlazor\\AdcoBlazor\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

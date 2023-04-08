@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IKuK/Apb68AFyKUwNXXAFCzyado87YwZ5mTLwWV21x0IMZsco+hBj//WlTYlEnVjfHeEIcB1sg1tUKwFrtGVxA==",
+  "dgSpecHash": "jdA7JMkrXGSutQLoj9JR62/xx6OVVaiDsBhh21vVcRr57yilS35nNBFgNW+OZ6IkgwpoYlc3XgT4OPNrH+ZkZw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\meno1\\Desktop\\adco\\AdcoBlazor\\AdcoBlazor\\AdcoBlazor.csproj",
+  "projectFilePath": "D:\\Escritorio\\estancias\\adco\\AdcoBlazor\\AdcoBlazor\\AdcoBlazor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\meno1\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\meno1\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
