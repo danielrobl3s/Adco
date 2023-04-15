@@ -2,6 +2,8 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 
 main {
@@ -95,9 +97,11 @@ main {
     }
 
     .sidebar {
-        width: 250px;
+        width: 90px;
         height: 100vh;
-        position: sticky;
+        left: 0;
+
+
         top: 0;
     }
 

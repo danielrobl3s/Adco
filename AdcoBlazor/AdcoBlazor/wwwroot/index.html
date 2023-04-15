@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0">
+
     <title>AdcoBlazor</title>
     <base href="/" />
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
@@ -16,7 +17,7 @@
     <link rel="stylesheet" href="AdminLTE/dist/css/adminlte.min.css">
 </head>
 
-<body class="control-sidebar-slide-open sidebar-closed sidebar-collapse sidebar-mini-md"
+<body class="control-sidebar-slide-open sidebar-closed sidebar-collapse sidebar-mini-xs">
 
     <div class="status-bar-safe-area"></div>
 
@@ -30,12 +31,29 @@
 
     <script src="_framework/blazor.webview.js" autostart="false"></script>
 
+    <script>
+        document.addEventListener('gesturestart', function (e) {
+            e.preventDefault();
+        });
+    </script>
+
     <!-- jQuery -->
     <script src="AdminLTE/plugins/jquery/jquery.min.js"></script>
     <!-- Bootstrap 4 -->
     <script src="AdminLTE/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- AdminLTE App -->
     <script src="AdminLTE/dist/js/adminlte.min.js"></script>
+
+    <script src="AdminLTE/Scripts/LinkScript.js"></script>
+
+    <script>
+        function cambiarColor() {
+            var paths = document.getElementById("mi-svg").querySelectorAll("path");
+            for (var i = 0; i < paths.length; i++) {
+                paths[i].setAttribute("fill", "white");
+            }
+        }
+    </script>
 
 </body>
 

@@ -21,6 +21,7 @@
   </Dependencies>
   <Resources>
     <Resource Language="EN-US" />
+    <Resource Language="BS-STEPPER" />
   </Resources>
   <Applications>
     <Application Id="App" Executable="AdcoBlazor.exe" EntryPoint="Windows.FullTrustApplication">

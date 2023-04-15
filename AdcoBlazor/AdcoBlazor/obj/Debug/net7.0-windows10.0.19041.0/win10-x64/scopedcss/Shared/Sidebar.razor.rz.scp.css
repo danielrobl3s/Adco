@@ -3,3 +3,69 @@ body[b-dgd8lsz9yx] {
     padding: 0;
     left: 0px;
 }
+.nav-item[b-dgd8lsz9yx]  a.active {
+    background-color: #4DB57F;
+    color: white !important;
+}
+
+.nav-item[b-dgd8lsz9yx]  a:hover {
+    background-color: #DED1C1;
+    color: white !important;
+
+}
+
+.nav-item[b-dgd8lsz9yx] {
+    background-color: #DED1C1;
+    color: #80684B;
+    margin-bottom: 100px;
+}
+
+.nav-menu[b-dgd8lsz9yx] {
+    display: flex;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    padding: .8125rem .5rem;
+    transition: width .3s ease-in-out;
+    white-space: nowrap;
+    color: rgba(0,0,0,.8);
+    padding: 0.5rem 1.7rem;
+}
+
+
+    .nav-item[b-dgd8lsz9yx]  a:not(:active) svg {
+        fill: #80684B;
+
+    }
+    .nav-item[b-dgd8lsz9yx]  a:not(:active) {
+        color: #80684B;
+        
+    }
+.nav-item[b-dgd8lsz9yx]  a.active svg {
+    fill: white;
+
+}
+
+
+.nav-item[b-dgd8lsz9yx]  a:hover svg {
+    fill: white;
+
+}
+
+.nav-link[b-dgd8lsz9yx] {
+    padding: 1.5rem 1rem;
+}
+
+.nav-icon[b-dgd8lsz9yx] {
+    font-size: 2.1rem !important;
+}
+
+.brand-link .brand-image[b-dgd8lsz9yx] {
+    float: left;
+    line-height: .8;
+    margin-left: 0.5rem;
+    margin-right: .5rem;
+    margin-top: -13.8px;
+    max-height: 40px;
+    text-align:end;
+    width: auto;
+}

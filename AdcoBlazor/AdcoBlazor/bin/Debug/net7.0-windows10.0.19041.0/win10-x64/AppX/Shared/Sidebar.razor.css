@@ -3,3 +3,61 @@
     padding: 0;
     left: 0px;
 }
+.nav-item ::deep a.active {
+    background-color: #4DB57F;
+    color: white !important;
+}
+
+.nav-item ::deep a:hover {
+    background-color: #DED1C1;
+    color: white !important;
+
+}
+
+.nav-item {
+    background-color: #DED1C1;
+    color: #80684B;
+    margin-bottom: 100px;
+}
+
+.nav-item svg{
+
+}
+
+
+    .nav-item ::deep a:not(:active) svg {
+        fill: #80684B;
+
+    }
+    .nav-item ::deep a:not(:active) {
+        color: #80684B;
+        
+    }
+.nav-item ::deep a.active svg {
+    fill: white;
+
+}
+
+
+.nav-item ::deep a:hover svg {
+    fill: white;
+
+}
+
+.nav-link {
+    padding: 1.5rem 1rem;
+}
+
+.nav-icon {
+    font-size: 2.1rem !important;
+}
+
+.brand-link .brand-image {
+    float: left;
+    line-height: .8;
+    margin-left: .8rem;
+    margin-right: .5rem;
+    margin-top: -3px;
+    max-height: 40px;
+    width: auto;
+}
