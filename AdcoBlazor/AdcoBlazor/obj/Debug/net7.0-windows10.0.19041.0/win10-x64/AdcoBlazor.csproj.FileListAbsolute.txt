@@ -1088,3 +1088,9 @@ D:\Escritorio\estancias\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.
 D:\Escritorio\estancias\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 D:\Escritorio\estancias\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
 D:\Escritorio\estancias\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\scopedcss\Shared\Sidebar.razor.rz.scp.css
+D:\Escritorio\estancias\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\scopedcss\Shared\NavBar.razor.rz.scp.css
+D:\Escritorio\estancias\adco\AdcoBlazor\AdcoBlazor\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\appsettings.json
+D:\Escritorio\estancias\adco\AdcoBlazor\AdcoBlazor\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Escritorio\estancias\adco\AdcoBlazor\AdcoBlazor\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Npgsql.dll
+D:\Escritorio\estancias\adco\AdcoBlazor\AdcoBlazor\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\Escritorio\estancias\adco\AdcoBlazor\AdcoBlazor\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Newtonsoft.Json.dll

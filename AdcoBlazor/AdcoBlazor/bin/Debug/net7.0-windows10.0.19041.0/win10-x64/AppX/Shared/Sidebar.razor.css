@@ -20,8 +20,15 @@
     margin-bottom: 100px;
 }
 
-.nav-item svg{
-
+.nav-menu {
+    display: flex;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    padding: .8125rem .5rem;
+    transition: width .3s ease-in-out;
+    white-space: nowrap;
+    color: rgba(0,0,0,.8);
+    padding: 0.5rem 1.7rem;
 }
 
 
@@ -55,9 +62,10 @@
 .brand-link .brand-image {
     float: left;
     line-height: .8;
-    margin-left: .8rem;
+    margin-left: 0.5rem;
     margin-right: .5rem;
-    margin-top: -3px;
+    margin-top: -13.8px;
     max-height: 40px;
+    text-align:end;
     width: auto;
 }

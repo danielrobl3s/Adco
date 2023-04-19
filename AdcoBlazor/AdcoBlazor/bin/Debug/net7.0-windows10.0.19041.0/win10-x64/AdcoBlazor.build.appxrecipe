@@ -37,6 +37,9 @@
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>AdcoBlazor.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Escritorio\estancias\adco\AdcoBlazor\AdcoBlazor\appsettings.json">
+      <PackagePath>appsettings.json</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\meno1\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.3\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
     </AppxPackagedFile>
@@ -637,6 +640,9 @@
     <AppxPackagedFile Include="C:\Users\meno1\.nuget\packages\microsoft.entityframeworkcore.abstractions\7.0.4\lib\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll">
       <PackagePath>Microsoft.EntityFrameworkCore.Abstractions.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\meno1\.nuget\packages\microsoft.entityframeworkcore.relational\7.0.3\lib\net6.0\Microsoft.EntityFrameworkCore.Relational.dll">
+      <PackagePath>Microsoft.EntityFrameworkCore.Relational.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\meno1\.nuget\packages\microsoft.extensions.caching.abstractions\7.0.0\lib\net7.0\Microsoft.Extensions.Caching.Abstractions.dll">
       <PackagePath>Microsoft.Extensions.Caching.Abstractions.dll</PackagePath>
     </AppxPackagedFile>
@@ -750,6 +756,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\meno1\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\meno1\.nuget\packages\newtonsoft.json\13.0.3\lib\net6.0\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\meno1\.nuget\packages\npgsql\7.0.2\lib\net7.0\Npgsql.dll">
+      <PackagePath>Npgsql.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\meno1\.nuget\packages\npgsql.entityframeworkcore.postgresql\7.0.3\lib\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll">
+      <PackagePath>Npgsql.EntityFrameworkCore.PostgreSQL.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\meno1\.nuget\packages\system.codedom\4.7.0\lib\netstandard2.0\System.CodeDom.dll">
       <PackagePath>System.CodeDom.dll</PackagePath>
@@ -7413,6 +7428,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco\AdcoBlazor\AdcoBlazor\Shared\MainLayout.razor.css">
       <PackagePath>Shared\MainLayout.razor.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Escritorio\estancias\adco\AdcoBlazor\AdcoBlazor\Shared\NavBar.razor.css">
+      <PackagePath>Shared\NavBar.razor.css</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco\AdcoBlazor\AdcoBlazor\Shared\NavMenu.razor.css">
       <PackagePath>Shared\NavMenu.razor.css</PackagePath>

@@ -15,14 +15,7 @@ main[b-t2qdwlkxs7] {
     grid-template-rows: 10% 70% 20%;
 }
 
-.sidebar[b-t2qdwlkxs7] {
-    background-color: #FFFFFF;
-    border-right-style: solid;
-    border-right: 1;
-    border-right-color: #EFF0F6;
-    margin: 0;
 
-}
 
 .footer[b-t2qdwlkxs7] {
     background-color: #F9F9F9;
@@ -91,7 +84,7 @@ main[b-t2qdwlkxs7] {
     }
 }
 
-@media (min-width: 641px) {
+@media (min-width: 5px) {
     .page[b-t2qdwlkxs7] {
         flex-direction: row;
     }
@@ -100,8 +93,6 @@ main[b-t2qdwlkxs7] {
         width: 90px;
         height: 100vh;
         left: 0;
-
-
         top: 0;
     }
 

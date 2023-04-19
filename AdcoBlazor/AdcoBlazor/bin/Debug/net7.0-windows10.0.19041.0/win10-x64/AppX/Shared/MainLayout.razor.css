@@ -15,14 +15,7 @@ main {
     grid-template-rows: 10% 70% 20%;
 }
 
-.sidebar {
-    background-color: #FFFFFF;
-    border-right-style: solid;
-    border-right: 1;
-    border-right-color: #EFF0F6;
-    margin: 0;
 
-}
 
 .footer {
     background-color: #F9F9F9;
@@ -91,7 +84,7 @@ main {
     }
 }
 
-@media (min-width: 641px) {
+@media (min-width: 5px) {
     .page {
         flex-direction: row;
     }
@@ -100,8 +93,6 @@ main {
         width: 90px;
         height: 100vh;
         left: 0;
-
-
         top: 0;
     }
 
