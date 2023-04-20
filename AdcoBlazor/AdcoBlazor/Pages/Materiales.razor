@@ -1,0 +1,100 @@
+﻿@page "/materiales"
+
+@using AdcoBlazor.Data
+@inject MaterialsDataService MaterialsService
+
+
+<body class="sidebar-mini-xs">
+
+	<div class="page">
+		<div class="sidebar">
+			<Sidebar />
+		</div>
+
+		<main class="" style="margin-left:75px;">
+			<div class="">
+
+				<NavBar />
+
+			</div>
+
+			<article class="content" style="    margin-left: 15px;">
+				<h3>Materiales</h3>
+
+				@if (meterial == null)
+				{
+					<p><em>Loading...</em></p>
+				}
+
+				<div class="col-12">
+					<div class="card">
+						<div class="card-header">
+						</div>
+
+						<div class="card-body">
+							<table class="table table-bordered table-hover">
+								<thead>
+									<tr>
+										<th>#</th>
+										<th>Concepto</th>
+										<th>Monto</th>
+
+										<th>Metodo Pago</th>
+										<th>Cobrador</th>
+										<th>Fecha</th>
+										<th></th>
+									</tr>
+								</thead>
+								<tbody>
+
+									@foreach (var material in meterial)
+									{
+										<tr data-widget="expandable-table" aria-expanded="false">
+											<td>@material.Id_gasto</td>
+											<td>@material.Concepto</td>
+											<td>@material.Monto</td>
+											<td>@material.MetodoPago</td>
+											<td>@material.Cobrador</td>
+											<td>@material.Date</td>
+											<td>
+												<div class="btn-group">
+													<button type="button" class="btn btn-sm dropdown-toggle" data-toggle="dropdown" data-offset="-52" aria-expanded="false">
+														<i class="fas fa-bars"></i>
+													</button>
+													<div class="dropdown-menu" role="menu" style="">
+														<a href="#" class="dropdown-item">Editar</a>
+														<a href="#" class="dropdown-item text-danger">Eliminar</a>
+														<div class="dropdown-divider"></div>
+														<a href="#" class="dropdown-item">View calendar</a>
+													</div>
+												</div>
+											</td>
+										</tr>
+									}
+
+								</tbody>
+							</table>
+						</div>
+
+					</div>
+
+				</div>
+			</article>
+
+			<div class="footer">
+				Footer
+			</div>
+		</main>
+	</div>
+
+</body>
+@code {
+
+	private MaterialsData[] meterial;
+
+	protected override async Task OnInitializedAsync()
+	{
+		meterial = await MaterialsService.GetMaterialsAsync(DateTime.Now);
+	}
+}
+
