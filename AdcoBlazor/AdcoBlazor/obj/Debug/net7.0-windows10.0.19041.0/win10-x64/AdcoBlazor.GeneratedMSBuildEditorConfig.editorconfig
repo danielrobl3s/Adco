@@ -44,10 +44,24 @@ build_metadata.AdditionalFiles.TargetPath = Pages\reg_page.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\reg_page.xaml
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Escritorio/estancias/adco2/AdcoBlazor/AdcoBlazor/Forms/ClientesAñadir.razor]
+[D:/Escritorio/estancias/adco2/AdcoBlazor/AdcoBlazor/Forms/Clientesañadir.razor]
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
-build_metadata.AdditionalFiles.TargetPath = Rm9ybXNcQ2xpZW50ZXNBw7FhZGlyLnJhem9y
+build_metadata.AdditionalFiles.TargetPath = Rm9ybXNcQ2xpZW50ZXNhw7FhZGlyLnJhem9y
+build_metadata.AdditionalFiles.RelativePath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Escritorio/estancias/adco2/AdcoBlazor/AdcoBlazor/Forms/MaterialesAñadir.razor]
+build_metadata.AdditionalFiles.GenKind = 
+build_metadata.AdditionalFiles.ManifestResourceName = 
+build_metadata.AdditionalFiles.TargetPath = Rm9ybXNcTWF0ZXJpYWxlc0HDsWFkaXIucmF6b3I=
+build_metadata.AdditionalFiles.RelativePath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Escritorio/estancias/adco2/AdcoBlazor/AdcoBlazor/Forms/TrabajadoresAñadir.razor]
+build_metadata.AdditionalFiles.GenKind = 
+build_metadata.AdditionalFiles.ManifestResourceName = 
+build_metadata.AdditionalFiles.TargetPath = Rm9ybXNcVHJhYmFqYWRvcmVzQcOxYWRpci5yYXpvcg==
 build_metadata.AdditionalFiles.RelativePath = 
 build_metadata.AdditionalFiles.CssScope = 
 
