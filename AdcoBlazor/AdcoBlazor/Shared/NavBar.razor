@@ -43,8 +43,7 @@
 
 	private async void NavigateToLogin()
 	{
-		// Enviar un mensaje al código C# en MainPage.xaml.cs para cambiar a la página Login.xaml
-		await JSRuntime.InvokeVoidAsync("window.webkit.messageHandlers.webviewinterop.postMessage", "navigate-to-login");
+		
 	}
 }
 
