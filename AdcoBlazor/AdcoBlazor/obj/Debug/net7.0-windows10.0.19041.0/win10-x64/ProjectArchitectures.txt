@@ -1,1 +1,1 @@
-D:\Escritorio\estancias\adco2\AdcoBlazor\AdcoBlazor\AdcoBlazor.csproj;x64
+C:\Users\matst\OneDrive\Escritorio\blazor\AdcoBlazor\AdcoBlazor\AdcoBlazor.csproj;x64

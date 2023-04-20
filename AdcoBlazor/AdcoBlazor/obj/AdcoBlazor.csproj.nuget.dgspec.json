@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Escritorio\\estancias\\adco2\\AdcoBlazor\\AdcoBlazor\\AdcoBlazor.csproj": {}
+    "C:\\Users\\matst\\OneDrive\\Escritorio\\blazor\\AdcoBlazor\\AdcoBlazor\\AdcoBlazor.csproj": {}
   },
   "projects": {
-    "D:\\Escritorio\\estancias\\adco2\\AdcoBlazor\\AdcoBlazor\\AdcoBlazor.csproj": {
+    "C:\\Users\\matst\\OneDrive\\Escritorio\\blazor\\AdcoBlazor\\AdcoBlazor\\AdcoBlazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Escritorio\\estancias\\adco2\\AdcoBlazor\\AdcoBlazor\\AdcoBlazor.csproj",
+        "projectUniqueName": "C:\\Users\\matst\\OneDrive\\Escritorio\\blazor\\AdcoBlazor\\AdcoBlazor\\AdcoBlazor.csproj",
         "projectName": "AdcoBlazor",
-        "projectPath": "D:\\Escritorio\\estancias\\adco2\\AdcoBlazor\\AdcoBlazor\\AdcoBlazor.csproj",
-        "packagesPath": "C:\\Users\\meno1\\.nuget\\packages\\",
-        "outputPath": "D:\\Escritorio\\estancias\\adco2\\AdcoBlazor\\AdcoBlazor\\obj\\",
+        "projectPath": "C:\\Users\\matst\\OneDrive\\Escritorio\\blazor\\AdcoBlazor\\AdcoBlazor\\AdcoBlazor.csproj",
+        "packagesPath": "C:\\Users\\matst\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\matst\\OneDrive\\Escritorio\\blazor\\AdcoBlazor\\AdcoBlazor\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
-          "D:\\VisualStudioProgram\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\meno1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\matst\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

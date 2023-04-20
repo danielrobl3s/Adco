@@ -1,0 +1,86 @@
+﻿@page "/prospectosañadir"
+
+@using System.Collections.Generic
+@using System.Linq
+@using System.Net.Http
+@using System.Net.Http.Json
+@using System.Net.Http.Headers;
+
+
+<body class="sidebar-mini-xs">
+
+	<div class="page">
+		<div class="sidebar">
+			<Sidebar />
+		</div>
+
+		<main class="" style="margin-left:75px;">
+			<div class="">
+
+				<NavBar />
+
+			</div>
+
+			<article class="content" style="    margin-left: 15px;">
+
+				<section class="content-header">
+					<div class="container-fluid">
+						<div class="row mb-2">
+							<div class="col-sm-6">
+								<h1>Prospectos</h1>
+							</div>
+							<div class="col-sm-6">
+								<ol class="breadcrumb float-sm-right">
+									<li class="breadcrumb-item"><a class="btn btn-block btn-success" href="prospectos">Volver</a></li>
+								</ol>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<div class="card card-primary">
+					<div class="card-header">
+						<h3 class="card-title">Introduce Datos</h3>
+					</div>
+
+
+					<form>
+						<div class="card-body">
+							<div class="form-group">
+								<label for="exampleInputEmail1">Nombre</label>
+								<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Nombre">
+							</div>
+							<div class="form-group">
+								<label for="exampleInputEmail1">Apellido</label>
+								<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Apellido">
+							</div>
+							<div class="form-group">
+								<label for="exampleInputEmail1">Telefono</label>
+								<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Telefono">
+							</div>
+							<div class="form-group">
+								<label for="exampleInputPassword1">Observaciones</label>
+								<input type="text" class="form-control" id="exampleInputPassword1" placeholder="Observaciones">
+							</div>				
+
+							<div class="card-footer">
+								<button type="submit" class="btn btn-primary">Submit</button>
+							</div>
+
+				
+						</div>
+
+					</form>
+				</div>
+
+			</article>
+
+		</main>
+	</div>
+
+</body>
+
+@code {
+
+}
