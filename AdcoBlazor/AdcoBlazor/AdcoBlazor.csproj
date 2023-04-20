@@ -51,7 +51,7 @@
 
     <ItemGroup>
         <PackageReference Include="EntityFramework" Version="6.4.4" />
-        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.5" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.4" />
         <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
         <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
         <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.3" />
@@ -60,15 +60,6 @@
     <ItemGroup>
       <Folder Include="DataContex\" />
       <Folder Include="Migrations\" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <MauiXaml Update="Pages\login_page.xaml">
-        <Generator>MSBuild:Compile</Generator>
-      </MauiXaml>
-      <MauiXaml Update="Pages\reg_page.xaml">
-        <Generator>MSBuild:Compile</Generator>
-      </MauiXaml>
     </ItemGroup>
 
 </Project>

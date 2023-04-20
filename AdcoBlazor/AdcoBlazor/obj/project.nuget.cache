@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "DoWFizMxE9Ahi/XQ+uTohPjaFj6Su6KHHVRPZypKLIAW6xzl30uMGDQiD8qK317Gp8pc78Y3witlzHFJpn9JBQ==",
+  "dgSpecHash": "frmWuHq+PQUaLjmgdEzhuTvKzwl8NsDuqfex25YljePrwJsZF8bN0LZ8BnCYGrs3OjVcwzOmGShRo6KFCtV6cg==",
   "success": true,
   "projectFilePath": "C:\\Users\\matst\\OneDrive\\Escritorio\\blazor\\AdcoBlazor\\AdcoBlazor\\AdcoBlazor.csproj",
   "expectedPackageFiles": [
@@ -15,9 +15,9 @@
     "C:\\Users\\matst\\.nuget\\packages\\microsoft.aspnetcore.components.webview.maui\\7.0.59\\microsoft.aspnetcore.components.webview.maui.7.0.59.nupkg.sha512",
     "C:\\Users\\matst\\.nuget\\packages\\microsoft.aspnetcore.metadata\\7.0.0\\microsoft.aspnetcore.metadata.7.0.0.nupkg.sha512",
     "C:\\Users\\matst\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
-    "C:\\Users\\matst\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.5\\microsoft.entityframeworkcore.7.0.5.nupkg.sha512",
-    "C:\\Users\\matst\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.5\\microsoft.entityframeworkcore.abstractions.7.0.5.nupkg.sha512",
-    "C:\\Users\\matst\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.5\\microsoft.entityframeworkcore.analyzers.7.0.5.nupkg.sha512",
+    "C:\\Users\\matst\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.4\\microsoft.entityframeworkcore.7.0.4.nupkg.sha512",
+    "C:\\Users\\matst\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.4\\microsoft.entityframeworkcore.abstractions.7.0.4.nupkg.sha512",
+    "C:\\Users\\matst\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.4\\microsoft.entityframeworkcore.analyzers.7.0.4.nupkg.sha512",
     "C:\\Users\\matst\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.3\\microsoft.entityframeworkcore.relational.7.0.3.nupkg.sha512",
     "C:\\Users\\matst\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\matst\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",

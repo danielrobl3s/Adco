@@ -1,6 +1,5 @@
-﻿using ADCO.Pages;
-
-namespace AdcoBlazor;
+﻿namespace AdcoBlazor;
+using ADCO.Pages;
 
 public partial class App : Application
 {

@@ -1,5 +1,6 @@
 appsettings.json
 OpenSans-Regular.ttf
+adco.scale-100.png
 appicon.ico
 appiconLargeTile.scale-100.png
 appiconLargeTile.scale-125.png
@@ -51,6 +52,10 @@ dotnet_bot.scale-125.png
 dotnet_bot.scale-150.png
 dotnet_bot.scale-200.png
 dotnet_bot.scale-400.png
+hide.scale-100.png
+model.scale-100.png
+oaks.scale-100.png
+show.scale-100.png
 splashSplashScreen.scale-100.png
 splashSplashScreen.scale-125.png
 splashSplashScreen.scale-150.png
@@ -62,6 +67,7 @@ Pages\Menu.razor.css
 AboutAssets.txt
 Shared\MainLayout.razor.css
 Shared\NavBar.razor.css
+Shared\NavMenu.razor.css
 Shared\Sidebar.razor.css
 wwwroot\AdminLTE\dist\css\adminlte.css
 wwwroot\AdminLTE\dist\css\adminlte.css.map

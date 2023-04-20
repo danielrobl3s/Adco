@@ -72,7 +72,7 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.5, )"
+              "version": "[7.0.4, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
@@ -211,7 +211,7 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.5, )"
+              "version": "[7.0.4, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
@@ -295,7 +295,7 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.5, )"
+              "version": "[7.0.4, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
@@ -380,7 +380,7 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.5, )"
+              "version": "[7.0.4, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
