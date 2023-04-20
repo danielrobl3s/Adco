@@ -62,6 +62,13 @@ build_metadata.AdditionalFiles.TargetPath = Rm9ybXNcR2FzdG9zQcOxYWRpci5yYXpvcg==
 build_metadata.AdditionalFiles.RelativePath = 
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/matst/OneDrive/Escritorio/blazor/AdcoBlazor/AdcoBlazor/Forms/MaterialesAñadir.razor]
+build_metadata.AdditionalFiles.GenKind = 
+build_metadata.AdditionalFiles.ManifestResourceName = 
+build_metadata.AdditionalFiles.TargetPath = Rm9ybXNcTWF0ZXJpYWxlc0HDsWFkaXIucmF6b3I=
+build_metadata.AdditionalFiles.RelativePath = 
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/matst/OneDrive/Escritorio/blazor/AdcoBlazor/AdcoBlazor/Forms/ProspectosAñadir.razor]
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
@@ -73,6 +80,13 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
 build_metadata.AdditionalFiles.TargetPath = Rm9ybXNcUHJveWVjdG9zQcOxYWRpci5yYXpvcg==
+build_metadata.AdditionalFiles.RelativePath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/matst/OneDrive/Escritorio/blazor/AdcoBlazor/AdcoBlazor/Forms/TrabajadoresAñadir.razor]
+build_metadata.AdditionalFiles.GenKind = 
+build_metadata.AdditionalFiles.ManifestResourceName = 
+build_metadata.AdditionalFiles.TargetPath = Rm9ybXNcVHJhYmFqYWRvcmVzQcOxYWRpci5yYXpvcg==
 build_metadata.AdditionalFiles.RelativePath = 
 build_metadata.AdditionalFiles.CssScope = 
 

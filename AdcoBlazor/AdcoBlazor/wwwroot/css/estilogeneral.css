@@ -1,20 +1,4 @@
-﻿.page {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    padding: 0;
-}
-
-main {
-    flex: 1;
-    display: grid;
-    min-height: 100vh;
-    background-color: #F9F9F9;
-    grid-template-rows: 10% 70% 20%;
-}
-
-
+﻿
 
 .footer {
     background-color: #F9F9F9;
@@ -30,74 +14,50 @@ main {
     padding: 20px;
 }
 
-.navbar-brand {
-    color: black;
+.btn-success {
+    color: #fff;
+    background-color: #4DB57F;
+    border-color: #28a745;
+    box-shadow: none;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #4DB57F !important;
+    border-color: #4DB57F !important;
 }
 
-.content {
-    grid-row: 2;
-    grid-column: 1;
-    width: 100%;
+.btn-primary:hover {
+        color: #fff;
+        background-color: #3ca770 !important;
+
 }
 
-.top-row {
-    grid-row: 1;
-    grid-column: 1;
-    background-color: #f7f7f7;
-    justify-content: flex-end;
-    height: 3.5rem;
-    display: flex;
-    align-items: center;
+.btn-primary:active {
+        color: #fff;
+        background-color: #37A16A !important;
+    }
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #3ca770 !important;
+    border-color: #28a745;
+    box-shadow: none;
+}
+.card-header {
+    background-color: #4DB57F !important;
 }
 
-    .top-row ::deep a, .top-row ::deep .btn-link {
-        white-space: nowrap;
-        margin-left: 1.5rem;
-        text-decoration: none;
-    }
-
-        .top-row ::deep a:hover, .top-row ::deep .btn-link:hover {
-            text-decoration: underline;
-        }
-
-        .top-row ::deep a:first-child {
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }
-
-@media (max-width: 640.98px) {
-    .top-row:not(.auth) {
-        display: none;
-    }
-
-    .top-row.auth {
-        justify-content: space-between;
-    }
-
-    .top-row ::deep a, .top-row ::deep .btn-link {
-        margin-left: 0;
-    }
+.breadcrumb-item a:active {
+    background-color: #37A16A !important;
+    color: white !important;
 }
 
-@media (min-width: 5px) {
-    .page {
-        flex-direction: row;
-    }
+.breadcrumb-item a:hover {
+    background-color: #3ca770;
+    color: white !important;
+}
 
-    .sidebar {
-
-        height: 100vh;
-        left: 0;
-        top: 0;
-    }
-
-    .top-row {
-        position: sticky;
-        top: 0;
-        z-index: 1;
-    }
-
-    .top-row, article {
-
-    }
+.breadcrumb-item a{
+    background-color: #4DB57F;
+    color: white;
 }
