@@ -62,7 +62,6 @@ Pages\Menu.razor.css
 AboutAssets.txt
 Shared\MainLayout.razor.css
 Shared\NavBar.razor.css
-Shared\NavMenu.razor.css
 Shared\Sidebar.razor.css
 wwwroot\AdminLTE\dist\css\adminlte.css
 wwwroot\AdminLTE\dist\css\adminlte.css.map

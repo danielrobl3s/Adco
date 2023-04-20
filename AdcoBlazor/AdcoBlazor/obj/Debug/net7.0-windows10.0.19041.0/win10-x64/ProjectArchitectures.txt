@@ -1,1 +1,1 @@
-D:\descargas\Adco-MauiPrototype\Adco-MauiPrototype\AdcoBlazor\AdcoBlazor\AdcoBlazor.csproj;x64
+D:\Escritorio\estancias\adco2\AdcoBlazor\AdcoBlazor\AdcoBlazor.csproj;x64

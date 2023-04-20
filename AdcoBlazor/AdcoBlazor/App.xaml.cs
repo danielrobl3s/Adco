@@ -1,4 +1,6 @@
-﻿namespace AdcoBlazor;
+﻿using ADCO.Pages;
+
+namespace AdcoBlazor;
 
 public partial class App : Application
 {
@@ -6,6 +8,6 @@ public partial class App : Application
 	{
 		InitializeComponent();
 
-		MainPage = new MainPage();
+		MainPage = new login_page();
 	}
 }
