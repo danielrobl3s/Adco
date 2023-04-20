@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\descargas\\Adco-MauiPrototype\\Adco-MauiPrototype\\AdcoBlazor\\AdcoBlazor\\AdcoBlazor.csproj": {}
+    "D:\\Escritorio\\estancias\\adco2\\AdcoBlazor\\AdcoBlazor\\AdcoBlazor.csproj": {}
   },
   "projects": {
-    "D:\\descargas\\Adco-MauiPrototype\\Adco-MauiPrototype\\AdcoBlazor\\AdcoBlazor\\AdcoBlazor.csproj": {
+    "D:\\Escritorio\\estancias\\adco2\\AdcoBlazor\\AdcoBlazor\\AdcoBlazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\descargas\\Adco-MauiPrototype\\Adco-MauiPrototype\\AdcoBlazor\\AdcoBlazor\\AdcoBlazor.csproj",
+        "projectUniqueName": "D:\\Escritorio\\estancias\\adco2\\AdcoBlazor\\AdcoBlazor\\AdcoBlazor.csproj",
         "projectName": "AdcoBlazor",
-        "projectPath": "D:\\descargas\\Adco-MauiPrototype\\Adco-MauiPrototype\\AdcoBlazor\\AdcoBlazor\\AdcoBlazor.csproj",
+        "projectPath": "D:\\Escritorio\\estancias\\adco2\\AdcoBlazor\\AdcoBlazor\\AdcoBlazor.csproj",
         "packagesPath": "C:\\Users\\meno1\\.nuget\\packages\\",
-        "outputPath": "D:\\descargas\\Adco-MauiPrototype\\Adco-MauiPrototype\\AdcoBlazor\\AdcoBlazor\\obj\\",
+        "outputPath": "D:\\Escritorio\\estancias\\adco2\\AdcoBlazor\\AdcoBlazor\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
@@ -72,7 +72,7 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
@@ -211,7 +211,7 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
@@ -295,7 +295,7 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
@@ -380,7 +380,7 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Pt7lhxQpekYxguwEuu2XLBc8DXPV74XE6RqfGzLrqC7QCpicDFoBVYWguu7RMXpFIDa1jiYk+WL2s7UoG9XnwQ==",
+  "dgSpecHash": "Js0UcwTNFi9NzmhNoeSiNEu3mZ3PO80UkgWdIL9gZodLULsywQOz0a7gORdUZdOiSACku5MhkPc95LC0WIHplA==",
   "success": true,
-  "projectFilePath": "D:\\descargas\\Adco-MauiPrototype\\Adco-MauiPrototype\\AdcoBlazor\\AdcoBlazor\\AdcoBlazor.csproj",
+  "projectFilePath": "D:\\Escritorio\\estancias\\adco2\\AdcoBlazor\\AdcoBlazor\\AdcoBlazor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\meno1\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\meno1\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
@@ -15,9 +15,9 @@
     "C:\\Users\\meno1\\.nuget\\packages\\microsoft.aspnetcore.components.webview.maui\\7.0.59\\microsoft.aspnetcore.components.webview.maui.7.0.59.nupkg.sha512",
     "C:\\Users\\meno1\\.nuget\\packages\\microsoft.aspnetcore.metadata\\7.0.0\\microsoft.aspnetcore.metadata.7.0.0.nupkg.sha512",
     "C:\\Users\\meno1\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
-    "C:\\Users\\meno1\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.4\\microsoft.entityframeworkcore.7.0.4.nupkg.sha512",
-    "C:\\Users\\meno1\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.4\\microsoft.entityframeworkcore.abstractions.7.0.4.nupkg.sha512",
-    "C:\\Users\\meno1\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.4\\microsoft.entityframeworkcore.analyzers.7.0.4.nupkg.sha512",
+    "C:\\Users\\meno1\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.5\\microsoft.entityframeworkcore.7.0.5.nupkg.sha512",
+    "C:\\Users\\meno1\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.5\\microsoft.entityframeworkcore.abstractions.7.0.5.nupkg.sha512",
+    "C:\\Users\\meno1\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.5\\microsoft.entityframeworkcore.analyzers.7.0.5.nupkg.sha512",
     "C:\\Users\\meno1\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.3\\microsoft.entityframeworkcore.relational.7.0.3.nupkg.sha512",
     "C:\\Users\\meno1\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\meno1\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",

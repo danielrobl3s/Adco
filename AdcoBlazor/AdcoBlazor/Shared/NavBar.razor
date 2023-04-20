@@ -13,13 +13,38 @@
 
 		<li class="nav-item">
 
-			<div class="user-panel mt-4 pb-3 mb-3 d-flex">
-				<div class="info">
-					<a href="" class="nav-link">Alexander Pierce</a>
+			<div class="btn-group nav-link">
+				<button @onclick="NavigateToLogin" type="button" class="btn btn-sm dropdown-toggle" data-toggle="dropdown" data-offset="-52" aria-expanded="false">
+					<a href="" class=".text-secondary">Alexander Pierce</a>
+				</button>
+				<div class="dropdown-menu" role="menu" style="">
+					<a href="#" class="dropdown-item text-danger">Cerrar sesión</a>
 				</div>
 			</div>
+
 		</li>
+
+		<li class="nav-item">
+
+		</li>
+
+
+		
+
+
 
 
 	</ul>
 </nav>
+
+@code {
+	[Inject]
+	public IJSRuntime JSRuntime { get; set; }
+
+	private async void NavigateToLogin()
+	{
+		// Enviar un mensaje al código C# en MainPage.xaml.cs para cambiar a la página Login.xaml
+		await JSRuntime.InvokeVoidAsync("window.webkit.messageHandlers.webviewinterop.postMessage", "navigate-to-login");
+	}
+}
+
