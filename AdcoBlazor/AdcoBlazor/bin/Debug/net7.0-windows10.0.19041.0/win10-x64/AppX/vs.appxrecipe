@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-04-23T04:58:02.875</Modified>
+      <Modified>2023-04-23T06:01:29.293</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-04-23T04:58:01.762</Modified>
+      <Modified>2023-04-23T06:01:27.010</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AdcoBlazor.runtimeconfig.json">
       <PackagePath>AdcoBlazor.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AdcoBlazor.dll">
       <PackagePath>AdcoBlazor.dll</PackagePath>
-      <Modified>2023-04-23T04:57:59.993</Modified>
+      <Modified>2023-04-23T06:01:24.259</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>AdcoBlazor.exe</PackagePath>
-      <Modified>2023-04-23T04:58:00.239</Modified>
+      <Modified>2023-04-23T06:01:24.934</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\appsettings.json">
       <PackagePath>appsettings.json</PackagePath>
@@ -1088,7 +1088,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\AdcoBlazor.deps.json">
       <PackagePath>AdcoBlazor.deps.json</PackagePath>
-      <Modified>2023-04-23T04:58:02.225</Modified>
+      <Modified>2023-04-23T06:01:28.487</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.59\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

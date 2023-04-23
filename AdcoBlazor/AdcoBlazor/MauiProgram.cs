@@ -42,7 +42,6 @@ public static class MauiProgram
 
 
 
-        builder.Services.AddSingleton<ClientesDataService>();
 
 		builder.Services.AddSingleton<MaterialsDataService>();
 

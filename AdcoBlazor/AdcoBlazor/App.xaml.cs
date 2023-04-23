@@ -12,6 +12,6 @@ public partial class App : Application
 	{
 		InitializeComponent();
 
-        MainPage = new login_page();
+        MainPage = new MainPage();
 	}
 }

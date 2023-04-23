@@ -9,10 +9,15 @@
 @using RestSharp;
 @using RestSharp.Authenticators;
 @using System.Text;
+@using AdcoBlazor.Models;
+@using AdcoBlazor.Data;
+
 
 @using System.Net;
 @using System.Text.Json;
 @inject HttpClient HttpClient
+@inject AuthenticationService AuthenticationService
+@inject AppState AppState
 
 
 <body class="sidebar-mini-xs">
@@ -40,6 +45,7 @@
 						<div class="row mb-2">
 							<div class="col-sm-6">
 								<h1>Clientes</h1>
+								<h2></h2>
 							</div>
 							<div class="col-sm-6">
 								<ol class="breadcrumb float-sm-right">
@@ -54,6 +60,34 @@
 				<div class="col-12">
 					<div class="card">
 						<div class="card-body">
+
+							<table class="table">
+								<thead>
+									<tr>
+										<th>.</th>
+										<th>Nombre</th>
+										<th>Metodo pago</th>
+										<th>Fecha</th>
+										<th>Documentos</th>
+										<th>Observaciones</th>
+										<th>Agregado por</th>
+									</tr>
+								</thead>
+								<tbody>
+									@foreach (var clientes in Clients)
+									{
+										<tr>
+											<td>@clientes.Id</td>
+											<td>@clientes.Nombre</td>
+											<td>@clientes.MetodoPago</td>
+											<td>@clientes.Documentos</td>
+											<td>@clientes.Observaciones</td>
+											<td>@clientes.CreatedBy</td>
+										</tr>
+									}
+								</tbody>
+							</table>
+
 						</div>
 
 					</div>
@@ -67,4 +101,16 @@
 
 </body>
 
+@code {
+	private List<Client> Clients { get; set; } = new List<Client>();
 
+	protected override async Task OnInitializedAsync()
+	{
+		// Utiliza el token almacenado en AppState
+		string token = AppState.AccessToken;
+		Clients = await AuthenticationService.GetClientDataAsync(token);
+
+		// Muestra el nombre de usuario almacenado en AppState
+		string username = AppState.Username;
+	}
+}
