@@ -1,7 +1,9 @@
 ﻿
 using System.Net.Http.Headers;
 using System.Net.Http.Json;
+using System.Text;
 using AdcoBlazor.Data;
+using Newtonsoft.Json;
 
 namespace AdcoBlazor.Models
 {
@@ -16,13 +18,16 @@ namespace AdcoBlazor.Models
 
         public async Task<(bool success, string token, string username)> LoginAsync(string username, string password)
         {
-            var loginModel = new
-            {
-                username = username,
-                password = password
-            };
+            var loginData = new Dictionary<string, string>
+        {
+            { "username", username },
+            { "password", password }
+        };
 
-            var response = await _httpClient.PostAsJsonAsync("http://127.0.0.1:8000/api/login/", loginModel);
+            var content = new StringContent(JsonConvert.SerializeObject(loginData), Encoding.UTF8, "application/json");
+
+
+            var response = await _httpClient.PostAsJsonAsync("http://127.0.0.1:8000/api/login/", content);
 
             if (response.IsSuccessStatusCode)
             {
@@ -39,8 +44,7 @@ namespace AdcoBlazor.Models
             var request = new HttpRequestMessage(HttpMethod.Get, "http://127.0.0.1:8000/module/clients/");
 			request.Headers.Add("X-CSRFToken", "0c6t9fVh5ZwdcXtiEh1lfJdOZ04Xjd5g");
 			request.Headers.Add("Authorization", "Bearer 48fb1be1912736a4012c97e9e442ecf7cc5b8a8e");
-			request.Headers.Add("Cookie", "csrftoken=0c6t9fVh5ZwdcXtiEh1lfJdOZ04Xjd5g; sessionid=b8blvtggli9n2nl84ydshq1y01tvoz54");
-			_httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+			request.Headers.Add("Cookie", " sessionid=b8blvtggli9n2nl84ydshq1y01tvoz54");
 			var response = await client.SendAsync(request);
 			response.EnsureSuccessStatusCode();
 			Console.WriteLine(await response.Content.ReadAsStringAsync());

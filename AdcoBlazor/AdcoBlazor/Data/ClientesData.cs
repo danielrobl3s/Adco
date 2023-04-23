@@ -7,8 +7,8 @@ public class Client
 
 	public string MetodoPago { get; set; }
 	public string Documentos { get; set; }
+	public string Fecha { get; set; }
 	public string Observaciones { get; set; }
-
 	public int CreatedBy { get; set; }
 
 

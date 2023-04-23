@@ -5,7 +5,8 @@
 @using System.Net.Http
 @using System.Net.Http.Json
 @using System.Net.Http.Headers;
-
+@using AdcoBlazor.Models;
+@using AdcoBlazor.Data;
 
 <body class="sidebar-mini-xs layout-fixed">
 
@@ -49,40 +50,31 @@
 						<div class="card-body">
 							<div class="form-group">
 								<label for="exampleInputEmail1">Nombre</label>
-								<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Nombre">
+								<input type="text" @bind="NewClient.Nombre" class="form-control" id="exampleInputEmail1" placeholder="Nombre">
 							</div>
-							<div class="form-group">
-								<label for="exampleInputEmail1">Apellido</label>
-								<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Apellido">
-							</div>
-							<div class="form-group">
-								<label for="exampleInputEmail1">Ubicacion</label>
-								<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Ubicacion">
-							</div>
-							<div class="form-group">
-								<label for="exampleInputPassword1">Monto</label>
-								<input type="text" class="form-control" id="exampleInputPassword1" placeholder="Monto">
-							</div>
+
 							<div class="form-group">
 								<label for="exampleInputPassword1">Metodo de pago</label>
-								<input type="text" class="form-control" id="exampleInputPassword1" placeholder="Metodo de pago">
+								<input type="text" @bind="NewClient.MetodoPago" class="form-control" id="exampleInputPassword1" placeholder="Metodo de pago">
 							</div>
-														<div class="form-group">
-								<label for="exampleInputPassword1">Password</label>
-								<input type="text" class="form-control" id="exampleInputPassword1" placeholder="Apellido">
-							</div>
+
 							<div class="form-group">
 								<label for="exampleInputPassword1">Fecha</label>
-								<input type="text" class="form-control" id="exampleInputPassword1" placeholder="Fecha">
+								<input type="text" @bind="NewClient.Fecha" class="form-control" id="exampleInputPassword1" placeholder="Fecha">
 							</div>
 
 							<div class="form-group">
 								<label for="exampleInputPassword1">Documentos</label>
-								<input type="text" class="form-control" id="exampleInputPassword1" placeholder="Documentos">
+								<input type="text" @bind="NewClient.Documentos" class="form-control" id="exampleInputPassword1" placeholder="Documentos">
 							</div>
+
 							<div class="form-group">
 								<label for="exampleInputPassword1">Observaciones</label>
-								<input type="text" class="form-control" id="exampleInputPassword1" placeholder="Observaciones">
+								<input type="text" @bind="NewClient.Observaciones" class="form-control" id="exampleInputPassword1" placeholder="Observaciones">
+							</div>
+							<div class="form-group">
+								<label for="exampleInputPassword1">Añadido Por</label>
+								<input type="text" @bind="NewClient.CreatedBy" class="form-control" id="exampleInputPassword1" placeholder="A">
 							</div>
 
 							<div class="card-footer">
@@ -103,5 +95,8 @@
 </body>
 
 @code {
+
+	private Client NewClient { get; set; } = new Client();
+
 
 }

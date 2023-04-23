@@ -65,7 +65,7 @@ Remember Me
 </div>
 
 <div class="col-4">
-<button type="button" class="btn btn-primary btn-block" @onclick="() => SignInAsync(Username, Password)">Sign In</button>
+                            <button type="button" class="btn btn-primary btn-block" @onclick="() => SignInAsync(Username, Password)">Sign In</button>
 </div>
 
 </div>
@@ -98,12 +98,12 @@ Remember Me
 
 @code {
 
-    private async Task SignInAsync(string email, string password)
+    private async Task SignInAsync(string username, string password)
     {
         var loginUrl = "http://127.0.0.1:8000/api/login/";
         var loginData = new Dictionary<string, string>
         {
-            { "username", email },
+            { "username", username },
             { "password", password }
         };
 
@@ -115,6 +115,7 @@ Remember Me
             var responseContent = await response.Content.ReadAsStringAsync();
             Console.WriteLine($"Login response: {responseContent}"); // Imprimir la respuesta en la consola
             NavigationManager.NavigateTo("/clientes");
+            AppState.Username = username;
 
         }
         else
@@ -129,7 +130,7 @@ Remember Me
     private string Username { get; set; } = string.Empty;
     private string Password { get; set; } = string.Empty;
 
-    private async Task LoginAsync()
+    private async Task LoginAsync(string user, string passoword)
     {
 
         var loginData = new Dictionary<string, string>

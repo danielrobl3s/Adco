@@ -35,12 +35,9 @@ public static class MauiProgram
         builder.Services.AddBlazorWebViewDeveloperTools();
 		builder.Logging.AddDebug();
 #endif
-
-		builder.Services.AddSingleton<WeatherForecastService>();
         builder.Services.AddSingleton<AuthenticationService>();
         builder.Services.AddSingleton<AppState>();
-
-
+		builder.Services.AddSingleton<InsertData>();
 
 
 		builder.Services.AddSingleton<MaterialsDataService>();
