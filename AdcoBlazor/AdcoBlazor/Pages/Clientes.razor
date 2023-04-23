@@ -4,7 +4,15 @@
 @using System.Linq
 @using System.Net.Http
 @using System.Net.Http.Json
+@using Newtonsoft.Json;
 @using System.Net.Http.Headers;
+@using RestSharp;
+@using RestSharp.Authenticators;
+@using System.Text;
+
+@using System.Net;
+@using System.Text.Json;
+@inject HttpClient HttpClient
 
 
 <body class="sidebar-mini-xs">
@@ -35,6 +43,7 @@
 							</div>
 							<div class="col-sm-6">
 								<ol class="breadcrumb float-sm-right">
+
 									<li class="breadcrumb-item"><a class="btn btn-block btn-success" href="clientesañadir">Añadir</a></li>
 								</ol>
 							</div>
@@ -45,59 +54,6 @@
 				<div class="col-12">
 					<div class="card">
 						<div class="card-body">
-							<table class="table table-bordered table-hover">
-								<thead>
-									<tr>
-										<th>#</th>
-										<th>Nombre</th>
-										<th>Apellido</th>										
-										<th>Ubicacion</th>
-										<th>Monto</th>
-										<th>Metodo Pago</th>
-										<th>Fecha</th>
-										<th>Documentos</th>
-										<th>Observaciones</th>
-										<th> </th>
-									</tr>
-								</thead>
-								<tbody>
-
-									<tr data-widget="expandable-table" aria-expanded="false">
-										<td>183</td>
-										<td>John</td>
-										<td>Doe</td>
-										<td>Tepito</td>
-										<td>$42069</td>
-										<td>Efectivo</td>
-										<td>20-04-69</td>
-										<td>TBD</td>
-										<td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
-
-										<td>
-												<div class="btn-group">
-													<button type="button" class="btn btn-sm dropdown-toggle" data-toggle="dropdown" data-offset="-52" aria-expanded="false">
-														<i class="fas fa-bars"></i>
-													</button>
-													<div class="dropdown-menu" role="menu" style="">
-														<a href="#" class="dropdown-item">Editar</a>
-														<a href="#" class="dropdown-item text-danger">Eliminar</a>
-														<div class="dropdown-divider"></div>
-														<a href="#" class="dropdown-item">View calendar</a>
-													</div>
-												</div>
-											</td>
-
-									</tr>
-									<tr class="expandable-body d-none">
-										<td colspan="5">
-											<p style="display: none;">
-												Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-											</p>
-										</td>
-									</tr>
-
-								</tbody>
-							</table>
 						</div>
 
 					</div>
@@ -111,6 +67,4 @@
 
 </body>
 
-@code {
 
-}

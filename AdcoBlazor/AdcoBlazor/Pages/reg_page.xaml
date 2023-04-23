@@ -44,8 +44,32 @@
                 FontSize="20"
                 TextColor="#2E2E2E"
                 />
-        <Label Text="Contraseña"
+
+        <Label Text="Correo"
                    TranslationY="-230"
+                   FontFamily="Inter"
+                   TranslationX="615"
+                   VerticalOptions="Start"
+                   VerticalTextAlignment="Start"
+                   FontSize="Medium"
+                   TextColor="#2E2E2E"
+                   FontAttributes="None"/>
+
+        <Entry
+                x:Name="correo"
+
+               BackgroundColor="#E7E7E7"
+                HeightRequest="45"
+                WidthRequest="340"
+                TranslationX="15"
+               TranslationY="-230"                          
+               HorizontalOptions="CenterAndExpand"
+               FontFamily="Inter"
+               FontSize="20"
+               TextColor="#2E2E2E" />
+        
+        <Label Text="Contraseña"
+                   TranslationY="-220"
                    FontFamily="Inter"
                    TranslationX="615"
                    VerticalOptions="Start"

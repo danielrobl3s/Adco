@@ -10,5 +10,7 @@
             <RootComponent Selector="#app" ComponentType="{x:Type local:Main}" />
         </BlazorWebView.RootComponents>
     </BlazorWebView>
+    
+    
 
 </ContentPage>
