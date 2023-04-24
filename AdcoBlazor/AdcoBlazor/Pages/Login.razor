@@ -97,6 +97,8 @@ Remember Me
 
 
 @code {
+    private string Username { get; set; } = string.Empty;
+    private string Password { get; set; } = string.Empty;
 
     private async Task SignInAsync(string username, string password)
     {
@@ -125,30 +127,3 @@ Remember Me
     }
 }
 
-        @code{
-
-    private string Username { get; set; } = string.Empty;
-    private string Password { get; set; } = string.Empty;
-
-    private async Task LoginAsync(string user, string passoword)
-    {
-
-        var loginData = new Dictionary<string, string>
-        {
-            { "username", Username },
-            { "password", Password }
-        };
-
-        var ( success,  token,  username) = await AuthenticationService.LoginAsync(Username, Password);
-
-        if (success)
-        {
-            // Almacena el token y el nombre de usuario en AppState
-            AppState.AccessToken = token;
-            AppState.Username = username;
-
-            // Navega al componente de Clientes
-            NavigationManager.NavigateTo("/clientes");
-        }
-    }
-        }

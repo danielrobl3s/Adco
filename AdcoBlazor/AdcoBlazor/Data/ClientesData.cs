@@ -11,5 +11,4 @@ public class Client
 	public string Observaciones { get; set; }
 	public int CreatedBy { get; set; }
 
-
 }

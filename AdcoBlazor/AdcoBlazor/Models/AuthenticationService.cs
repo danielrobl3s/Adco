@@ -38,13 +38,19 @@ namespace AdcoBlazor.Models
             return (false, null, null);
         }
 
-		public async Task<List<Client>> GetClientDataAsync(string token)
+        private AppState appstate { get; set; } = new AppState();
+
+
+        public async Task<List<Client>> GetClientDataAsync(string token)
 		{
-            var client = new HttpClient();
+
+
+
+        var client = new HttpClient();
             var request = new HttpRequestMessage(HttpMethod.Get, "http://127.0.0.1:8000/module/clients/");
-			request.Headers.Add("X-CSRFToken", "0c6t9fVh5ZwdcXtiEh1lfJdOZ04Xjd5g");
-			request.Headers.Add("Authorization", "Bearer 48fb1be1912736a4012c97e9e442ecf7cc5b8a8e");
-			request.Headers.Add("Cookie", " sessionid=b8blvtggli9n2nl84ydshq1y01tvoz54");
+			request.Headers.Add("X-CSRFToken", appstate.CSRFToken);
+			request.Headers.Add("Authorization", appstate.Barear);
+			request.Headers.Add("Cookie",appstate.SesionId);
 			var response = await client.SendAsync(request);
 			response.EnsureSuccessStatusCode();
 			Console.WriteLine(await response.Content.ReadAsStringAsync());

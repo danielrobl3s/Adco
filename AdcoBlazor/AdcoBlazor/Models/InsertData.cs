@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Net.Http.Headers;
 using System.Net.Http.Json;
 using System.Text;
@@ -11,49 +12,46 @@ namespace AdcoBlazor.Models
 {
 	public class InsertData
 	{
-
-		public async Task RegisterAsync(string nombre, string metodopago, string fecha, string documentos, string observaciones, string createdby)
+		public async Task<bool> RegisterAsync(Client NewClient, string token, string csrfToken, string cookie)
 		{
-			using var httpClient = new HttpClient();
-			var registerUrl = "http://127.0.0.1:8000/module/clients/";
-			var registerData = new Dictionary<string, string>
-	{
-		{"nombre", nombre},
-		{"metodo_pago", metodopago},
-		{"fecha", fecha},
-		{"documentos", documentos},
-		{"observaciones", observaciones},
-
-	};
-
-			var content = new StringContent(JsonConvert.SerializeObject(registerData), Encoding.UTF8, "application/json");
-			var response = await httpClient.PostAsync(registerUrl, content);
-
-			if (response.IsSuccessStatusCode)
+			try
 			{
-				var responseContent = await response.Content.ReadAsStringAsync();
-				Console.WriteLine($"Register response: {responseContent}"); // Imprimir la respuesta en la consola
+				var client = new HttpClient();
+				var request = new HttpRequestMessage(HttpMethod.Post, "http://127.0.0.1:8000/module/clients/");
+
+				// Agrega los encabezados necesarios
+				request.Headers.Add("X-CSRFToken", csrfToken);
+				request.Headers.Add("Authorization", token); 
+				request.Headers.Add("Cookie", cookie);
+
+				// Agrega el JSON del objeto 'newClient' en el cuerpo del mensaje
+				request.Content = new StringContent(JsonConvert.SerializeObject(NewClient), Encoding.UTF8, "application/json");
+
+				var response = await client.SendAsync(request);
+
+				if (response.IsSuccessStatusCode)
+				{
+					var responseContent = await response.Content.ReadAsStringAsync();
+					Console.WriteLine($"Register response: {responseContent}"); // Imprimir la respuesta en la consola
+					return true; // Indica que se ha completado con éxito
+				}
 			}
-			else
+			catch (Exception ex)
 			{
-				Console.WriteLine($"Registration failed: {response.StatusCode}");
+				Console.WriteLine(ex.ToString()); // Agregar esta línea para ver detalles de excepción
 			}
+
+			return false; // Indica que ha ocurrido un error
 		}
+
+
 		public class Client
 		{
 			public string Nombre { get; set; }
-			public string Apellido { get; set; }
-			public string Ubicacion { get; set; }
-			public decimal Monto { get; set; }
 			public string MetodoPago { get; set; }
-			public string Password { get; set; }
-			public DateTime Fecha { get; set; }
 			public string Documentos { get; set; }
 			public string Observaciones { get; set; }
 			public string CreatedBy { get; set; }
 		}
-
-
 	}
-
 }
