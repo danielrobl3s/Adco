@@ -6,6 +6,10 @@ from django.views.decorators.csrf import csrf_exempt
 from rest_framework.authtoken.views import obtain_auth_token
 from rest_framework.authtoken.models import Token
 from django.http import JsonResponse
+from django.middleware.csrf import get_token
+from django.contrib.auth import login
+from dj_rest_auth.views import LoginView
+
 
 
 class ClientesList(generics.ListCreateAPIView):
@@ -36,6 +40,21 @@ class ClientesDetail(generics.RetrieveUpdateDestroyAPIView):
 
     def delete(self, request, *args, **kwargs):
         return self.destroy(request, *args, **kwargs)
+    
+
+class CustomLoginView(LoginView):
+    def post(self, request, *args, **kwargs):
+        response = super().post(request, *args, **kwargs)
+        if response.status_code == 200:
+            token = Token.objects.get(user=self.user)
+            response_data = response.data
+            response_data['token'] = token.key
+            response_data['sessionid'] = self.request.session.session_key
+            response_data['csrftoken'] = get_token(request)
+            response.data = response_data
+            response.set_cookie(key='sessionid', value=self.request.session.session_key, httponly=True)
+        return response
+
 
 @csrf_exempt
 def get_tokens(request):
