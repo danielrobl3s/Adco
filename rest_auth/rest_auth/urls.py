@@ -29,4 +29,5 @@ urlpatterns = [
     path("module/gastos/", include("gastos.urls")),
     path("module/materiales/", include("materiales.urls")),
     path("proyectos/", include("proyectos.urls")),
+    path("module/prospectos/", include("prospectos.urls")),
 ]
