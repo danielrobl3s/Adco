@@ -18,18 +18,17 @@
 @inject HttpClient HttpClient
 @inject AuthenticationService AuthenticationService
 @inject AppState AppState
+@inject NavigationManager NavigationManager;
+
+@inject IJSRuntime JSRuntime
 
 
-<body class="sidebar-mini-xs">
-
-
+<body class="hold-transition sidebar-mini-xs">
 
 	<div class="page">
 		<div class="sidebar">
 			<Sidebar />
 		</div>
-
-
 
 		<main class="" style="margin-left:75px;">
 			<div class="">
@@ -45,11 +44,9 @@
 						<div class="row mb-2">
 							<div class="col-sm-6">
 								<h1>Clientes</h1>
-								<h2></h2>
 							</div>
 							<div class="col-sm-6">
 								<ol class="breadcrumb float-sm-right">
-
 									<li class="breadcrumb-item"><a class="btn btn-block btn-success" href="clientesañadir">Añadir</a></li>
 								</ol>
 							</div>
@@ -59,9 +56,12 @@
 
 				<div class="col-12">
 					<div class="card">
-						<div class="card-body">
+						<div class="card-header">
+							<h3 class="card-title"></h3>
+						</div>
 
-							<table class="table">
+						<div class="card-body">
+							<table class="table table-bordered table-hover">
 								<thead>
 									<tr>
 										<th>.</th>
@@ -69,27 +69,50 @@
 										<th>Metodo pago</th>
 										<th>Fecha</th>
 										<th>Documentos</th>
-										<th>Observaciones</th>
 										<th>Agregado por</th>
+										<th>.</th>
 									</tr>
 								</thead>
 								<tbody>
 									@foreach (var clientes in Clients)
 									{
-										<tr>
+
+
+									<tr data-widget="expandable-table" aria-expanded="false">
 											<td>@clientes.Id</td>
-											<td>@clientes.Nombre</td>
+										<td>@clientes.Nombre</td>
 											<td>@clientes.MetodoPago</td>
 											<td>@clientes.Fecha</td>
-											<td>@clientes.Documentos</td>
-											<td>@clientes.Observaciones</td>
+										<td>@clientes.Documentos</td>
+							
 											<td>@clientes.CreatedBy</td>
+										<td>
+												<div class="btn-group">
+													<button type="button" class="btn btn-sm dropdown-toggle" data-toggle="dropdown" data-offset="-52" aria-expanded="false">
+														<i class="fas fa-bars"></i>
+													</button>
+													<div class="dropdown-menu" role="menu" style="" >
+														<a href="" class="dropdown-item " @onclick="(() => EditConfirmation(clientes.Id))">Editar</a>
+														<a href="" class="dropdown-item text-danger" @onclick="(() => ShowConfirmation(clientes.Id))">Eliminar</a>
+														<div class="dropdown-divider"></div>
+														<a href="#" class="dropdown-item"></a>
+													</div>
 
-										</tr>
+												</div>
+											</td>
+									</tr>
+									<tr class="expandable-body d-none">
+										<td colspan="7">
+											<p style="display: none;">
+											<td>@clientes.Observaciones</td>
+											</p>
+										</td>
+									</tr>
+
 									}
+
 								</tbody>
 							</table>
-
 						</div>
 
 					</div>
@@ -103,6 +126,30 @@
 
 </body>
 
+<div class="modal fade" id="confirmationModal" tabindex="-1" role="dialog" aria-labelledby="confirmationModalLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="confirmationModalLabel">Confirmación de eliminación</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				¿Estás seguro de que deseas eliminar este registro?
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal" @onclick="CancelDelete">Cancelar</button>
+				<button type="button" class="btn btn-primary" @onclick="ConfirmDelete">Confirmar</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
 @code {
 	private List<Client> Clients { get; set; } = new List<Client>();
 
@@ -115,4 +162,63 @@
 		// Muestra el nombre de usuario almacenado en AppState
 		string username = AppState.Username;
 	}
+
+	private int clientIdToDelete;
+
+	private async void ShowConfirmation(int clientId)
+	{
+		clientIdToDelete = clientId;
+		await JSRuntime.InvokeVoidAsync("showConfirmationModal");
+	}
+
+	private async void EditConfirmation(int clientId)
+	{
+
+		AppState.Clientid = clientId;
+
+		if (AppState.Clientid != null & AppState.Clientid != 0)
+		{
+			NavigationManager.NavigateTo("/clientesupdate");
+			
+		}
+
+
+	}
+
+	private void CancelDelete()
+	{
+		clientIdToDelete = 0;
+		JSRuntime.InvokeVoidAsync("hideConfirmationModal");
+	}
+
+	private async void ConfirmDelete()
+	{
+		await DeleteClient(clientIdToDelete);
+		clientIdToDelete = 0;
+		JSRuntime.InvokeVoidAsync("hideConfirmationModal");
+	}
+
+	private async Task DeleteClient(int clientId)
+	{
+		var client = new HttpClient();
+		var request = new HttpRequestMessage(HttpMethod.Delete, $"http://127.0.0.1:8000/module/clients/{clientId}/");
+
+		request.Headers.Add("X-CSRFToken", "0c6t9fVh5ZwdcXtiEh1lfJdOZ04Xjd5g");
+		request.Headers.Add("Authorization", "Bearer 48fb1be1912736a4012c97e9e442ecf7cc5b8a8e");
+		request.Headers.Add("Cookie", "csrftoken=0c6t9fVh5ZwdcXtiEh1lfJdOZ04Xjd5g; sessionid=b8blvtggli9n2nl84ydshq1y01tvoz54");
+
+		var response = await client.SendAsync(request);
+
+		if (response.IsSuccessStatusCode)
+		{
+			Clients = Clients.Where(client => client.Id != clientId).ToList();
+			StateHasChanged();
+			Console.WriteLine("Success: " + await response.Content.ReadAsStringAsync());
+		}
+		else
+		{
+			Console.WriteLine("Error: " + await response.Content.ReadAsStringAsync());
+		}
+	}
+
 }

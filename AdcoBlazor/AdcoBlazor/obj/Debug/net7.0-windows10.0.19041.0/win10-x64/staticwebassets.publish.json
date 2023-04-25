@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4svgmOhDCXgBE/opbj2M1g0Hzt0x94wQp7LRAD0d99o=",
+  "Hash": "VbKygosuUSXEVe0jS/oUxyhqUAh0VyzX2EN0qn1O6RU=",
   "Source": "AdcoBlazor",
   "BasePath": "/",
   "Mode": "Root",
@@ -36769,6 +36769,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "D:\\Escritorio\\estancias\\adco3\\AdcoBlazor\\AdcoBlazor\\wwwroot\\JS\\custom.js",
+      "SourceId": "AdcoBlazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Escritorio\\estancias\\adco3\\AdcoBlazor\\AdcoBlazor\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "JS/custom.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\JS\\custom.js"
     }
   ]
 }

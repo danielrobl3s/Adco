@@ -44,8 +44,6 @@ namespace AdcoBlazor.Models
         public async Task<List<Client>> GetClientDataAsync(string token)
 		{
 
-
-
         var client = new HttpClient();
             var request = new HttpRequestMessage(HttpMethod.Get, "http://127.0.0.1:8000/module/clients/");
 			request.Headers.Add("X-CSRFToken", appstate.CSRFToken);
@@ -63,8 +61,6 @@ namespace AdcoBlazor.Models
 
 			return new List<Client>(); // Devuelve una lista vacía en lugar de null
 		}
-
-
 
 	}
 

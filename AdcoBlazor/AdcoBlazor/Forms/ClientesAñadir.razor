@@ -85,7 +85,7 @@
 
 
 							<div class="card-footer">
-								<button type="button" class="btn btn-primary" @onclick="() => OnSubmitAsync(Nombre, MetodoPago, Documentos, Observaciones, CreatedBy)">Submit</button>
+								<button type="button" class="btn btn-primary" @onclick="() => OnSubmitAsync(Nombre, MetodoPago, Documentos, Observaciones)">Submit</button>
 
 							</div>
 
@@ -110,7 +110,7 @@
 	private string Observaciones { get; set; } = string.Empty;
 	private AppState appstate { get; set; } = new AppState();
 
-	private async Task OnSubmitAsync(string nombre, string metodopago, string documentos, string observaciones, int createdby)
+	private async Task OnSubmitAsync(string nombre, string metodopago, string documentos, string observaciones)
 	{
 		var client = new HttpClient();
 		var request = new HttpRequestMessage(HttpMethod.Post, "http://127.0.0.1:8000/module/clients/");

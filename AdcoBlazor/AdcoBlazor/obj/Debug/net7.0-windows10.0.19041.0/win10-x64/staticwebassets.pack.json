@@ -8197,6 +8197,10 @@
       "PackagePath": "staticwebassets\\AdminLTE\\plugins\\uplot\\uPlot.min.css"
     },
     {
+      "Id": "D:\\Escritorio\\estancias\\adco3\\AdcoBlazor\\AdcoBlazor\\wwwroot\\JS\\custom.js",
+      "PackagePath": "staticwebassets\\JS\\custom.js"
+    },
+    {
       "Id": "D:\\Escritorio\\estancias\\adco3\\AdcoBlazor\\AdcoBlazor\\wwwroot\\css\\adminlte.css",
       "PackagePath": "staticwebassets\\css\\adminlte.css"
     },

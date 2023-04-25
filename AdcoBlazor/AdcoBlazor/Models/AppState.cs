@@ -3,7 +3,10 @@ namespace AdcoBlazor.Models
 {
     public class AppState
     {
-        public string AccessToken { get; set; }
+
+		public int Clientid { get; set; }
+
+		public string AccessToken { get; set; }
         public string Username { get; set; }
 
         public string CSRFToken = "0c6t9fVh5ZwdcXtiEh1lfJdOZ04Xjd5g";

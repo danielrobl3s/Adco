@@ -7315,6 +7315,9 @@
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\wwwroot\index.html">
       <PackagePath>wwwroot\index.html</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\wwwroot\JS\custom.js">
+      <PackagePath>wwwroot\JS\custom.js</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
     </AppxPackagedFile>
