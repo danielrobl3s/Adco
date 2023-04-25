@@ -1,4 +1,5 @@
 from django.db import models
+from proyectos.models import Proyecto
 from django.contrib.auth.models import User
 
 class Materiales(models.Model):
@@ -6,6 +7,7 @@ class Materiales(models.Model):
     cantidad = models.FloatField(default=0.00)
     concepto = models.TextField(null=True)
     fecha = models.DateField(auto_now=True)
+    proyecto = models.ForeignKey(Proyecto, on_delete=models.CASCADE, null=True, blank=True)
     created_by = models.ForeignKey(User, on_delete=models.CASCADE, null=True, blank=True)
 
     class Meta:

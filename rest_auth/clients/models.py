@@ -1,4 +1,5 @@
 from django.db import models
+from proyectos.models import Proyecto
 from django.contrib.auth.models import User
 
 class Clientes(models.Model):
@@ -7,6 +8,7 @@ class Clientes(models.Model):
     fecha = models.DateField(auto_now=True)
     documentos = models.CharField(max_length=50)
     observaciones = models.TextField(blank=True)
+    proyecto = models.ForeignKey(Proyecto, on_delete=models.CASCADE, null=True, blank=True)
     created_by = models.ForeignKey(User, on_delete=models.CASCADE, null=True, blank=True)
 
     class Meta:

@@ -1,4 +1,5 @@
 from django.db import models
+from proyectos.models import Proyecto
 from django.contrib.auth.models import User
 
 class Gastos(models.Model):
@@ -7,6 +8,7 @@ class Gastos(models.Model):
     metodo_pago = models.CharField(max_length=50)
     cobrador = models.CharField(max_length=50)
     fecha = models.DateField()
+    proyecto = models.ForeignKey(Proyecto, on_delete=models.CASCADE, null=True, blank=True)
     created_by = models.ForeignKey(User, on_delete=models.CASCADE, null=True, blank=True)
 
     class Meta:
