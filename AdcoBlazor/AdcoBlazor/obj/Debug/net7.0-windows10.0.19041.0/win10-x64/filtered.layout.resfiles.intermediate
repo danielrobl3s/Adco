@@ -65,6 +65,7 @@ wwwroot\AdcoBlazor.styles.css
 wwwroot\AdcoBlazor.bundle.scp.css
 Pages\Menu.razor.css
 AboutAssets.txt
+Shared\Altbar.razor.css
 Shared\MainLayout.razor.css
 Shared\NavBar.razor.css
 Shared\NavMenu.razor.css

@@ -1,0 +1,145 @@
+﻿@page "/id_trabajadores"
+
+<body class="sidebar-mini-xs">
+
+	<div class="page">
+		<div class="sidebar">
+			<Altbar />
+		</div>
+
+		<main class="" style="margin-left:75px;">
+			<div class="">
+
+				<NavBar />
+
+			</div>
+
+			<article class="content" style="    margin-left: 15px;">
+				<section class="content-header">
+					<div class="container-fluid">
+						<div class="row mb-2">
+							<div class="col-sm-6">
+								<h1>Trabajadores y Proveedores</h1>
+							</div>
+							<div class="col-sm-6">
+								<ol class="breadcrumb float-sm-right">
+									<li class="breadcrumb-item"><a class="btn btn-block btn-success" href="trabajadoresañadir">Añadir</a></li>
+								</ol>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<div class="container-fluid">
+					<div class="row mb-2">
+
+						<ol class="breadcrumb float-sm-left">
+
+							<li class="breadcrumb-item" style="margin-top:2px;">
+								<select id="sort_order" style="height:28px;">
+									<img src="images/add.svg alt="Sort Order Icon">
+									<option value="ASC">ASC</option>
+									<option value="DSC">DSC</option>
+								</select>
+							</li>
+
+							<div style="margin-left:30px;">
+							</div>
+
+							<li class="breadcrumb-item">
+								<a type="text" class="searchTerm">
+									<!-- Search Bar-->
+									<div class="wrap">
+										<div class="search">
+											<input placeholder="Search">
+											<button type="submit" class="searchButton">
+												<i class="fa fa-search" href="trabajadores"></i>
+											</button>
+										</div>
+									</div>
+									<!-- Search Bar-->
+								</a>
+							</li>
+						</ol>
+					</div>
+				</div>
+
+
+				<div class="col-12">
+					<div class="card">
+
+						<div class="card-body">
+							<table class="table table-bordered table-hover" style="width: 100%; overflow-x: auto;">
+								<thead>
+									<tr>
+										<th>#</th>
+										<th>Nombre</th>
+										<th>Telefono</th>
+										<th>Correo</th>
+										<th>Direccion</th>
+										<th>Especialidad</th>
+										<th>Concepto</th>
+										<th>Archivos</th>
+										<th>Contratos</th>
+										<th>Monto de Contrato</th>
+										<th>Abonos</th>
+										<th>Saldo</th>
+										<th>Observaciones</th>
+										
+									</tr>
+								</thead>
+								<tbody>
+
+									<tr data-widget="expandable-table" aria-expanded="false">
+										<td>183</td>
+										<td>John Doe</td>
+										<td>6181234567</td>
+										<td>antojitosgema@hotmail.com</td>
+										<td>Boulevard of broken dreams</td>
+										<td>Ingeniero</td>
+										<td>Ambiguo</td>
+										<td>TBD</td>
+										<td>Carlos Slim</td>
+										<td>$70000</td>
+										<td>$80000</td>
+										<td>$50</td>
+										<td>Num quis scit multum temporis hoe facere mihi ut annuum in clibano reliquerit ut illum crispum reddat?</td>
+										<td>
+											<div class="btn-group">
+												<button type="button" class="btn btn-sm dropdown-toggle" data-toggle="dropdown" data-offset="-52" aria-expanded="false">
+													<i class="fas fa-bars"></i>
+												</button>
+												<div class="dropdown-menu" role="menu" style="">
+													<a href="#" class="dropdown-item">Editar</a>
+													<a href="#" class="dropdown-item text-danger">Eliminar</a>
+													<div class="dropdown-divider"></div>
+													<a href="#" class="dropdown-item">View calendar</a>
+												</div>
+											</div>
+										</td>
+									</tr>
+									<tr class="expandable-body d-none">
+										<td colspan="5">
+											<p style="display: none;">
+												Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+											</p>
+										</td>
+									</tr>
+
+								</tbody>
+							</table>
+						</div>
+
+					</div>
+
+				</div>
+			</article>
+
+		</main>
+	</div>
+
+</body>
+
+@code {
+
+}

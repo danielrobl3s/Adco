@@ -1,0 +1,137 @@
+﻿@page "/id_prospectos"
+
+
+<body class="sidebar-mini-xs">
+
+	<div class="page">
+		<div class="sidebar">
+			<Altbar />
+		</div>
+
+		<main class="" style="margin-left:75px;">
+			<div class="">
+
+				<NavBar />
+
+			</div>
+
+			<article class="content" style="    margin-left: 15px;">
+				
+				<section class="content-header">
+					<div class="container-fluid">
+						<div class="row mb-2">
+							<div class="col-sm-6">
+								<h1>Prospectos</h1>
+							</div>
+							<div class="col-sm-6">
+								<ol class="breadcrumb float-sm-right">
+									<li class="breadcrumb-item"><a class="btn btn-block btn-success" href="prospectosañadir">Añadir</a></li>
+								</ol>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<div class="container-fluid">
+					<div class="row mb-2">
+
+						<ol class="breadcrumb float-sm-left">
+
+							<li class="breadcrumb-item" style="margin-top:2px;">
+								<select id="sort_order" style="height:28px;">
+									<img src="images/add.svg alt="Sort Order Icon">
+									<option value="ASC">ASC</option>
+									<option value="DSC">DSC</option>
+								</select>
+							</li>
+
+							<div style="margin-left:30px;">
+							</div>
+
+							<li class="breadcrumb-item">
+								<a type="text" class="searchTerm">
+									<!-- Search Bar-->
+									<div class="wrap">
+										<div class="search">
+											<input placeholder="Search">
+											<button type="submit" class="searchButton">
+												<i class="fa fa-search" href="Prospectos"></i>
+											</button>
+										</div>
+									</div>
+									<!-- Search Bar-->
+								</a>
+							</li>
+						</ol>
+					</div>
+				</div>
+
+
+				<div class="col-12">
+					<div class="card">
+						<div class="card-header">
+							<h3 class="card-title"></h3>
+						</div>
+
+						<div class="card-body">
+							<table class="table table-bordered table-hover">
+								<thead>
+									<tr>
+										<th>#</th>
+										<th>Nombre</th>
+										<th>Apellido</th>
+										-
+										<th>Telefono</th>
+										<th>Observaciones</th>
+										<th> </th>
+									</tr>
+								</thead>
+								<tbody>
+
+									<tr data-widget="expandable-table" aria-expanded="false">
+										<td>13</td>
+										<td>John</td>
+										<td>Doe</td>
+										<td>6180559999</td>
+										<td>Quis scit quam diu relinquerem annuum in clibano, ut id crispum faceret?</td>
+										<td>
+											<div class="btn-group">
+												<button type="button" class="btn btn-sm dropdown-toggle" data-toggle="dropdown" data-offset="-52" aria-expanded="false">
+													<i class="fas fa-bars"></i>
+												</button>
+												<div class="dropdown-menu" role="menu" style="">
+													<a href="#" class="dropdown-item">Editar</a>
+													<a href="#" class="dropdown-item text-danger">Eliminar</a>
+													<div class="dropdown-divider"></div>
+													<a href="#" class="dropdown-item">View calendar</a>
+												</div>
+											</div>
+										</td>
+									</tr>
+									<tr class="expandable-body d-none">
+										<td colspan="5">
+											<p style="display: none;">
+												Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+											</p>
+										</td>
+									</tr>
+
+								</tbody>
+							</table>
+						</div>
+
+					</div>
+
+				</div>
+
+			</article>
+
+		</main>
+	</div>
+
+</body>
+
+@code {
+
+}

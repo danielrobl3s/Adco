@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 using AdcoBlazor.Data;
+using AdcoBlazor.Models;
 
 namespace AdcoBlazor;
 
@@ -26,7 +27,11 @@ public static class MauiProgram
 
         builder.Services.AddSingleton<ClientesDataService>();
 
-		builder.Services.AddSingleton<MaterialsDataService>();
+        builder.Services.AddSingleton<AuthenticationService>();
+        builder.Services.AddSingleton<AppState>();
+
+
+        builder.Services.AddSingleton<MaterialsDataService>();
 
 		return builder.Build();
 	}

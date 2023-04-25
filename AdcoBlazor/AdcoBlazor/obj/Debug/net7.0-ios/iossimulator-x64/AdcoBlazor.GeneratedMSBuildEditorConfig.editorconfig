@@ -163,6 +163,48 @@ build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.RelativePath = 
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/matst/OneDrive/Escritorio/blazor/AdcoBlazor/AdcoBlazor/Subtables/Id_clientes.razor]
+build_metadata.AdditionalFiles.GenKind = 
+build_metadata.AdditionalFiles.ManifestResourceName = 
+build_metadata.AdditionalFiles.TargetPath = U3VidGFibGVzXElkX2NsaWVudGVzLnJhem9y
+build_metadata.AdditionalFiles.RelativePath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/matst/OneDrive/Escritorio/blazor/AdcoBlazor/AdcoBlazor/Subtables/Id_gastos.razor]
+build_metadata.AdditionalFiles.GenKind = 
+build_metadata.AdditionalFiles.ManifestResourceName = 
+build_metadata.AdditionalFiles.TargetPath = U3VidGFibGVzXElkX2dhc3Rvcy5yYXpvcg==
+build_metadata.AdditionalFiles.RelativePath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/matst/OneDrive/Escritorio/blazor/AdcoBlazor/AdcoBlazor/Subtables/Id_materiales.razor]
+build_metadata.AdditionalFiles.GenKind = 
+build_metadata.AdditionalFiles.ManifestResourceName = 
+build_metadata.AdditionalFiles.TargetPath = U3VidGFibGVzXElkX21hdGVyaWFsZXMucmF6b3I=
+build_metadata.AdditionalFiles.RelativePath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/matst/OneDrive/Escritorio/blazor/AdcoBlazor/AdcoBlazor/Subtables/Id_prospectos.razor]
+build_metadata.AdditionalFiles.GenKind = 
+build_metadata.AdditionalFiles.ManifestResourceName = 
+build_metadata.AdditionalFiles.TargetPath = U3VidGFibGVzXElkX3Byb3NwZWN0b3MucmF6b3I=
+build_metadata.AdditionalFiles.RelativePath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/matst/OneDrive/Escritorio/blazor/AdcoBlazor/AdcoBlazor/Subtables/Id_proyectos.razor]
+build_metadata.AdditionalFiles.GenKind = 
+build_metadata.AdditionalFiles.ManifestResourceName = 
+build_metadata.AdditionalFiles.TargetPath = U3VidGFibGVzXElkX3Byb3llY3Rvcy5yYXpvcg==
+build_metadata.AdditionalFiles.RelativePath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/matst/OneDrive/Escritorio/blazor/AdcoBlazor/AdcoBlazor/Subtables/Id_trabajadores.razor]
+build_metadata.AdditionalFiles.GenKind = 
+build_metadata.AdditionalFiles.ManifestResourceName = 
+build_metadata.AdditionalFiles.TargetPath = U3VidGFibGVzXElkX3RyYWJhamFkb3Jlcy5yYXpvcg==
+build_metadata.AdditionalFiles.RelativePath = 
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/matst/OneDrive/Escritorio/blazor/AdcoBlazor/AdcoBlazor/_Imports.razor]
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
@@ -176,6 +218,13 @@ build_metadata.AdditionalFiles.ManifestResourceName =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.RelativePath = 
 build_metadata.AdditionalFiles.CssScope = b-9349i5zdvy
+
+[C:/Users/matst/OneDrive/Escritorio/blazor/AdcoBlazor/AdcoBlazor/Shared/Altbar.razor]
+build_metadata.AdditionalFiles.GenKind = 
+build_metadata.AdditionalFiles.ManifestResourceName = 
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEFsdGJhci5yYXpvcg==
+build_metadata.AdditionalFiles.RelativePath = 
+build_metadata.AdditionalFiles.CssScope = b-o05uiojzzt
 
 [C:/Users/matst/OneDrive/Escritorio/blazor/AdcoBlazor/AdcoBlazor/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.GenKind = 

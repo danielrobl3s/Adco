@@ -21,22 +21,5 @@ public class ClientesDataService
     {
         "www.drive.com", "www.youtubr.com"
     };
-
-
-
-    public Task<ClientesData[]> GetClientesAsync(DateTime startDate)
-    {
-        return Task.FromResult(Enumerable.Range(1, 5).Select(index => new ClientesData
-        {
-            ID = Random.Shared.Next(1, 55),
-            Nombre = Nombre[Random.Shared.Next(Nombre.Length)],
-            MetodoPago = MetodoPago[Random.Shared.Next(MetodoPago.Length)],
-            Date = startDate.AddDays(index),
-            Documentos = Documentos[Random.Shared.Next(Documentos.Length)],
-
-            Observaciones = Observaciones[Random.Shared.Next(Observaciones.Length)],
-
-        }).ToArray());
-    }
 }
 

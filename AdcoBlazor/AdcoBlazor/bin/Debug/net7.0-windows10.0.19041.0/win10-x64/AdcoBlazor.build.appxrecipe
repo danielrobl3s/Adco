@@ -7732,6 +7732,9 @@
     <AppxPackagedFile Include="C:\Users\matst\OneDrive\Escritorio\blazor\AdcoBlazor\AdcoBlazor\Pages\Menu.razor.css">
       <PackagePath>Pages\Menu.razor.css</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\matst\OneDrive\Escritorio\blazor\AdcoBlazor\AdcoBlazor\Shared\Altbar.razor.css">
+      <PackagePath>Shared\Altbar.razor.css</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matst\OneDrive\Escritorio\blazor\AdcoBlazor\AdcoBlazor\Shared\MainLayout.razor.css">
       <PackagePath>Shared\MainLayout.razor.css</PackagePath>
     </AppxPackagedFile>

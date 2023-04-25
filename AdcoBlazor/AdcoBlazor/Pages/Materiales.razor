@@ -1,7 +1,6 @@
 ﻿@page "/materiales"
 
 @using AdcoBlazor.Data
-@inject MaterialsDataService MaterialsService
 
 
 <body class="sidebar-mini-xs">
@@ -23,7 +22,7 @@
 					<div class="container-fluid">
 						<div class="row mb-2">
 							<div class="col-sm-6">
-								<h1>Materiales</h1>
+								<h1>Materiales 🍌</h1>
 							</div>
 							<div class="col-sm-6">
 								<ol class="breadcrumb float-sm-right">
@@ -55,9 +54,9 @@
 									<!-- Search Bar-->
 									<div class="wrap">
 										<div class="search">
-											<input placeholder="Search">
-											<button type="submit" class="searchButton">
-												<i class="fa fa-search" href="materiales"></i>
+											<input id ="searchInput" type="text" placeholder="Search">
+											<button id="searchButton" type="submit" class="searchButton" onclick="">
+												<i class="fa fa-search" href="clientes"></i>
 											</button>
 										</div>
 									</div>
@@ -89,32 +88,51 @@
 									</tr>
 								</thead>
 								<tbody>
-
-									@foreach (var material in meterial)
-									{
-										<tr data-widget="expandable-table" aria-expanded="false">
-											<td>18</td>
-											<td>Nuevo Mexico</td>
-											<td>Cemento</td>
-											<td>8</td>
-											<td>Bultos de 50kg</td>
-											<td>09-03-13</td>
-											<td>Num quis scit multum temporis hoe facere mihi ut annuum in clibano reliquerit ut illum crispum reddat?</td>
-											<td>
-												<div class="btn-group">
-													<button type="button" class="btn btn-sm dropdown-toggle" data-toggle="dropdown" data-offset="-52" aria-expanded="false">
-														<i class="fas fa-bars"></i>
-													</button>
-													<div class="dropdown-menu" role="menu" style="">
-														<a href="#" class="dropdown-item">Editar</a>
-														<a href="#" class="dropdown-item text-danger">Eliminar</a>
-														<div class="dropdown-divider"></div>
-														<a href="#" class="dropdown-item">View calendar</a>
-													</div>
+									<tr data-widget="expandable-table" aria-expanded="false">
+										<td>18</td>
+										<td>Nuevo Mexico</td>
+										<td>Cemento</td>
+										<td>8</td>
+										<td>Bultos de 50kg</td>
+										<td>09-03-13</td>
+										<td>Num quis scit multum temporis hoe facere mihi ut annuum in clibano reliquerit ut illum crispum reddat?</td>
+										<td>
+											<div class="btn-group">
+												<button type="button" class="btn btn-sm dropdown-toggle" data-toggle="dropdown" data-offset="-52" aria-expanded="false">
+													<i class="fas fa-bars"></i>
+												</button>
+												<div class="dropdown-menu" role="menu" style="">
+													<a href="#" class="dropdown-item">Editar</a>
+													<a href="#" class="dropdown-item text-danger">Eliminar</a>
+													<div class="dropdown-divider"></div>
+													<a href="#" class="dropdown-item">View calendar</a>
 												</div>
-											</td>
-										</tr>
-									}
+											</div>
+										</td>
+									</tr>
+
+									<tr data-widget="expandable-table" aria-expanded="false">
+										<td>20</td>
+										<td>Palo Rosa</td>
+										<td>Madera</td>
+										<td>30</td>
+										<td>Cogote</td>
+										<td>18-03-45</td>
+										<td>Num quis scit multum temporis hoe facere mihi ut annuum in clibano reliquerit ut illum crispum reddat?</td>
+										<td>
+											<div class="btn-group">
+												<button type="button" class="btn btn-sm dropdown-toggle" data-toggle="dropdown" data-offset="-52" aria-expanded="false">
+													<i class="fas fa-bars"></i>
+												</button>
+												<div class="dropdown-menu" role="menu" style="">
+													<a href="#" class="dropdown-item">Editar</a>
+													<a href="#" class="dropdown-item text-danger">Eliminar</a>
+													<div class="dropdown-divider"></div>
+													<a href="#" class="dropdown-item">View calendar</a>
+												</div>
+											</div>
+										</td>
+									</tr>
 
 								</tbody>
 							</table>
@@ -131,11 +149,5 @@
 </body>
 @code {
 
-	private MaterialsData[] meterial;
-
-	protected override async Task OnInitializedAsync()
-	{
-		meterial = await MaterialsService.GetMaterialsAsync(DateTime.Now);
-	}
 }
 

@@ -2229,3 +2229,4 @@ D:\Escritorio\estancias\adco2\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0
 D:\Escritorio\estancias\adco2\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 D:\Escritorio\estancias\adco2\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 D:\Escritorio\estancias\adco2\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\Users\matst\OneDrive\Escritorio\blazor\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\scopedcss\Shared\Altbar.razor.rz.scp.css
