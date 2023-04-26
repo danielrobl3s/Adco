@@ -4,10 +4,24 @@
     <IsFirstTimeProjectOpen>False</IsFirstTimeProjectOpen>
     <ActiveDebugFramework>net7.0-windows10.0.19041.0</ActiveDebugFramework>
     <ActiveDebugProfile>Windows Machine</ActiveDebugProfile>
+    <UapAppxPackageBuildMode>SideloadOnly</UapAppxPackageBuildMode>
+    <AppxShowAllApps>False</AppxShowAllApps>
+    <_LastSelectedProfileId>MSIX-win10-x64.pubxml</_LastSelectedProfileId>
+    <PackageOptionalProjectsInIdeBuilds>False</PackageOptionalProjectsInIdeBuilds>
+    <SelectedPlatformGroup>Emulator</SelectedPlatformGroup>
+    <DefaultDevice>pixel_5_-_api_31</DefaultDevice>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0-android|AnyCPU'">
+    <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
   </PropertyGroup>
   <ItemGroup>
     <Content Update="wwwroot\AdminLTE\Scripts\LinkScript.js">
       <SubType>Code</SubType>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Platforms\Windows\Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
 </Project>

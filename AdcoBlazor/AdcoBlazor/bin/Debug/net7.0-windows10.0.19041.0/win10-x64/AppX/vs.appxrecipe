@@ -9,7 +9,7 @@
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>560B3F9A-A57F-4B85-A451-76E3207C1C98</PackageIdentityName>
-    <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
+    <PackageIdentityPublisher>CN=Fily</PackageIdentityPublisher>
     <IntermediateOutputPath>D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -19,36 +19,36 @@
     <WindowsSdkPath>
     </WindowsSdkPath>
     <LayoutDir>D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
-    <RegisteredManifestChecksum>D24D8EB7A895B83B5377CDCED3F09CD18DBA08650239D5F17A0615ACF1E719F7</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>560B3F9A-A57F-4B85-A451-76E3207C1C98_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
-    <RegisteredUserModeAppID>560B3F9A-A57F-4B85-A451-76E3207C1C98_9zz4h110yvjzm!App</RegisteredUserModeAppID>
+    <RegisteredManifestChecksum>29C7BC3BA200231AAE7D86B7F95CFBAEE2D00A8EB2A27177605CE57AC1AD8506</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>560B3F9A-A57F-4B85-A451-76E3207C1C98_1.0.2.0_x64__tvmctsznjx5pg</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>560B3F9A-A57F-4B85-A451-76E3207C1C98_tvmctsznjx5pg!App</RegisteredUserModeAppID>
     <RegisteredPackageID>560B3F9A-A57F-4B85-A451-76E3207C1C98</RegisteredPackageID>
-    <RegisteredPackagePublisher>CN=User Name</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.0.1</RegisteredVersion>
+    <RegisteredPackagePublisher>CN=Fily</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.2.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-04-25T06:01:51.071</Modified>
+      <Modified>2023-04-26T01:02:55.178</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-04-25T06:01:49.686</Modified>
+      <Modified>2023-04-26T00:58:01.646</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AdcoBlazor.runtimeconfig.json">
       <PackagePath>AdcoBlazor.runtimeconfig.json</PackagePath>
-      <Modified>2023-04-24T03:30:49.247</Modified>
+      <Modified>2023-04-26T00:03:44.484</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AdcoBlazor.dll">
       <PackagePath>AdcoBlazor.dll</PackagePath>
-      <Modified>2023-04-25T06:01:47.635</Modified>
+      <Modified>2023-04-26T01:02:52.405</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>AdcoBlazor.exe</PackagePath>
-      <Modified>2023-04-25T06:01:47.916</Modified>
+      <Modified>2023-04-26T01:02:52.754</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\appsettings.json">
       <PackagePath>appsettings.json</PackagePath>
@@ -1088,7 +1088,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\AdcoBlazor.deps.json">
       <PackagePath>AdcoBlazor.deps.json</PackagePath>
-      <Modified>2023-04-25T06:01:50.524</Modified>
+      <Modified>2023-04-26T01:02:54.682</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.59\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -1108,11 +1108,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\scopedcss\bundle\AdcoBlazor.styles.css">
       <PackagePath>wwwroot\AdcoBlazor.styles.css</PackagePath>
-      <Modified>2023-04-24T03:23:41.883</Modified>
+      <Modified>2023-04-25T23:27:04.993</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\scopedcss\projectbundle\AdcoBlazor.bundle.scp.css">
       <PackagePath>wwwroot\AdcoBlazor.bundle.scp.css</PackagePath>
-      <Modified>2023-04-24T03:23:41.885</Modified>
+      <Modified>2023-04-25T23:27:04.995</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\wwwroot\AdminLTE\dist\css\adminlte.css">
       <PackagePath>wwwroot\AdminLTE\dist\css\adminlte.css</PackagePath>
@@ -9760,23 +9760,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2023-04-22T23:20:06.759</Modified>
+      <Modified>2023-04-25T20:41:35.713</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2023-04-22T23:20:06.773</Modified>
+      <Modified>2023-04-25T20:41:35.727</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2023-04-22T23:20:06.802</Modified>
+      <Modified>2023-04-25T20:41:35.746</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2023-04-22T23:20:06.837</Modified>
+      <Modified>2023-04-25T20:41:35.775</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2023-04-22T23:20:06.962</Modified>
+      <Modified>2023-04-25T20:41:35.903</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
@@ -9788,207 +9788,207 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2023-04-22T23:20:07.003</Modified>
+      <Modified>2023-04-25T20:41:35.982</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2023-04-22T23:20:07.420</Modified>
+      <Modified>2023-04-25T20:41:36.224</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2023-04-22T23:20:07.436</Modified>
+      <Modified>2023-04-25T20:41:36.233</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2023-04-22T23:20:07.448</Modified>
+      <Modified>2023-04-25T20:41:36.244</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2023-04-22T23:20:07.470</Modified>
+      <Modified>2023-04-25T20:41:36.260</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2023-04-22T23:20:07.545</Modified>
+      <Modified>2023-04-25T20:41:36.317</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2023-04-22T23:20:07.088</Modified>
+      <Modified>2023-04-25T20:41:36.053</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2023-04-22T23:20:07.091</Modified>
+      <Modified>2023-04-25T20:41:36.055</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2023-04-22T23:20:07.107</Modified>
+      <Modified>2023-04-25T20:41:36.070</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2023-04-22T23:20:07.094</Modified>
+      <Modified>2023-04-25T20:41:36.058</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2023-04-22T23:20:07.097</Modified>
+      <Modified>2023-04-25T20:41:36.061</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2023-04-22T23:20:07.066</Modified>
+      <Modified>2023-04-25T20:41:36.032</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2023-04-22T23:20:07.070</Modified>
+      <Modified>2023-04-25T20:41:36.034</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2023-04-22T23:20:07.084</Modified>
+      <Modified>2023-04-25T20:41:36.050</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2023-04-22T23:20:07.072</Modified>
+      <Modified>2023-04-25T20:41:36.038</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2023-04-22T23:20:07.075</Modified>
+      <Modified>2023-04-25T20:41:36.041</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2023-04-22T23:20:07.014</Modified>
+      <Modified>2023-04-25T20:41:35.994</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2023-04-22T23:20:07.018</Modified>
+      <Modified>2023-04-25T20:41:35.997</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2023-04-22T23:20:07.022</Modified>
+      <Modified>2023-04-25T20:41:36.001</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2023-04-22T23:20:07.027</Modified>
+      <Modified>2023-04-25T20:41:36.004</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2023-04-22T23:20:07.033</Modified>
+      <Modified>2023-04-25T20:41:36.008</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2023-04-22T23:20:07.037</Modified>
+      <Modified>2023-04-25T20:41:36.012</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2023-04-22T23:20:07.041</Modified>
+      <Modified>2023-04-25T20:41:36.014</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2023-04-22T23:20:07.063</Modified>
+      <Modified>2023-04-25T20:41:36.029</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2023-04-22T23:20:07.050</Modified>
+      <Modified>2023-04-25T20:41:36.018</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2023-04-22T23:20:07.055</Modified>
+      <Modified>2023-04-25T20:41:36.021</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2023-04-22T23:20:07.155</Modified>
+      <Modified>2023-04-25T20:41:36.122</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2023-04-22T23:20:07.160</Modified>
+      <Modified>2023-04-25T20:41:36.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2023-04-22T23:20:07.167</Modified>
+      <Modified>2023-04-25T20:41:36.134</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2023-04-22T23:20:07.178</Modified>
+      <Modified>2023-04-25T20:41:36.143</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2023-04-22T23:20:07.203</Modified>
+      <Modified>2023-04-25T20:41:36.157</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2023-04-22T23:20:07.132</Modified>
+      <Modified>2023-04-25T20:41:36.093</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2023-04-22T23:20:07.136</Modified>
+      <Modified>2023-04-25T20:41:36.098</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2023-04-22T23:20:07.139</Modified>
+      <Modified>2023-04-25T20:41:36.102</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2023-04-22T23:20:07.143</Modified>
+      <Modified>2023-04-25T20:41:36.107</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2023-04-22T23:20:07.151</Modified>
+      <Modified>2023-04-25T20:41:36.116</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2023-04-22T23:20:07.111</Modified>
+      <Modified>2023-04-25T20:41:36.073</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2023-04-22T23:20:07.114</Modified>
+      <Modified>2023-04-25T20:41:36.076</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2023-04-22T23:20:07.118</Modified>
+      <Modified>2023-04-25T20:41:36.080</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2023-04-22T23:20:07.122</Modified>
+      <Modified>2023-04-25T20:41:36.084</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2023-04-22T23:20:07.128</Modified>
+      <Modified>2023-04-25T20:41:36.090</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2023-04-22T23:20:07.341</Modified>
+      <Modified>2023-04-25T20:41:36.163</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2023-04-22T23:20:07.350</Modified>
+      <Modified>2023-04-25T20:41:36.169</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2023-04-22T23:20:07.357</Modified>
+      <Modified>2023-04-25T20:41:36.177</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2023-04-22T23:20:07.372</Modified>
+      <Modified>2023-04-25T20:41:36.188</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2023-04-22T23:20:07.408</Modified>
+      <Modified>2023-04-25T20:41:36.216</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2023-04-22T23:20:07.006</Modified>
+      <Modified>2023-04-25T20:41:36.028</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2023-04-22T23:20:07.018</Modified>
+      <Modified>2023-04-25T20:41:36.039</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2023-04-22T23:20:07.033</Modified>
+      <Modified>2023-04-25T20:41:36.053</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2023-04-22T23:20:07.052</Modified>
+      <Modified>2023-04-25T20:41:36.074</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2023-04-22T23:20:07.106</Modified>
+      <Modified>2023-04-25T20:41:36.121</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\hide.scale-100.png">
       <PackagePath>hide.scale-100.png</PackagePath>
@@ -10009,6 +10009,10 @@
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\Pages\Menu.razor.css">
       <PackagePath>Pages\Menu.razor.css</PackagePath>
       <Modified>2023-04-21T23:38:32.549</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\Shared\Altbar.razor.css">
+      <PackagePath>Shared\Altbar.razor.css</PackagePath>
+      <Modified>2023-04-25T23:13:06.934</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\Shared\MainLayout.razor.css">
       <PackagePath>Shared\MainLayout.razor.css</PackagePath>

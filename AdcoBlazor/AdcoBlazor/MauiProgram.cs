@@ -38,7 +38,6 @@ public static class MauiProgram
         builder.Services.AddSingleton<AuthenticationService>();
         builder.Services.AddSingleton<AppState>();
 		builder.Services.AddSingleton<InsertData>();
-		builder.Services.AddSingleton<DeleteModel>();
 
 
 		builder.Services.AddSingleton<MaterialsDataService>();

@@ -7,7 +7,7 @@
 
     Para obtener más información acerca de los archivos de manifiesto del paquete, vea http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="560B3F9A-A57F-4B85-A451-76E3207C1C98" Publisher="CN=User Name" Version="1.0.0.1" ProcessorArchitecture="x64" />
+  <Identity Name="560B3F9A-A57F-4B85-A451-76E3207C1C98" Publisher="CN=Fily" Version="1.0.2.0" ProcessorArchitecture="x64" />
   <mp:PhoneIdentity PhoneProductId="B5AB9F96-7D9C-43A0-89B4-DCFF1CCAE493" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>AdcoBlazor</DisplayName>
@@ -20,7 +20,7 @@
     <PackageDependency Name="Microsoft.WindowsAppRuntime.1.2" MinVersion="2000.707.2303.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
   </Dependencies>
   <Resources>
-    <Resource Language="EN-US" />
+    <Resource Language="ES" />
     <Resource Language="BS-STEPPER" />
   </Resources>
   <Applications>

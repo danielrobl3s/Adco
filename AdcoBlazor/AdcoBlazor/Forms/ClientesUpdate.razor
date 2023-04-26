@@ -164,9 +164,9 @@ private async Task OnSubmitAsync()
 		var content = new StringContent(JsonConvert.SerializeObject(updateData), Encoding.UTF8, "application/json");
 		request.Content = content;
 
-		request.Headers.Add("X-CSRFToken", appstate.CSRFToken);
-		request.Headers.Add("Authorization", appstate.Barear);
-		request.Headers.Add("Cookie", appstate.SesionId);
+		request.Headers.Add("X-CSRFToken", AppState.CSRFToken);
+		request.Headers.Add("Authorization", $"Bearer {AppState.Barear}");
+		request.Headers.Add("Cookie", $"csrftoken={AppState.CSRFToken}; sessionid={AppState.SesionId}");
 
 		var response = await client.SendAsync(request);
 		if (response.IsSuccessStatusCode)

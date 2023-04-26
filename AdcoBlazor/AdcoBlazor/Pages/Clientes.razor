@@ -23,7 +23,7 @@
 @inject IJSRuntime JSRuntime
 
 
-<body class="hold-transition sidebar-mini-xs">
+<body class="hold-transition sidebar-mini-xs layout-fixed">
 
 	<div class="page">
 		<div class="sidebar">
@@ -99,7 +99,7 @@
 													</div>
 
 												</div>
-											</td>
+										</td>
 									</tr>
 									<tr class="expandable-body d-none">
 										<td colspan="7">
@@ -157,10 +157,9 @@
 	{
 		// Utiliza el token almacenado en AppState
 		string token = AppState.AccessToken;
-		Clients = await AuthenticationService.GetClientDataAsync(token);
+		Clients = await GetClientDataAsync(token);
 
 		// Muestra el nombre de usuario almacenado en AppState
-		string username = AppState.Username;
 	}
 
 	private int clientIdToDelete;
@@ -179,10 +178,30 @@
 		if (AppState.Clientid != null & AppState.Clientid != 0)
 		{
 			NavigationManager.NavigateTo("/clientesupdate");
-			
+
 		}
 
 
+	}
+	public async Task<List<Client>> GetClientDataAsync(string token)
+	{
+
+		var client = new HttpClient();
+		var request = new HttpRequestMessage(HttpMethod.Get, "http://127.0.0.1:8000/module/clients/");
+		request.Headers.Add("X-CSRFToken", AppState.CSRFToken);
+		request.Headers.Add("Authorization", $"Bearer {AppState.Barear}");
+		request.Headers.Add("Cookie", $"csrftoken={AppState.CSRFToken}; sessionid={AppState.SesionId}");
+		var response = await client.SendAsync(request);
+		response.EnsureSuccessStatusCode();
+		Console.WriteLine(await response.Content.ReadAsStringAsync());
+
+		if (response.IsSuccessStatusCode)
+		{
+			var clients = await response.Content.ReadFromJsonAsync<List<Client>>();
+			return clients;
+		}
+
+		return new List<Client>(); // Devuelve una lista vacía en lugar de null
 	}
 
 	private void CancelDelete()
@@ -203,9 +222,14 @@
 		var client = new HttpClient();
 		var request = new HttpRequestMessage(HttpMethod.Delete, $"http://127.0.0.1:8000/module/clients/{clientId}/");
 
-		request.Headers.Add("X-CSRFToken", "0c6t9fVh5ZwdcXtiEh1lfJdOZ04Xjd5g");
-		request.Headers.Add("Authorization", "Bearer 48fb1be1912736a4012c97e9e442ecf7cc5b8a8e");
-		request.Headers.Add("Cookie", "csrftoken=0c6t9fVh5ZwdcXtiEh1lfJdOZ04Xjd5g; sessionid=b8blvtggli9n2nl84ydshq1y01tvoz54");
+		var barear = AppState.Barear;
+		var csrftoken = AppState.CSRFToken;
+		var sessionid = AppState.SesionId;
+
+
+		request.Headers.Add("X-CSRFToken", csrftoken);
+		request.Headers.Add("Authorization", $"Bearer {barear}");
+		request.Headers.Add("Cookie", $"csrftoken={csrftoken}; sessionid={sessionid}");
 
 		var response = await client.SendAsync(request);
 

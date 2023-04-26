@@ -3,7 +3,11 @@ using System.Net.Http.Headers;
 using System.Net.Http.Json;
 using System.Text;
 using AdcoBlazor.Data;
+using AdcoBlazor.Models;
+
+using Microsoft.AspNetCore.Components;
 using Newtonsoft.Json;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace AdcoBlazor.Models
 {
@@ -38,17 +42,21 @@ namespace AdcoBlazor.Models
             return (false, null, null);
         }
 
-        private AppState appstate { get; set; } = new AppState();
+		IServiceProvider serviceProvider = new ServiceCollection().BuildServiceProvider();
+		private readonly IServiceProvider _serviceProvider;
 
 
-        public async Task<List<Client>> GetClientDataAsync(string token)
+
+		public async Task<List<Client>> GetClientDataAsync(string token)
 		{
+			var appState = (AppState)_serviceProvider.GetService(typeof(AppState));
 
-        var client = new HttpClient();
+
+			var client = new HttpClient();
             var request = new HttpRequestMessage(HttpMethod.Get, "http://127.0.0.1:8000/module/clients/");
-			request.Headers.Add("X-CSRFToken", appstate.CSRFToken);
-			request.Headers.Add("Authorization", appstate.Barear);
-			request.Headers.Add("Cookie",appstate.SesionId);
+			request.Headers.Add("X-CSRFToken", appState.CSRFToken);
+			request.Headers.Add("Authorization", $"Bearer {appState.Barear}");
+			request.Headers.Add("Cookie", $"csrftoken={appState.CSRFToken}; sessionid={appState.SesionId}");
 			var response = await client.SendAsync(request);
 			response.EnsureSuccessStatusCode();
 			Console.WriteLine(await response.Content.ReadAsStringAsync());
@@ -61,6 +69,29 @@ namespace AdcoBlazor.Models
 
 			return new List<Client>(); // Devuelve una lista vacía en lugar de null
 		}
+
+		public async Task<List<ProyectosList>> GetProyectosDataAsync(string token)
+		{
+			var appState = (AppState)_serviceProvider.GetService(typeof(AppState));
+
+			var client = new HttpClient();
+			var request = new HttpRequestMessage(HttpMethod.Get, "http://127.0.0.1:8000/proyectos/");
+			request.Headers.Add("X-CSRFToken", appState.CSRFToken);
+			request.Headers.Add("Authorization", $"Bearer {appState.Barear}");
+			request.Headers.Add("Cookie", $"csrftoken={appState.CSRFToken}; sessionid={appState.SesionId}");
+			var response = await client.SendAsync(request);
+			response.EnsureSuccessStatusCode();
+			Console.WriteLine(await response.Content.ReadAsStringAsync());
+
+			if (response.IsSuccessStatusCode)
+			{
+				var proyectos = await response.Content.ReadFromJsonAsync<List<ProyectosList>>();
+				return proyectos;
+			}
+
+			return new List<ProyectosList>(); // Devuelve una lista vacía en lugar de null
+		}
+
 
 	}
 

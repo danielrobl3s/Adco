@@ -1,0 +1,1 @@
+D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppPackages\AdcoBlazor_1.0.2.0_Debug_Test\AdcoBlazor_1.0.2.0_x64_Debug.msix

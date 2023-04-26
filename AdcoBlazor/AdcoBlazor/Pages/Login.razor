@@ -102,7 +102,7 @@ Remember Me
 
     private async Task SignInAsync(string username, string password)
     {
-        var loginUrl = "http://127.0.0.1:8000/api/login/";
+        var loginUrl = "http://127.0.0.1:8000/api/mainlog/";
         var loginData = new Dictionary<string, string>
         {
             { "username", username },
@@ -111,10 +111,19 @@ Remember Me
 
         var content = new StringContent(JsonConvert.SerializeObject(loginData), Encoding.UTF8, "application/json");
         var response = await HttpClient.PostAsync(loginUrl, content);
+ 
 
         if (response.IsSuccessStatusCode)
         {
             var responseContent = await response.Content.ReadAsStringAsync();
+            var responseData = JsonConvert.DeserializeObject<Dictionary<string, string>>(responseContent);
+
+            // Save values in AppState
+            AppState.Username = username;
+            AppState.Barear = responseData["token"];
+            AppState.SesionId = responseData["sessionid"];
+            AppState.CSRFToken = responseData["csrftoken"];
+
             Console.WriteLine($"Login response: {responseContent}"); // Imprimir la respuesta en la consola
             NavigationManager.NavigateTo("/clientes");
             AppState.Username = username;

@@ -126,9 +126,9 @@
 		var content = new StringContent(JsonConvert.SerializeObject(registerData), Encoding.UTF8, "application/json");
 		request.Content = content;
 
-		request.Headers.Add("X-CSRFToken", "0c6t9fVh5ZwdcXtiEh1lfJdOZ04Xjd5g");
-		request.Headers.Add("Authorization", "Bearer 48fb1be1912736a4012c97e9e442ecf7cc5b8a8e");
-		request.Headers.Add("Cookie", "csrftoken=0c6t9fVh5ZwdcXtiEh1lfJdOZ04Xjd5g; sessionid=b8blvtggli9n2nl84ydshq1y01tvoz54");
+		request.Headers.Add("X-CSRFToken", AppState.CSRFToken);
+		request.Headers.Add("Authorization", $"Bearer {AppState.Barear}");
+		request.Headers.Add("Cookie", $"csrftoken={AppState.CSRFToken}; sessionid={AppState.SesionId}");
 
 		var response = await client.SendAsync(request);
 		if (response.IsSuccessStatusCode)

@@ -9,7 +9,7 @@
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>560B3F9A-A57F-4B85-A451-76E3207C1C98</PackageIdentityName>
-    <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
+    <PackageIdentityPublisher>CN=Fily</PackageIdentityPublisher>
     <IntermediateOutputPath>D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
@@ -7506,6 +7506,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\Pages\Menu.razor.css">
       <PackagePath>Pages\Menu.razor.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\Shared\Altbar.razor.css">
+      <PackagePath>Shared\Altbar.razor.css</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\estancias\adco3\AdcoBlazor\AdcoBlazor\Shared\MainLayout.razor.css">
       <PackagePath>Shared\MainLayout.razor.css</PackagePath>

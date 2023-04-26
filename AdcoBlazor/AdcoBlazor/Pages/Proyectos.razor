@@ -1,6 +1,31 @@
-﻿@page "/proyectos"
+﻿
+@page "/proyectos"
 
-<body class="sidebar-mini-xs">
+
+@using System.Collections.Generic
+@using System.Linq
+@using System.Net.Http
+@using System.Net.Http.Json
+@using Newtonsoft.Json;
+@using System.Net.Http.Headers;
+@using RestSharp;
+@using RestSharp.Authenticators;
+@using System.Text;
+@using AdcoBlazor.Models;
+@using AdcoBlazor.Data;
+
+
+@using System.Net;
+@using System.Text.Json;
+@inject HttpClient HttpClient
+@inject AuthenticationService AuthenticationService
+@inject AppState AppState
+@inject NavigationManager NavigationManager;
+
+@inject IJSRuntime JSRuntime
+
+
+<body class="hold-transition sidebar-mini-xs layout-fixed">
 
 	<div class="page">
 		<div class="sidebar">
@@ -15,7 +40,7 @@
 			</div>
 
 			<article class="content" style="    margin-left: 15px;">
-				
+
 				<section class="content-header">
 					<div class="container-fluid">
 						<div class="row mb-2">
@@ -41,52 +66,48 @@
 							<table class="table table-bordered table-hover">
 								<thead>
 									<tr>
-										<th>#</th>
-										<th>Nombre</th>
-										-
-										<th>Telefono</th>
-										<th>Estatus</th>
-										<th>Direccion</th>
-										<th>Compañia</th>
-										<th>Inicio-Final</th>
-										<th>Ubicacion</th>
-										<th>Observaciones</th>
-										<th> </th>
+										<th>.</th>
+										<th>Proyecto</th>
+										<th>Institucion Empresa</th>
+										<th>Fecha De Inicio</th>
+										<th>Fecha De Termino</th>
+										<th>Teléfono</th>
+										<th>Dirección</th>
+										<th>Ubicación</th>
+										<th>.</th>
 									</tr>
 								</thead>
 								<tbody>
+									@foreach (var proyecto in Proyecto)
+									{
 
-									<tr data-widget="expandable-table" aria-expanded="false">
-										<td>183</td>
-										<td>Teleferico</td>
-										<td>6180559999</td>
-										<td>TBD</td>
-										<td>Direccion</td>
-										<td>Rockpoli</td>
-										<td>05-05-05/03-05-15</td>
-										<td>Tepito</td>
-										<td>Num quis scit multum temporis hoe facere mihi ut annuum in clibano reliquerit ut illum crispum reddat?</td>
-										<td>
-											<div class="btn-group">
-												<button type="button" class="btn btn-sm dropdown-toggle" data-toggle="dropdown" data-offset="-52" aria-expanded="false">
-													<i class="fas fa-bars"></i>
-												</button>
-												<div class="dropdown-menu" role="menu" style="">
-													<a href="#" class="dropdown-item">Editar</a>
-													<a href="#" class="dropdown-item text-danger">Eliminar</a>
-													<div class="dropdown-divider"></div>
-													<a href="#" class="dropdown-item">View calendar</a>
+
+										<tr data-widget="expandable-table" aria-expanded="false">
+											<td>@proyecto.Id</td>
+											<td>@proyecto.Proyecto</td>
+											<td>@proyecto.institucion_empresa</td>
+											<td>@proyecto.fecha_inicio.Date.ToString("dd/MM/yyyy")</td>
+											<td>@proyecto.fecha_termino.Date.ToString("dd/MM/yyyy")</td>
+											<td>@proyecto.telefono</td>
+											<td>@proyecto.direccion</td>
+											<td>@proyecto.ubicacion</td>
+											<td>
+												<div class="btn-group">
+													<button type="button" class="btn btn-sm dropdown-toggle" data-toggle="dropdown" data-offset="-52" aria-expanded="false">
+														<i class="fas fa-bars"></i>
+													</button>
+													<div class="dropdown-menu" role="menu" style="">
+														<a href="" class="dropdown-item " @onclick="(() => EditConfirmation(proyecto.Id))">Editar</a>
+														<a href="" class="dropdown-item text-danger" @onclick="(() => ShowConfirmation(proyecto.Id))">Eliminar</a>
+														<div class="dropdown-divider"></div>
+														<a href="#" class="dropdown-item"></a>
+													</div>
+
 												</div>
-											</div>
-										</td>
-									</tr>
-									<tr class="expandable-body d-none">
-										<td colspan="5">
-											<p style="display: none;">
-												Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-											</p>
-										</td>
-									</tr>
+											</td>
+										</tr>
+
+									}
 
 								</tbody>
 							</table>
@@ -95,13 +116,121 @@
 					</div>
 
 				</div>
+
 			</article>
 
 		</main>
 	</div>
-
 </body>
+
+
+<div class="modal fade" id="confirmationModal" tabindex="-1" role="dialog" aria-labelledby="confirmationModalLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="confirmationModalLabel">Confirmación de eliminación</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				¿Estás seguro de que deseas eliminar este registro?
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal" @onclick="CancelDelete">Cancelar</button>
+				<button type="button" class="btn btn-primary" @onclick="ConfirmDelete">Confirmar</button>
+			</div>
+		</div>
+	</div>
+</div>
 
 @code {
 
+	private List<ProyectosList> Proyecto { get; set; } = new List<ProyectosList>();
+
+	protected override async Task OnInitializedAsync()
+	{
+		string token = AppState.AccessToken;
+		Proyecto = await GetProyectosDataAsync(token);
+
+		// Muestra el nombre de usuario almacenado en AppState
+		string username = AppState.Username;
+	}
+
+	private int proyectoIdToDelete;
+
+	private async void ShowConfirmation(int proyectoId)
+	{
+		proyectoIdToDelete = proyectoId;
+		await JSRuntime.InvokeVoidAsync("showConfirmationModal");
+	}
+
+	private async void EditConfirmation(int proyectoId)
+	{
+
+		AppState.Proyectoid_CRUD = proyectoId;
+
+		if (AppState.Proyectoid_CRUD != null & AppState.Proyectoid_CRUD != 0)
+		{
+			NavigationManager.NavigateTo("/proyectosupdate");
+
+		}
+	}
+
+	public async Task<List<ProyectosList>> GetProyectosDataAsync(string token)
+	{
+
+		var client = new HttpClient();
+		var request = new HttpRequestMessage(HttpMethod.Get, "http://127.0.0.1:8000/proyectos/");
+		request.Headers.Add("X-CSRFToken", AppState.CSRFToken);
+		request.Headers.Add("Authorization", $"Bearer {AppState.Barear}");
+		request.Headers.Add("Cookie", $"csrftoken={AppState.CSRFToken}; sessionid={AppState.SesionId}");
+		var response = await client.SendAsync(request);
+		response.EnsureSuccessStatusCode();
+		Console.WriteLine(await response.Content.ReadAsStringAsync());
+
+		if (response.IsSuccessStatusCode)
+		{
+			var proyectos = await response.Content.ReadFromJsonAsync<List<ProyectosList>>();
+			return proyectos;
+		}
+
+		return new List<ProyectosList>(); // Devuelve una lista vacía en lugar de null
+	}
+
+	private void CancelDelete()
+	{
+		proyectoIdToDelete = 0;
+		JSRuntime.InvokeVoidAsync("hideConfirmationModal");
+	}
+
+	private async void ConfirmDelete()
+	{
+		await DeleteProyecto(proyectoIdToDelete);
+		proyectoIdToDelete = 0;
+		JSRuntime.InvokeVoidAsync("hideConfirmationModal");
+	}
+
+	private async Task DeleteProyecto(int proyectoId)
+	{
+		var client = new HttpClient();
+		var request = new HttpRequestMessage(HttpMethod.Delete, $"http://127.0.0.1:8000/module/proyectos/{proyectoId}/");
+
+		request.Headers.Add("X-CSRFToken", "0c6t9fVh5ZwdcXtiEh1lfJdOZ04Xjd5g");
+		request.Headers.Add("Authorization", "Bearer 48fb1be1912736a4012c97e9e442ecf7cc5b8a8e");
+		request.Headers.Add("Cookie", "csrftoken=0c6t9fVh5ZwdcXtiEh1lfJdOZ04Xjd5g; sessionid=b8blvtggli9n2nl84ydshq1y01tvoz54");
+
+		var response = await client.SendAsync(request);
+
+		if (response.IsSuccessStatusCode)
+		{
+			Proyecto = Proyecto.Where(proyecto => proyecto.Id != proyectoId).ToList();
+			StateHasChanged();
+			Console.WriteLine("Success: " + await response.Content.ReadAsStringAsync());
+		}
+		else
+		{
+			Console.WriteLine("Error: " + await response.Content.ReadAsStringAsync());
+		}
+	}
 }
