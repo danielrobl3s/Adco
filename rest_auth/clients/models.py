@@ -1,9 +1,10 @@
 from django.db import models
 from proyectos.models import Proyecto
+from prospectos.models import Prospectos
 from django.contrib.auth.models import User
 
 class Clientes(models.Model):
-    nombre = models.CharField(max_length=50)
+    nombre = models.ForeignKey(Prospectos, on_delete=models.CASCADE)
     metodo_pago = models.CharField(max_length=50)
     fecha = models.DateField(auto_now=True)
     documentos = models.CharField(max_length=50)
