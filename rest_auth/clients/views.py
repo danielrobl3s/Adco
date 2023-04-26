@@ -9,7 +9,7 @@ from django.http import JsonResponse
 from django.middleware.csrf import get_token
 from django.contrib.auth import login
 from dj_rest_auth.views import LoginView
-
+from proyectos.models import Proyecto
 
 
 class ClientesList(generics.ListCreateAPIView):
@@ -31,6 +31,40 @@ class ClientesDetail(generics.RetrieveUpdateDestroyAPIView):
 
     def get_queryset(self):
         return Clientes.objects.filter(created_by=self.request.user)
+    
+    def get(self, request, *args, **kwargs):
+        return self.retrieve(request, *args, **kwargs)
+
+    def put(self, request, *args, **kwargs):
+        return self.update(request, *args, **kwargs)
+
+    def delete(self, request, *args, **kwargs):
+        return self.destroy(request, *args, **kwargs)
+    
+    #Filter by project id only
+    
+class FclientesList(generics.ListCreateAPIView):
+    serializer_class = ClientesSerializer
+    permission_classes = [permissions.IsAuthenticated]
+
+    def get_queryset(self):
+        proyecto = self.kwargs.get('proyecto')
+        return Clientes.objects.filter(created_by=self.request.user, proyecto=proyecto)
+
+    def perform_create(self, serializer):
+        proyecto = self.kwargs.get('proyecto')
+        serializer.save(created_by=self.request.user, proyecto=proyecto)
+        
+    def post(self, request, *args, **kwargs):
+        return self.create(request, *args, **kwargs)
+    
+class FclientesDetail(generics.RetrieveUpdateDestroyAPIView):
+    serializer_class = ClientesSerializer
+    permission_classes = [permissions.IsAuthenticated]
+
+    def get_queryset(self):
+        proyecto = self.kwargs.get('proyecto')
+        return Clientes.objects.filter(created_by=self.request.user, proyecto=proyecto)
     
     def get(self, request, *args, **kwargs):
         return self.retrieve(request, *args, **kwargs)
