@@ -71,10 +71,10 @@ class RecursoList(generics.ListCreateAPIView):
     permission_classes = [permissions.IsAuthenticated]
 
     def get_queryset(self):
-        return Recursos.objects.filter(created_by=self.request.user)
+        return Recursos.objects.all()
 
     def perform_create(self, serializer):
-        serializer.save(created_by=self.request.user)
+        serializer.save()
         
     def post(self, request, *args, **kwargs):
         return self.create(request, *args, **kwargs)
@@ -84,7 +84,7 @@ class RecursoDetail(generics.RetrieveUpdateDestroyAPIView):
     permission_classes = [permissions.IsAuthenticated]
 
     def get_queryset(self):
-        return Recursos.objects.filter(created_by=self.request.user)
+        return Recursos.objects.all()
     
     def get(self, request, *args, **kwargs):
         return self.retrieve(request, *args, **kwargs)
